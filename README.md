@@ -1,3 +1,10 @@
+TaxMechanic 
+<br />
+Behind on filing your personal or corporate taxes in Canada? Tax Mechanic can help. We will negotiate with the CRA on your behalf.
+<br />
+Website: https://www.taxmechanic.ca/ Made With: React and Firebase
+<br />
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
