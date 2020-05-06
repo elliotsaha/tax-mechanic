@@ -1,0 +1,43 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+@import "../customVariables";
+
+// xs Media Query
+@include media-breakpoint-up(xs) {
+    .NavbarBackground {
+        background-color: black;
+    }
+    .NavbarLink {
+        color: white;
+    }
+}
+
+// lg Media Query
+@include media-breakpoint-up(lg) {
+    .NavbarBackground {
+        background-color: black;  
+        
+    }
+    .NavbarLink {
+        color: white;
+        padding-left: 1.8rem;
+        outline: none!important;
+        font-size: 1.2rem;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        white-space: nowrap;
+        text-decoration: none!important;
+        &:hover {
+              
+           // background: linear-gradient(to right, $LightOrange 0%, $DarkOrange 100%);
+           //     -webkit-background-clip: text;
+           //     -webkit-text-fill-color: transparent;
+        }
+    }
+    .Logo {
+        padding-left: 3rem;
+        outline: none!important;
+        padding-right: 1rem
+    }
+}
