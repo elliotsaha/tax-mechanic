@@ -7,6 +7,7 @@
 @include media-breakpoint-up(xs) {
     .NavbarBackground {
         background-color: black;
+        z-index: 5;  
     }
     .NavbarLink {
         color: white;
@@ -16,7 +17,8 @@
 // lg Media Query
 @include media-breakpoint-up(lg) {
     .NavbarBackground {
-        background-color: black;  
+        background-color: black;
+        z-index: 5;  
         
     }
     .NavbarLink {

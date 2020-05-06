@@ -1,5 +1,6 @@
 .NavbarBackground {
   background-color: black;
+  z-index: 5;
 }
 
 .NavbarLink {
@@ -9,6 +10,7 @@
 @media (min-width: 992px) {
   .NavbarBackground {
     background-color: black;
+    z-index: 5;
   }
   .NavbarLink {
     color: white;
