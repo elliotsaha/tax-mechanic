@@ -30,9 +30,9 @@
         text-decoration: none!important;
         &:hover {
               
-           // background: linear-gradient(to right, $LightOrange 0%, $DarkOrange 100%);
-           //     -webkit-background-clip: text;
-           //     -webkit-text-fill-color: transparent;
+           background: linear-gradient(to right, $LightOrange 0%, $DarkOrange 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
         }
     }
     .Logo {

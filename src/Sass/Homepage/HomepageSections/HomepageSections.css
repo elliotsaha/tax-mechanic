@@ -1,0 +1,74 @@
+.S1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100vh;
+      grid-template-rows: 100vh;
+  -ms-grid-columns: 50% 25% 25%;
+      grid-template-columns: 50% 25% 25%;
+  position: relative;
+}
+
+.S1 .MainGridS1 {
+  z-index: 2;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 20% 50% 30%;
+      grid-template-rows: 20% 50% 30%;
+}
+
+.S1 .MainGridS1 .FitGridS1 {
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 70% 30%;
+      grid-template-rows: 70% 30%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.S1 .MainGridS1 .FitGridS1 .SpanTagText {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  padding-left: 2rem;
+  font-weight: 600;
+  font-size: 5rem;
+  white-space: nowrap;
+  color: white;
+}
+
+.S1 .MainGridS1 .FitGridS1 .ButtonS1 {
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  padding-left: 2rem;
+  font-size: 1.1rem;
+}
+
+.S1 .MainGridS1 .FitGridS1 .ButtonS1 span {
+  background: -webkit-gradient(linear, left top, right top, from(#FFA800), to(#D78D00));
+  background: linear-gradient(to right, #FFA800 0%, #D78D00 100%);
+  padding: 1rem;
+  border-radius: 1.2rem;
+  white-space: nowrap;
+  color: white;
+  font-weight: 500;
+}
+
+.S1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+}
+/*# sourceMappingURL=HomepageSections.css.map */

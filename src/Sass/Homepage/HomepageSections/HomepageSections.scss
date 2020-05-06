@@ -1,28 +1,58 @@
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+@import "../../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+@import "../../customVariables";
+
 .S1 {
-    .MainGridS1 {
-    position: relative;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-    .SpanTagTarget {
+    grid-template-rows: 100vh;
+    grid-template-columns: 50% 25% 25%;
+    position: relative;
+    .MainGridS1 {
+        z-index: 2;
         grid-row-start: 1;
         grid-column-start: 1;
-        z-index: 2;
-        display: grid; 
-        grid-template-columns: 30% 40% 30%;
-        position: absolute;
-        .SpagTagText {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 50% 30%;
+        .FitGridS1 {
+            grid-row-start: 2;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 70% 30%;
+            font-family: "Montserrat", sans-serif;
+              .SpanTagText {
+                grid-row-start: 1;
+                padding-left: 2rem;
+                font-weight: 600;
+                font-size: 5rem;
+                white-space: nowrap;
+                color: white;
+                }
+                .ButtonS1 {
+                grid-row-start: 2;
+                padding-left: 2rem;
+                font-size: 1.1rem;
+                    span {
+                        background: linear-gradient(to right, $LightOrange 0%, $DarkOrange 100%);
+                        padding: 1rem;
+                        border-radius: 1.2rem;
+                        white-space: nowrap;
+                        color: white;
+                        font-weight: 500;
+                     }
+                }  
+            
+            
         }
-        .ButtonS1 {
-
-        }
+        
     }
-    
-    } 
     img {
         position: absolute;
         width: 100%;
-        grid-column-start: 2;
-        grid-column-end: 3;
-    } 
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+    }
 }
