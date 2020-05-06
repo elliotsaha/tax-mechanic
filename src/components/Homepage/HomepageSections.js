@@ -15,6 +15,7 @@ export function Section1() {
                         </div>
                         <div className="ButtonS1">
                                 <span className="Button">Book For a Free Consultation Today
+                                &#8594; 	
                                 </span>
                     </div>      
                 </div>        
@@ -33,7 +34,8 @@ export function Section2() {
                 </p>
                 <hr />
                 <p className="BradJS2">Brad J, Ontario</p>
-                <span className="Button">Read More Testimonials</span>
+                <span className="Button">Read More Testimonials
+                &#8594;</span>
             </div>  
         </div>
     )
@@ -66,7 +68,8 @@ export function Section3() {
                 </div>
             </div>
             <span className="BottomHeader">No matter the issue, we can help.</span>
-            <span className="Button">Read More About Our Services</span>
+            <span className="Button">Read More About Our Services
+            &#8594;</span>
         </div>
     )
 }
