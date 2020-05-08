@@ -1,6 +1,8 @@
 import React from 'react';
 import "../../Sass/Homepage/HomepageSections/HomepageSections.scss";
 
+
+// Section 1
 export function Section1() {
     return (
         <div className="S1">
@@ -24,7 +26,7 @@ export function Section1() {
     )
 }
 
-
+// Section 2
 export function Section2() {
     return (
         <div className="S2">
@@ -41,7 +43,7 @@ export function Section2() {
     )
 }
 
-
+// Section 3
 export function Section3() {
     return (
         <div className="S3">
@@ -83,7 +85,7 @@ export function Section3() {
     )
 }
 
-
+// Section 4
 export function Section4() {
     return (
         <div className="S4">
@@ -109,7 +111,7 @@ export function Section4() {
     )
 }
 
-
+// Section 5
 export function Section5() {
     return (
         <div className="S5">
@@ -120,25 +122,27 @@ export function Section5() {
     )
 }
 
-
+// Section 6
 export function Section6() {
     return (
         <div className="S6">
             <div className="TopS6">
-            <p> 
+            <p className="p1S6"> 
                 Location <br />
                 180 John Street <br />
                 Toronto, ON <br />
                 M5T 1X5 <br />
             </p>
 
-            <p>TEL: 647-499-5693 <br/>
+            <p className="p2S6">TEL: 647-499-5693 <br/>
             FAX: 647-494-0169</p>
 
-            <p>Email: <br/>david@taxmechanic.ca
+            <p className="p3S6">Email: <br/>david@taxmechanic.ca
             </p>
-
-            <img src="./img/TaxMechanicLogo.png"/>
+            <div className="img4S6Container">
+                <img src="./img/TaxMechanicLogo.png"/>
+            </div>
+           
         </div>
         <div className="ButtonContainer">
             <span className="Button">&copy;
