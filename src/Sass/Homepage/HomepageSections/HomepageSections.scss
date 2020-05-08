@@ -91,5 +91,222 @@
 }
 
 .S3 {
-    
+    display: grid;
+    grid-template-rows: 110vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    .ButtonContainer {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        z-index: 2;
+        padding-top: 47rem;
+        text-align: center;
+    }
+    .BottomHeader {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        z-index: 2;
+        padding-top: 41rem;
+        color: #573900;
+        font-weight: 600;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .TopTagSpanS3 {
+        text-align: center;
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        z-index: 2;
+        color: white;
+        padding-top: 3rem;
+        font-size: 5rem;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+    .TopTagPS3 {
+        z-index: 2;
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        padding-top: 11rem;
+        font-weight: 600;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+        .ServiceTextS3 {
+            background-color: white;
+            padding: 1.4rem;
+            margin-right: 3.5rem;
+            margin-left: 3.5rem;
+            border-radius: 2rem;
+            font-family: "Montserrat", sans-serif;
+            text-align: center;
+            p {
+                padding-right: 2rem;
+                padding-left: 0.4rem;
+                padding-top: 0.8rem;
+                padding-bottom: 5rem;
+                font-weight: 600;
+                letter-spacing: 0.1rem;
+                color: rgb(80, 80, 80);
+                text-align: left;
+            }
+            .MoveRight {
+                padding-left: 1.5rem;
+            }
+            .MoveUp {
+                padding-bottom: 2rem;
+            }
+            .TitleS3 {
+                color: $LightOrange;
+                font-weight: 600;
+                font-size: 2.5rem;
+                
+            }
+
+        }
+        .Service1S3 {
+            grid-column-start: 1;
+            grid-row-start: 1;
+            z-index: 2;
+            padding-top: 18rem;
+            
+        }
+        .Service2S3 {
+            grid-column-start: 2;
+            grid-row-start: 1;
+            z-index: 2;
+            padding-top: 18rem;
+        }
+        .Service3S3 {
+            grid-column-start: 3;
+            grid-row-start: 1;
+            z-index: 2;
+            padding-top: 18rem;
+        }
+    img {
+        width: 100%;
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        mix-blend-mode: normal;
+        filter: blur(4px);
+        transform: scale(1.01);
+        margin: -10px;
+    }
+}
+
+.S4 {
+    background: linear-gradient(black, grey, black);
+    font-family: "Montserrat", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+    .TitleS4 {
+        color: white;
+        font-weight: 600;
+        font-size: 4rem;
+        text-align: center;
+        padding-top: 2rem;
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .Img1S4 {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        padding-top: 10rem;
+        padding-left: 12.5rem;
+    }
+    .Img2S4Container {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        padding-left: 1rem;
+        .Img2S4 {
+        z-index: 2; 
+        padding-top: 10rem;
+        width: 28rem;
+    }
+    }
+    .FraserTitle {
+        color: white;
+        font-weight: 800;
+        font-size: 2rem;
+        padding-left: 20rem;
+        padding-top: 1rem;
+    }
+    .DavidTitle {
+        color: white;
+        font-weight: 800;
+        font-size: 2rem;
+        padding-top: 0.9rem;
+        grid-column-start: 2;
+        grid-row-start: 2;
+        padding-left: 9rem;
+    }
+    .FraserPara {
+        color: white;
+        padding-left: 12.5rem;
+        padding-right: 2rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    .DavidPara {
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        padding-right: 17rem;
+    }
+    .ButtonContainerS4 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+.S5 {
+    display: grid;
+    grid-template-rows: 30% 50% 20%;
+    grid-template-columns: 20% 60% 20%;
+    position: relative;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;    
+    span {
+        position: absolute;
+        z-index: 2;
+        color: white;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-column-end: 2;
+        padding-top: 5rem;
+        padding-left: 16vw;
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+        
+    }
+    img {
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        width: 100%;
+        height: 100%;
+        mix-blend-mode: normal;
+        filter: blur(4px);
+        transform: scale(1.01);
+        margin: -10px;
+    }
+}
+
+.S6 {
+    background-color: black;
 }

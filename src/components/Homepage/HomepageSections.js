@@ -45,31 +45,40 @@ export function Section2() {
 export function Section3() {
     return (
         <div className="S3">
-            <span>Our Services.</span>
-            <p>Helping people and businesses with their accounting and tax issues is what we love to do at the Tax Mechanic.</p>
-            <div className="GridS3">
+                <span className="TopTagSpanS3">Our Services.</span>
+                <p className="TopTagPS3">Helping people and businesses with their accounting and tax issues<br/>is what we love to do at the Tax Mechanic.</p> 
                 <div className="Service1S3">
-                    <span className="TitleS3">
+                    <div className="ServiceTextS3">
+                        <span className="TitleS3">
                         Consultation
-                    </span>
-                    <p className="ParaS3">Let’s talk! We’ll find out important information about your specific tax issues to find the best tax solution for you!</p>
+                        </span>
+                        <p className="MoveRight">Let’s talk! We’ll find out important information about your specific tax issues to find the best tax solution for you!</p>
+                    </div>
+
+                    
                 </div>
                 <div className="Service2S3">
+                <div className="ServiceTextS3">
                     <span className="TitleS3">
                         Communication
                     </span>
                     <p className="ParaS3">The professional tax debt specialists in our network will speak with the CRA on your behalf. They will deal with the CRA collection calls.</p>
                 </div>
+                </div>
                 <div className="Service3S3">
+                <div className="ServiceTextS3">
                     <span className="TitleS3">
                         Compensation
                     </span>
-                    <p className="ParaS3">Our experts know the ins and outs of the CRA. Through aggressive negotiations with the CRA, we’ll reach a settlement that’s within your financial means. </p>
+                    <p className="MoveUp">Our experts know the ins and outs of the CRA. Through aggressive negotiations with the CRA, we’ll reach a settlement that’s within your financial means. </p>
                 </div>
-            </div>
+                </div>
             <span className="BottomHeader">No matter the issue, we can help.</span>
-            <span className="Button">Read More About Our Services
-            &#8594;</span>
+            <div className="ButtonContainer">
+                <span className="Button">Read More About Our Services
+                &#8594;</span>
+            </div>
+            <img src="./img/Homepage/BlueWork.jpg"/>
         </div>
     )
 }
@@ -77,7 +86,24 @@ export function Section3() {
 
 export function Section4() {
     return (
-        <div>
+        <div className="S4">
+            <span className="TitleS4">Our Team.</span>
+            <img className="Img1S4" src="./img/Homepage/Fraser.jpg"/>
+            <div className="Img2S4Container">
+                <img className="Img2S4" src="./img/Homepage/David.jpg" />
+            </div>
+            
+            
+            
+            <span className="FraserTitle">Fraser Simpson</span>
+            <p className="FraserPara">Founder of Tax Mechanic, Simpson has been active in income tax consulting, residential and commercial real estate development since 1985. Mr. Simpson obtained his Bachelor of Arts degree.</p>
+            <span className="DavidTitle">David Harris</span>
+            <p className="DavidPara">Parter at the Tax Mechanic, Harris’s extensive <br />background in sales, marketing and construction <br />operations management are an asset at The Tax Mechanic.</p>
+            <div className="ButtonContainerS4">
+                <span className="Button">Read More About Our Team
+                &#8594;</span>
+            </div>
+
             
         </div>
     )
@@ -86,7 +112,9 @@ export function Section4() {
 
 export function Section5() {
     return (
-        <div>
+        <div className="S5">
+            <span>Who We Are.</span>
+            <img src="./img/Homepage/City.jpg"/>
            
         </div>
     )
@@ -95,8 +123,29 @@ export function Section5() {
 
 export function Section6() {
     return (
-        <div>
-            
+        <div className="S6">
+            <div className="TopS6">
+            <p> 
+                Location <br />
+                180 John Street <br />
+                Toronto, ON <br />
+                M5T 1X5 <br />
+            </p>
+
+            <p>TEL: 647-499-5693 <br/>
+            FAX: 647-494-0169</p>
+
+            <p>Email: <br/>david@taxmechanic.ca
+            </p>
+
+            <img src="./img/TaxMechanicLogo.png"/>
+        </div>
+        <div className="ButtonContainer">
+            <span className="Button">&copy;
+            2020 Tax Filing Services Toronto – Taxmechanic.ca. All Rights Reserved.
+            </span>
+        </div>
+        
         </div>
     )
 }
