@@ -103,7 +103,7 @@ export function Section4() {
             <p className="DavidPara">Parter at the Tax Mechanic, Harris’s extensive <br />background in sales, marketing and construction <br />operations management are an asset at The Tax Mechanic.</p>
             <div className="ButtonContainerS4">
                 <span className="Button">Read More About Our Team
-                &#8594;</span>
+                &#8594;</span> 
             </div>
 
             
