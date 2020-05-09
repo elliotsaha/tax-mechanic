@@ -117,7 +117,6 @@ export function Section5() {
         <div className="S5">
             <span>Who We Are.</span>
             <img src="./img/Homepage/City.jpg"/>
-           
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../../Sass/Homepage/Homepage/Homepage.scss";
+import "../../Sass/Homepage/Homepage/Homepage.css";
 import { Section1, Section2, Section3, Section4, Section5, Section6 } from "./HomepageSections";
 
 export default class Homepage extends Component {
