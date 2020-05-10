@@ -3,7 +3,7 @@
 @import "../../../../node_modules/bootstrap/scss/mixins/_breakpoints";
 @import "../../customVariables";
 
-@include media-breakpoint-up(lg){
+@include media-breakpoint-up(xs){
 .Button {
         background: linear-gradient(to right, $LightOrange 0%, $DarkOrange 100%);
         padding: 1vw;
@@ -11,50 +11,37 @@
         white-space: nowrap;
         color: white;
         font-weight: 500;
+        outline: none!important;
+        display: block;
+        border: none;
         }
 .S1 {
     display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 50% 25% 25%;
-    position: relative;
-    background-color: black;
-    .MainGridS1 {
-        z-index: 2;
-        grid-row-start: 1;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    img {
         grid-column-start: 1;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 20% 50% 30%;
-        .FitGridS1 {
-            grid-row-start: 2;
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: 70% 30%;
-            font-family: "Montserrat", sans-serif;
-              .SpanTagTextS1 {
-                grid-row-start: 1;
-                padding-left: 2vw;
-                font-weight: 600;
-                font-size: 5vw;
-                white-space: nowrap;
-                color: white;
-                }
-                .ButtonS1 {
-                grid-row-start: 2;
-                padding-left: 2vw;
-                font-size: 1.1vw;
-                    
-                }    
-        } 
+        grid-row-start: 1;
     }
-        img {
-            min-height: 100%;
-            object-fit: cover;
-            width: 100%;
+    .S1TextContainer {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        display: grid;
+        grid-template-rows: 25% 50% 25%;
+        .S1Text {
             grid-column-start: 1;
-            grid-column-end: 4;
-            grid-row-start: 1;
+            grid-row-start: 2;
+            padding-left: 3rem;
+            span {
+                color: white;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                font-size: 6vw;
+                white-space: nowrap;
+                padding-bottom: 1rem;
+            }
         }
+    }
 }
 
 .S2 {

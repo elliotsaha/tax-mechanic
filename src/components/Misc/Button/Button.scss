@@ -1,0 +1,18 @@
+@import "../../../Sass/customVariables";
+.Button {
+    background: linear-gradient(to right, $LightOrange 0%, $DarkOrange 100%);
+    padding: 1vw;
+    border-radius: 9vw;
+    white-space: nowrap;
+    color: white;
+    font-weight: 500;
+    outline: none!important;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3vw;
+    .Arrow {
+    padding-left: 0.4rem;
+    font-size: 1.3vw;
+    display: inline;
+    }
+}

@@ -1,28 +1,21 @@
 import React from 'react';
 import "../../Sass/Homepage/HomepageSections/HomepageSections.scss";
-
+import Button from "../Misc/Button/Button";
 
 // Section 1
 export function Section1() {
     return (
         <div className="S1">
-            <div className="ImgHolder">
-                <img className="GradientS1" src="./img/Homepage/TopWork.jpg" alt="Homepage"/>
+            <img className="GradientS1" src="./img/Homepage/TopWork.jpg" width="100%" alt="Homepage"/>
+            <div className="S1TextContainer">
+                <div className="S1Text">
+                    <span>We Fix Your Tax <br /> Problems. </span>
+                    <div>
+                        <Button text="Book For a Free Consultation Today"/>
+                    </div>
+                </div>
             </div>
-            
-            <div className="MainGridS1">
-                <div className="FitGridS1">
-                        <div className="SpanTagTextS1">
-                            We Fix Your Tax <br /> Problems. 
-                        </div>
-                        <div className="ButtonS1">
-                                <span className="Button">Book For a Free Consultation Today
-                                &#8594; 	
-                                </span>
-                    </div>      
-                </div>        
-            </div>  
-        </div>
+        </div>      
     )
 }
 
