@@ -3482,6 +3482,7 @@ input[type="button"].btn-block {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
+  outline: none;
 }
 
 .dropdown-menu-left {
@@ -3647,18 +3648,21 @@ input[type="button"].btn-block {
   white-space: nowrap;
   background-color: transparent;
   border: 0;
+  outline: none;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: black;
+  outline: none;
 }
 
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #007bff;
+  background-color: black;
+  outline: none;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -4660,6 +4664,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background-color: black;
 }
 
 .navbar-nav .nav-link {
@@ -4670,6 +4675,7 @@ input[type="button"].btn-block {
 .navbar-nav .dropdown-menu {
   position: static;
   float: none;
+  background-color: black;
 }
 
 .navbar-text {
