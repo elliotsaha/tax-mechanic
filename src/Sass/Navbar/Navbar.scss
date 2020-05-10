@@ -15,31 +15,31 @@
 }
 
 // lg Media Query
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(xl) {
     .NavbarBackground {
         background-color: black;
         z-index: 5;  
         
     }
     .NavbarLink {
-        color: white;
-        padding-left: 1.8rem;
+        color: white!important;
         outline: none!important;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        padding-left: 1.2rem;
         font-family: "Montserrat", sans-serif;
         font-weight: 600;
         white-space: nowrap;
         text-decoration: none!important;
-        &:hover {
-              
-           background: linear-gradient(to right, $LightOrange 0%, $DarkOrange 100%);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
+        span:hover {
+            color: white!important;
+            padding-bottom: 3.2rem;
+            border-bottom: solid 4px;
+            border-image: linear-gradient(to right, $LightOrange, $DarkOrange) 1;
         }
     }
     .Logo {
         padding-left: 3rem;
         outline: none!important;
-        padding-right: 1rem
+        padding-right: 1rem;
     }
 }

@@ -7,26 +7,28 @@
   color: white;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .NavbarBackground {
     background-color: black;
     z-index: 5;
   }
   .NavbarLink {
-    color: white;
-    padding-left: 1.8rem;
+    color: white !important;
     outline: none !important;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    padding-left: 1.2rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     white-space: nowrap;
     text-decoration: none !important;
   }
-  .NavbarLink:hover {
-    background: -webkit-gradient(linear, left top, right top, from(#FFA800), to(#D78D00));
-    background: linear-gradient(to right, #FFA800 0%, #D78D00 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  .NavbarLink span:hover {
+    color: white !important;
+    padding-bottom: 3.2rem;
+    border-bottom: solid 4px;
+    -o-border-image: linear-gradient(to right, #FFA800, #D78D00) 1;
+       border-image: -webkit-gradient(linear, left top, right top, from(#FFA800), to(#D78D00)) 1;
+       border-image: linear-gradient(to right, #FFA800, #D78D00) 1;
   }
   .Logo {
     padding-left: 3rem;
