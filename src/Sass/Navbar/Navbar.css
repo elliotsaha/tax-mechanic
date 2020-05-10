@@ -4,8 +4,45 @@
 }
 
 .NavbarLink {
-  color: white;
-  text-decoration: none;
+  color: white !important;
+  outline: none !important;
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+
+.NavbarLink a {
+  text-align: center;
+  outline: none !important;
+  position: relative;
+  text-decoration: none !important;
+  color: white !important;
+  padding-bottom: 0.2rem;
+}
+
+.NavbarLink a::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.3rem;
+  bottom: -0.5rem;
+  left: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#D78D00), to(#FFA800));
+  background-image: linear-gradient(to right, #D78D00, #FFA800);
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+}
+
+.NavbarLink a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  border-radius: 2rem;
 }
 
 .DefaultServices {
@@ -14,12 +51,6 @@
 
 .MobileServices {
   display: inline-block;
-}
-
-.MobileServices .MobileServicesLink {
-  text-decoration: none;
-  color: white !important;
-  outline: none;
 }
 
 @media (min-width: 1200px) {
@@ -44,9 +75,10 @@
     text-decoration: none !important;
   }
   .NavbarLink a {
+    outline: none !important;
     position: relative;
     text-decoration: none !important;
-    color: white;
+    color: white !important;
     padding-bottom: 0.8rem;
   }
   .NavbarLink a::before {
@@ -80,6 +112,7 @@
     position: relative;
     text-decoration: none !important;
     color: white !important;
+    outline: none !important;
   }
   .DropdownChildren .DropdownElementParents .DropdownElements::before {
     position: absolute;

@@ -11,8 +11,8 @@
   .S1 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 110vw;
-        grid-template-rows: 110vw;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
     -ms-grid-columns: 50% 25% 25%;
         grid-template-columns: 50% 25% 25%;
     position: relative;
@@ -57,10 +57,10 @@
     padding-left: 2vw;
     font-size: 1.1vw;
   }
-  .S1 .ImgHolder {
-    position: absolute;
-  }
-  .S1 .ImgHolder img {
+  .S1 img {
+    min-height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 100%;
     -ms-grid-column: 1;
         grid-column-start: 1;
