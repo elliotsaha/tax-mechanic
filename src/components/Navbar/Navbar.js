@@ -15,9 +15,9 @@ export default function Navbar() {
                     
                 
             <ReactBootStrap.Nav.Link><Link to="/" className="NavbarLink"><a className="DropdownElements">HOME</a></Link></ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link><Link to="/ourteam" className="NavbarLink"><a className="DropdownElements">OUR TEAM</a></Link></ReactBootStrap.Nav.Link> 
-            
-            <ReactBootStrap.NavDropdown title={<div className="NavbarLink"><a className="DropdownElements">SERVICES</a></div>}  id="basic-nav-dropdown">
+            <ReactBootStrap.Nav.Link><Link to="/ourteam" className="NavbarLink"><a className="DropdownElements">OUR TEAM</a></Link></ReactBootStrap.Nav.Link>
+            <div className="DefaultServices">
+                <ReactBootStrap.NavDropdown title={<div className="NavbarLink"><a className="DropdownElements">SERVICES</a></div>}  id="basic-nav-dropdown">
                 <div className="DropdownChildren">
                     <ReactBootStrap.NavDropdown.Item><Link to="/services" className="DropdownElementParents"><a className="DropdownElements">ALL SERVICES</a></Link></ReactBootStrap.NavDropdown.Item>
                     <ReactBootStrap.NavDropdown.Divider />
@@ -32,10 +32,13 @@ export default function Navbar() {
                     <ReactBootStrap.NavDropdown.Item><Link to="/services/crataxreduction" className="DropdownElementParents"><a className="DropdownElements">CRA TAX REDUCTION</a></Link></ReactBootStrap.NavDropdown.Item>
                 </div>
             </ReactBootStrap.NavDropdown>
+            </div> 
+            
+            <div className="MobileServices"><ReactBootStrap.Nav.Link><Link to="/services" className="MobileServicesLink"><a className="MobileServicesAnchor">SERVICES</a></Link></ReactBootStrap.Nav.Link></div>
             <ReactBootStrap.Nav.Link><Link to="/blog" className="NavbarLink"><a>BLOG</a></Link></ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link><Link to="ebook" className="NavbarLink"><a>E-BOOK</a></Link></ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link><Link to="testimonials" className="NavbarLink"><a>TESTIMONIALS</a></Link></ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link><Link to="contact" className="NavbarLink"><a>CONTACT US</a></Link></ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link><Link to="/ebook" className="NavbarLink"><a>E-BOOK</a></Link></ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link><Link to="/testimonials" className="NavbarLink"><a>TESTIMONIALS</a></Link></ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link><Link to="/contact" className="NavbarLink"><a>CONTACT US</a></Link></ReactBootStrap.Nav.Link>
             </ReactBootStrap.Nav>
             
         </ReactBootStrap.Navbar.Collapse>

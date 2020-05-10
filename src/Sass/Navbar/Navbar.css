@@ -5,9 +5,30 @@
 
 .NavbarLink {
   color: white;
+  text-decoration: none;
+}
+
+.DefaultServices {
+  display: none;
+}
+
+.MobileServices {
+  display: inline-block;
+}
+
+.MobileServices .MobileServicesLink {
+  text-decoration: none;
+  color: white !important;
+  outline: none;
 }
 
 @media (min-width: 1200px) {
+  .DefaultServices {
+    display: inline-block;
+  }
+  .MobileServices {
+    display: none;
+  }
   .NavbarBackground {
     background-color: black;
     z-index: 5;
@@ -55,6 +76,7 @@
   }
   .DropdownChildren .DropdownElementParents .DropdownElements {
     font-family: "Montserrat", sans-serif;
+    font-weight: 500;
     position: relative;
     text-decoration: none !important;
     color: white !important;

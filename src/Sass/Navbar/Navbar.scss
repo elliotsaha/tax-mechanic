@@ -11,11 +11,33 @@
     }
     .NavbarLink {
         color: white;
+        text-decoration: none;
     }
+    .DefaultServices {
+        display: none;
+    }
+    .MobileServices {
+        display: inline-block;
+        .MobileServicesLink {
+            text-decoration: none;
+            color: white!important;
+            outline: none;
+            .MobileServicesAnchor {
+
+            }
+        }
+    }
+
 }
 
-// lg Media Query
+// xl Media Query
 @include media-breakpoint-up(xl) {
+    .DefaultServices {
+        display: inline-block;
+    }
+    .MobileServices {
+        display: none;
+    }
     .NavbarBackground {
         background-color: black;
         z-index: 5;  
@@ -61,6 +83,7 @@
             text-decoration: none;
             .DropdownElements {
             font-family: "Montserrat", sans-serif;
+            font-weight: 500;
             position: relative;
             text-decoration: none!important;
             color: white!important;
