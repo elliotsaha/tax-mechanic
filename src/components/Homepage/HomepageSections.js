@@ -36,8 +36,11 @@ export function Section2() {
                 </p>
                 <hr />
                 <p className="BradJS2">Brad J, Ontario</p>
-                <span className="Button">Read More Testimonials
-                &#8594;</span>
+                <div className="ButtonContainerS2">
+                    <span className="Button">Read More Testimonials
+                    &#8594;</span>
+                </div>
+                
             </div>  
         </div>
     )

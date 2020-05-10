@@ -107,6 +107,10 @@
   margin-right: 36rem;
 }
 
+.S2 .ButtonContainerS2 {
+  padding-right: 0.7rem;
+}
+
 .S3 {
   display: -ms-grid;
   display: grid;
@@ -236,6 +240,7 @@
 
 .S3 img {
   width: 100%;
+  height: 100%;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 4;
