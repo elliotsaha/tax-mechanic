@@ -25,13 +25,14 @@ export function Section2() {
         <div className="S2">
             <div className="BodyS2">
                 <span className="TitleS2">What Our Clients Say About Us.</span>
-                <p>“I have had an excellent experience working with the Tax Mechanic to get my taxes under control. I had not filed for a number of years, and the guilt of not doing so was weighing me down. Fortunately after a quick call with David, one of the co-founders, everything was set up and dealt with quickly and professionally. I am so happy that they have taken care of my tax headache for me. I highly recommend their services!”
+                <p className="S2Para">“I have had an excellent experience working with the Tax Mechanic to get my taxes under control. I had not filed for a number of years, and the guilt of not doing so was weighing me down. Fortunately after a quick call with David, one of the co-founders, everything was set up and dealt with quickly and professionally. I am so happy that they have taken care of my tax headache for me. I highly recommend their services!”
                 </p>
                 <hr />
                 <p className="BradJS2">Brad J, Ontario</p>
                 <div className="ButtonContainerS2">
-                    <span className="Button">Read More Testimonials
-                    &#8594;</span>
+                    
+                        <Button text="Read More Testimonials"/>
+                    
                 </div>
                 
             </div>  
@@ -76,7 +77,7 @@ export function Section3() {
                 <span className="Button">Read More About Our Services
                 &#8594;</span>
             </div>
-            <img src="./img/Homepage/BlueWork.jpg"/>
+            <img src="./img/Homepage/BlueWork.jpg" alt="Work"/>
         </div>
     )
 }
@@ -86,9 +87,9 @@ export function Section4() {
     return (
         <div className="S4">
             <span className="TitleS4">Our Team.</span>
-            <img className="Img1S4" src="./img/Homepage/Fraser.jpg"/>
+            <img className="Img1S4" src="./img/Homepage/Fraser.jpg" alt="Fraser -- Team"/>
             <div className="Img2S4Container">
-                <img className="Img2S4" src="./img/Homepage/David.jpg" />
+                <img className="Img2S4" src="./img/Homepage/David.jpg" alt="David -- Team" />
             </div>
             
             
@@ -112,7 +113,7 @@ export function Section5() {
     return (
         <div className="S5">
             <span>Who We Are.</span>
-            <img src="./img/Homepage/City.jpg"/>
+            <img src="./img/Homepage/City.jpg" alt="City"/>
         </div>
     )
 }
@@ -135,7 +136,7 @@ export function Section6() {
             <p className="p3S6">Email: <br/>david@taxmechanic.ca
             </p>
             <div className="img4S6Container">
-                <img src="./img/TaxMechanicLogo.png"/>
+                <img src="./img/TaxMechanicLogo.png" alt="Logo"/>
             </div>
            
         </div>
