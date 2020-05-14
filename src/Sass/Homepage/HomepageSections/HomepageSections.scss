@@ -2,7 +2,197 @@
 @import "../../../../node_modules/bootstrap/scss/variables";
 @import "../../../../node_modules/bootstrap/scss/mixins/_breakpoints";
 @import "../../customVariables";
+@include media-breakpoint-up(xs) {
+    .S1 {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 1;
+        img {
+            grid-column-start: 1;
+            grid-row-start: 1;
+        }
+        .S1TextContainer {
+            grid-column-start: 1;
+            grid-row-start: 1;
+            display: grid;
+            grid-template-rows: 10% 50% 25%;
+            .S1Text {
+                grid-column-start: 1;
+                grid-row-start: 2;
+                padding-left: 1.3rem;
+                span {
+                    color: white;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 600;
+                    font-size: 10vw;
+                    white-space: nowrap;
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+    }
+    .Button {
+        font-size: 3.5vw!important;
+        padding-left: 3vw!important;
+        padding-right: 3vw!important;
+        .Arrow {
+            font-size: 3.5vw!important;
+        }
+    }
 
+
+.S2 {
+    background-color: black;
+    color: white;
+        .BodyS2 {
+            font-family: "Montserrat", sans-serif;
+            text-align: center;
+            padding-top: 6vw;
+            padding-bottom: 18vw;
+            .TitleS2 {
+                font-weight: 600;
+                font-size: 5vw;
+            }
+            .S2Para {
+                padding-top: 2vw;
+                padding-left: 20%;
+                padding-right: 20%;
+                padding-bottom: 1.2vw;
+                font-weight: 600;
+                font-size: 3vw;
+            }
+            hr {
+                border: 0.13rem solid $DarkOrange;
+                margin-left: 38%;
+                margin-right: 38%;
+            }
+            .BradJS2 {
+                font-size: 3vw;
+            }
+        }
+        .ButtonContainerS2 {
+            padding-top: 2.5vw;
+            .Button {
+                font-size: 3vw;
+                padding-left: 3vw;
+                padding-right: 3vw;
+                padding-top: 1.5vw;
+                padding-bottom: 1.5vw;
+                .Arrow {
+                    font-size: 3vw;
+                }
+            }
+        }
+      
+}
+
+.S3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 3% 29% 3% 30% 3% 29% 3%;
+    position: relative;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    img {
+        width: 100%;
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    .S3TopText {
+        z-index: 2;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        text-align: center;
+        margin: auto;
+        color: white;
+        .TopTagSpanS3 {
+            font-size: 11vw;
+            font-weight: 600;
+    }
+        .TopTagPS3 {
+            font-size: 4vw;
+    }
+    }
+    .Service1 {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        z-index: 2;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        background-color: white;
+        border-radius: 1.6rem;
+        .Title {
+            font-size: 3vw;
+        }
+        .Para {
+            font-size: 2.5vw;
+        }
+    }
+    .Service2 {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        z-index: 2;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        background-color: white;
+        border-radius: 1.6rem;
+        .Title {
+            font-size: 3vw;
+        }
+        .Para {
+            font-size: 2.5vw;
+        }
+    }
+    .Service3 {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        z-index: 2;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        background-color: white;
+        border-radius: 1.6rem;
+        .Title {
+            font-size: 3vw;
+        }
+        .Para {
+            font-size: 2.5vw;
+        }
+    }
+    .BottomHeader {
+        z-index: 2;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        padding-top: 3rem;
+        text-align: center;
+        font-weight: 600;
+        color: #573900;
+        font-size: 1.4rem;
+        white-space: nowrap;
+    }
+    .ButtonContainer {
+        z-index: 2;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        padding-top: 7rem;
+        text-align: center;
+    }
+    .Button {
+        font-size: 1rem;
+        .Arrow {
+            font-size: 1rem;
+        }
+    }
+}
+}
 @include media-breakpoint-up(lg){
 .S1 {
     display: grid;
@@ -120,6 +310,7 @@
     .Service1 {
         grid-row-start: 2;
         grid-column-start: 2;
+        grid-column-end: 2;
         z-index: 2;
         padding-right: 1rem;
         padding-left: 1rem;
@@ -129,6 +320,7 @@
     .Service2 {
         grid-row-start: 2;
         grid-column-start: 4;
+        grid-column-end: 4;
         z-index: 2;
         padding-right: 1rem;
         padding-left: 1rem;
@@ -147,14 +339,28 @@
     .BottomHeader {
         z-index: 2;
         grid-row-start: 3;
-        grid-column-start: 4;
-        padding-top: 2rem;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        padding-top: 3rem;
         text-align: center;
         font-weight: 600;
         color: #573900;
+        font-size: 1.4rem;
+        white-space: nowrap;
     }
     .ButtonContainer {
-
+        z-index: 2;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        padding-top: 7rem;
+        text-align: center;
+    }
+    .Button {
+        font-size: 1rem!important;
+        .Arrow {
+            font-size: 1rem!important;
+        }
     }
 }
 
@@ -312,86 +518,3 @@
 }
 }
 
-@include media-breakpoint-up(xs) {
-    .S1 {
-        display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 1;
-        img {
-            grid-column-start: 1;
-            grid-row-start: 1;
-        }
-        .S1TextContainer {
-            grid-column-start: 1;
-            grid-row-start: 1;
-            display: grid;
-            grid-template-rows: 10% 50% 25%;
-            .S1Text {
-                grid-column-start: 1;
-                grid-row-start: 2;
-                padding-left: 1.3rem;
-                span {
-                    color: white;
-                    font-family: "Montserrat", sans-serif;
-                    font-weight: 600;
-                    font-size: 10vw;
-                    white-space: nowrap;
-                    padding-bottom: 1rem;
-                }
-            }
-        }
-    }
-    .Button {
-        font-size: 3.5vw!important;
-        padding-left: 3vw!important;
-        padding-right: 3vw!important;
-        .Arrow {
-            font-size: 3.5vw!important;
-        }
-    }
-}
-
-.S2 {
-    background-color: black;
-    color: white;
-        .BodyS2 {
-            font-family: "Montserrat", sans-serif;
-            text-align: center;
-            padding-top: 6vw;
-            padding-bottom: 18vw;
-            .TitleS2 {
-                font-weight: 600;
-                font-size: 5vw;
-            }
-            .S2Para {
-                padding-top: 2vw;
-                padding-left: 20%;
-                padding-right: 20%;
-                padding-bottom: 1.2vw;
-                font-weight: 600;
-                font-size: 3vw;
-            }
-            hr {
-                border: 0.13rem solid $DarkOrange;
-                margin-left: 38%;
-                margin-right: 38%;
-            }
-            .BradJS2 {
-                font-size: 3vw;
-            }
-        }
-        .ButtonContainerS2 {
-            padding-top: 2.5vw;
-            .Button {
-                font-size: 3vw;
-                padding-left: 3vw;
-                padding-right: 3vw;
-                padding-top: 1.5vw;
-                padding-bottom: 1.5vw;
-                .Arrow {
-                    font-size: 3vw;
-                }
-            }
-        }
-        
-}

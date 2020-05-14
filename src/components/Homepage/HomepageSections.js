@@ -60,7 +60,7 @@ export function Section3() {
                 </div>  
             <span className="BottomHeader">No matter the issue, we can help.</span>
             <div className="ButtonContainer">
-                {/*<Button text="Read More About Our Services"/>*/}
+                <Button className="Button" text="Read More About Our Services"/>
             </div>
             <img src="./img/Homepage/BlueWork.jpg" alt="Work"/>
         </div>
