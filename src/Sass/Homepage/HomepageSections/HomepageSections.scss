@@ -88,7 +88,7 @@
 
 .S3 {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 33% 34% 33%;
     grid-template-columns: 3% 29% 3% 30% 3% 29% 3%;
     position: relative;
     background-color: black;
@@ -109,62 +109,80 @@
         text-align: center;
         margin: auto;
         color: white;
-        .TopTagSpanS3 {
-            font-size: 11vw;
-            font-weight: 600;
+        .TopTagPS3Mobile {
+            font-size: 3.3vw;
+            font-weight: 400;
+            padding-right: 7vw!important;
+            padding-left: 7vw!important;
     }
         .TopTagPS3 {
-            font-size: 4vw;
+            display: none;
     }
+        .TopTagSpanS3 {
+            white-space: nowrap;
+            font-size: 7vw;
+            font-weight: 600;
+        }
     }
-    .Service1 {
+       .Service1 {
         grid-row-start: 2;
         grid-column-start: 2;
-        grid-column-end: 7;
+        grid-column-end: 2;
         z-index: 2;
         padding-right: 1rem;
         padding-left: 1rem;
         background-color: white;
         border-radius: 1.6rem;
+        .ServiceText {
+            margin-top: 1.5vw;
+        }
         .Title {
-            font-size: 3vw;
+            font-size: 3vw!important;
         }
         .Para {
-            font-size: 2.5vw;
+            font-size: 3.2vw!important;
         }
     }
     .Service2 {
         grid-row-start: 2;
-        grid-column-start: 2;
-        grid-column-end: 7;
+        grid-column-start: 4;
+        grid-column-end: 4;
         z-index: 2;
         padding-right: 1rem;
         padding-left: 1rem;
         background-color: white;
         border-radius: 1.6rem;
+        .ServiceText {
+            margin-top: 1.5vw;
+        }
         .Title {
-            font-size: 3vw;
+            font-size: 3vw!important;
         }
         .Para {
-            font-size: 2.5vw;
+            font-size: 3.2vw!important;
         }
+
     }
     .Service3 {
         grid-row-start: 2;
-        grid-column-start: 2;
-        grid-column-end: 7;
+        grid-column-start: 6;
         z-index: 2;
         padding-right: 1rem;
         padding-left: 1rem;
         background-color: white;
         border-radius: 1.6rem;
+        .ServiceText {
+            margin-top: 1.5vw;
+        }
         .Title {
-            font-size: 3vw;
+            font-size: 3vw!important;
         }
         .Para {
-            font-size: 2.5vw;
+            font-size: 3.2vw!important;
         }
-    }
+    } 
+
+    
     .BottomHeader {
         z-index: 2;
         grid-row-start: 3;
@@ -186,9 +204,9 @@
         text-align: center;
     }
     .Button {
-        font-size: 1rem;
+        font-size: 1rem!important;
         .Arrow {
-            font-size: 1rem;
+            font-size: 1rem!important;
         }
     }
 }
@@ -299,15 +317,19 @@
         text-align: center;
         margin: auto;
         color: white;
+        .TopTagPS3Mobile {
+            display: none;
+        }
         .TopTagSpanS3 {
             font-size: 4rem;
             font-weight: 600;
     }
         .TopTagPS3 {
             font-size: 1.8rem;
+            display: block;
     }
     }
-    .Service1 {
+       .Service1 {
         grid-row-start: 2;
         grid-column-start: 2;
         grid-column-end: 2;
@@ -316,6 +338,9 @@
         padding-left: 1rem;
         background-color: white;
         border-radius: 1.6rem;
+        .ServiceText {
+            margin: 1.5rem;
+        }
     }
     .Service2 {
         grid-row-start: 2;
@@ -326,6 +351,9 @@
         padding-left: 1rem;
         background-color: white;
         border-radius: 1.6rem;
+        .ServiceText {
+            margin: 1.5rem;
+        }
     }
     .Service3 {
         grid-row-start: 2;
@@ -335,7 +363,12 @@
         padding-left: 1rem;
         background-color: white;
         border-radius: 1.6rem;
-    }
+        .ServiceText {
+            margin: 1.5rem;
+        }
+    } 
+
+    
     .BottomHeader {
         z-index: 2;
         grid-row-start: 3;

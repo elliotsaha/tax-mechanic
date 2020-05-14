@@ -47,17 +47,19 @@ export function Section3() {
         <div className="S3">
                 <div className="S3TopText">
                     <span className="TopTagSpanS3">Our Services.</span>
-                    <p className="TopTagPS3">Helping people and businesses with their accounting and tax issues<br/>is what we love to do at the Tax Mechanic.</p>     
+                    <p className="TopTagPS3">Helping people and businesses with their accounting and tax issues<br/>is what we love to do at the Tax Mechanic.</p>
+                    <p className="TopTagPS3Mobile">Helping people and businesses with their accounting and tax issues is what we love to do at the Tax Mechanic.</p>     
                 </div>
-                <div className="Service1">
+                     <div className="Service1">
                     <Service title="Consultation" text="Let’s talk! We’ll find out important information about your specific tax issues to find the best tax solution for you!"/>
-                </div>
-                <div className="Service2">
+                    </div>
+                    <div className="Service2">
                      <Service title="Communication" text="The professional tax debt specialists in our network will speak with the CRA on your behalf. They will deal with the CRA collection calls." />
-                </div>
-                <div className="Service3">
+                    </div>
+                    <div className="Service3">
                     <Service title="Compensation" text="Our experts know the ins and outs of the CRA. Through aggressive negotiations with the CRA, we’ll reach a settlement that’s within your financial means. " />
-                </div>  
+                    </div>  
+               
             <span className="BottomHeader">No matter the issue, we can help.</span>
             <div className="ButtonContainer">
                 <Button className="Button" text="Read More About Our Services"/>
