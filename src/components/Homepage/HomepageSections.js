@@ -64,7 +64,8 @@ export function Section3() {
             <div className="ButtonContainer">
                 <Button className="Button" text="Read More About Our Services"/>
             </div>
-            <img src="./img/Homepage/BlueWork.jpg" alt="Work"/>
+            <img src="./img/Homepage/BlueWork.jpg" className="DesktopViewImg" alt="Work"/>
+            <img src="./img/Homepage/Notepad.png" className="MobileViewImg" alt="Work"/>
         </div>
     )
 }
