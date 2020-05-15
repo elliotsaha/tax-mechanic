@@ -409,6 +409,70 @@
   font-size: 4vw !important;
 }
 
+.S5 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1;
+      grid-template-columns: 1;
+  -ms-grid-rows: 2;
+      grid-template-rows: 2;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+
+.S5 img {
+  position: relative;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+  width: 100%;
+}
+
+.S5 .SpanContainerS5 {
+  z-index: 2;
+  color: white;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-column-end: 1;
+  font-size: 7vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  white-space: nowrap;
+  padding-bottom: 6vw;
+}
+
+.S5 .VideoS5 {
+  z-index: 2;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  text-align: center;
+}
+
+.S5 .VideoS5 iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 80%;
+}
+
 @media (min-width: 992px) {
   .S1 {
     display: -ms-grid;
@@ -802,6 +866,7 @@
         -ms-flex-align: center;
             align-items: center;
     font-weight: 600;
+    white-space: nowrap;
   }
   .S5 .VideoS5 {
     z-index: 2;
