@@ -115,7 +115,12 @@ export function Section4() {
 export function Section5() {
     return (
         <div className="S5">
-            <span>Who We Are.</span>
+            <div className="SpanContainerS5">
+                <span>Who We Are.</span>
+            </div>
+                <div className="VideoS5" align="middle">
+                    <iframe src="https://www.youtube.com/embed/qDBXEAvlItE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+            </div>
             <img src="./img/Homepage/City.jpg" alt="City"/>
         </div>
     )
