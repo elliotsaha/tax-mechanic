@@ -561,7 +561,8 @@
 }
 
 .TopS6 .img4S6Container img {
-  width: 100%;
+  display: none;
+  width: 10rem;
 }
 
 @media (min-width: 992px) {
@@ -1051,8 +1052,9 @@
     display: flex;
   }
   .S6 .TopS6 .img4S6Container img {
-    width: 11vw;
-    height: 6vw;
+    display: block;
+    width: 12vw !important;
+    height: 6.5vw !important;
   }
 }
 /*# sourceMappingURL=HomepageSections.css.map */

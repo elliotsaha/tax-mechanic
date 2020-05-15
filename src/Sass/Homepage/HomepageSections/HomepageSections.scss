@@ -429,8 +429,8 @@
             display: block;
             text-align: center!important;
                     img {
-                        
-                        width: 100%;
+                        display: none;
+                        width: 10rem;
                     }
             }
         }
@@ -865,8 +865,9 @@
             grid-row-start: 1;
             display: flex;
                     img {
-                        width: 11vw;
-                        height: 6vw;
+                        display: block;
+                        width: 12vw!important;
+                        height: 6.5vw!important;
                     }
             }
         }
