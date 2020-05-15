@@ -526,12 +526,17 @@
     white-space: nowrap;
     padding-bottom: 1rem;
   }
-  .S1 .Button {
+  .S1 .ButtonContainerS1 {
+    padding-top: 0.3rem;
+  }
+  .S1 .ButtonContainerS1 .Button {
     font-size: 1.3rem !important;
     padding-left: 0.4 !important;
     padding-right: 0.4 !important;
+    padding-top: 1.3rem !important;
+    padding-bottom: 1.3rem !important;
   }
-  .S1 .Button .Arrow {
+  .S1 .ButtonContainerS1 .Button .Arrow {
     font-size: 1.3rem !important;
   }
   .S2 {

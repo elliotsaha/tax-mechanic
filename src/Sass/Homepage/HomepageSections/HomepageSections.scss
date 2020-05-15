@@ -407,14 +407,20 @@
             }
         }
     }
-    .Button {
+    .ButtonContainerS1 {
+        padding-top: 0.3rem;
+        .Button {
         font-size: 1.3rem!important;    
         padding-left: 0.4!important;
         padding-right: 0.4!important;
+        padding-top: 1.3rem!important;
+        padding-bottom: 1.3rem!important;
         .Arrow {
             font-size: 1.3rem!important;
         }
+        }
     }
+    
 }
 
 .S2 {
