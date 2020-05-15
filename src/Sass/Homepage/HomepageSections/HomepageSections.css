@@ -274,6 +274,7 @@
   background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(grey), to(black));
   background: linear-gradient(black, grey, black);
   font-family: "Montserrat", sans-serif;
+  padding-top: 5rem;
 }
 
 .S4 .S4Container {
@@ -288,16 +289,25 @@
 .S4 .S4Container .TitleS4 {
   color: white;
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 10vw;
   text-align: center;
-  padding-top: 2rem;
   -ms-grid-row: 1;
       grid-row-start: 1;
   grid-row-end: 1;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 2;
-  padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3.2rem;
+  padding-bottom: 2.6rem;
 }
 
 .S4 .S4Container .Img1S4Container {
@@ -310,10 +320,11 @@
 }
 
 .S4 .S4Container .Img1S4Container img {
-  width: 30rem;
+  width: 90vw;
 }
 
 .S4 .S4Container .Img2S4Container {
+  padding-top: 3rem;
   -ms-grid-column: 1;
       grid-column-start: 1;
   -ms-grid-row: 4;
@@ -323,11 +334,11 @@
 }
 
 .S4 .S4Container .Img2S4Container img {
-  width: 30rem;
+  width: 90vw;
 }
 
 .S4 .S4Container .FraserText {
-  padding-top: 1.5rem;
+  padding-top: 3rem;
   text-align: center;
   -ms-grid-column: 1;
       grid-column-start: 1;
@@ -338,12 +349,12 @@
 .S4 .S4Container .FraserText .FraserTitle {
   color: white;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 6vw;
 }
 
 .S4 .S4Container .FraserText .FraserParaContainer {
-  padding-right: 5rem;
-  padding-left: 5rem;
+  padding-right: 4vw;
+  padding-left: 4vw;
 }
 
 .S4 .S4Container .FraserText .FraserParaContainer .FraserPara {
@@ -352,7 +363,7 @@
 }
 
 .S4 .S4Container .DavidText {
-  padding-top: 1.5rem;
+  padding-top: 3rem;
   text-align: center;
   -ms-grid-column: 1;
       grid-column-start: 1;
@@ -363,13 +374,13 @@
 .S4 .S4Container .DavidText .DavidTitle {
   color: white;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 6vw;
   padding-top: 0.9vw;
 }
 
 .S4 .S4Container .DavidText .DavidParaContainer {
-  padding-right: 5rem;
-  padding-left: 5rem;
+  padding-right: 4vw;
+  padding-left: 4vw;
 }
 
 .S4 .S4Container .DavidText .DavidParaContainer .DavidPara {
@@ -384,16 +395,18 @@
   -ms-grid-row: 6;
       grid-row-start: 6;
   text-align: center;
-  padding-top: 4rem;
-  padding-bottom: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 7rem;
 }
 
 .S4 .S4Container .ButtonContainerS4 .Button {
-  font-size: 1rem !important;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+  font-size: 4vw !important;
 }
 
 .S4 .S4Container .ButtonContainerS4 .Button .Arrow {
-  font-size: 1rem !important;
+  font-size: 4vw !important;
 }
 
 @media (min-width: 992px) {

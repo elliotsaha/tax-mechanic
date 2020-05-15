@@ -218,8 +218,8 @@
 .S4 {
     background: linear-gradient(black, grey, black);
     font-family: "Montserrat", sans-serif;
-
-    .S4Container {    
+    padding-top: 5rem;
+    .S4Container {
         display: grid;
         grid-template-columns: 1;
         grid-template-rows: 6;
@@ -227,14 +227,17 @@
     .TitleS4 {
         color: white;
         font-weight: 600;
-        font-size: 4rem;
+        font-size: 10vw;
         text-align: center;
-        padding-top: 2rem;
         grid-row-start: 1;
         grid-row-end: 1;
         grid-column-start: 1;
         grid-column-end: 2;
-        padding-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3.2rem;
+        padding-bottom: 2.6rem;
     }
     .Img1S4Container {
         grid-row-start: 2;
@@ -242,31 +245,32 @@
         display: block;
         text-align: center;
         img {
-            width: 30rem;
+            width: 90vw;
         }
     }
     .Img2S4Container {
+        padding-top: 3rem;
         grid-column-start: 1;
         grid-row-start: 4;
         display: block;
         text-align: center;
         img {
-            width: 30rem;
+            width: 90vw;
         }
     }
     .FraserText {
-        padding-top: 1.5rem;
+        padding-top: 3rem;
         text-align: center;
         grid-column-start: 1;
         grid-row-start: 3;
          .FraserTitle {
         color: white;
         font-weight: 800;
-        font-size: 2rem;
+        font-size: 6vw;
         } 
         .FraserParaContainer {
-            padding-right: 5rem;
-            padding-left: 5rem;
+            padding-right: 4vw;
+            padding-left: 4vw;
              .FraserPara {
             color: white;
             font-weight: 600;
@@ -275,20 +279,20 @@
        
     }
     .DavidText {
-        padding-top: 1.5rem;
+        padding-top: 3rem;
         text-align: center;        
         grid-column-start: 1;
         grid-row-start: 5;
         .DavidTitle {
         color: white;
         font-weight: 800;
-        font-size: 2rem;
+        font-size: 6vw;
         padding-top: 0.9vw;
 
         }
         .DavidParaContainer {
-            padding-right: 5rem;
-            padding-left: 5rem;
+            padding-right: 4vw;
+            padding-left: 4vw;
             .DavidPara {
             color: white;
             font-weight: 600;
@@ -302,12 +306,14 @@
         grid-column-end: 3;
         grid-row-start: 6;
         text-align: center;
-        padding-top: 4rem;
-        padding-bottom: 8rem;
+        padding-top: 3rem;
+        padding-bottom: 7rem;
         .Button {
-            font-size: 1rem!important;
+            padding-top: 2.5vw;
+            padding-bottom: 2.5vw;
+            font-size: 4vw!important;
             .Arrow {
-            font-size: 1rem!important;
+            font-size: 4vw!important;
             }
         }
     }
