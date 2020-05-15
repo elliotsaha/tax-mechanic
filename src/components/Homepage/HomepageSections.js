@@ -122,7 +122,8 @@ export function Section5() {
                 <div className="VideoS5" align="middle">
                     <iframe src="https://www.youtube.com/embed/qDBXEAvlItE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
             </div>
-            <img src="./img/Homepage/City.jpg" alt="City"/>
+            <img className="MobileImgViewS5" src="./img/Homepage/MobileVideoSection.png" alt="Plants"/>
+            <img className="PCImgViewS5" src="./img/Homepage/City.jpg" alt="City"/>
         </div>
     )
 }
@@ -150,9 +151,9 @@ export function Section6() {
            
         </div>
         <div className="ButtonContainer">
-            <span className="Button">&copy;
-            2020 Tax Filing Services Toronto – Taxmechanic.ca. All Rights Reserved.
-            </span>
+            <span
+            >&copy;
+            2020 Tax Filing Services Toronto – Taxmechanic.ca. All Rights Reserved.</span>
         </div>
         
         </div>

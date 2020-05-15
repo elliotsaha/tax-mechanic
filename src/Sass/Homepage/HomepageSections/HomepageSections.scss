@@ -321,6 +321,8 @@
         .Button {
             padding-top: 2.5vw;
             padding-bottom: 2.5vw;
+            padding-right: 4vw;
+            padding-left: 4vw;
             font-size: 4vw!important;
             .Arrow {
             font-size: 4vw!important;
@@ -336,13 +338,15 @@
     background-color: black;
     font-family: "Montserrat", sans-serif;
     overflow: hidden;
-    img {
-        position: relative;
+    .MobileImgViewS5 {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 3;
         width: 100%;
+    }
+    .PCImgViewS5 {
+        display: none;
     }    
     .SpanContainerS5 {
         z-index: 2;
@@ -350,20 +354,21 @@
         grid-column-start: 1;
         grid-row-start: 1;
         grid-column-end: 1;
-        font-size: 7vw;  
+        font-size: 9.5vw;  
         display: flex;
         text-align: center;
         justify-content: center;
         align-items: center;
         font-weight: 600;
         white-space: nowrap;
-        padding-bottom: 6vw;
+        padding-bottom: -10vw;
     }
     .VideoS5 {
         z-index: 2;
         grid-column-start: 1;
         grid-row-start: 2;
         text-align: center;
+        padding-bottom: 6rem;
          iframe {
             border: 0;
             height: 100%;
@@ -374,7 +379,65 @@
     }
     
 }
+.S6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: black;
+    display: grid;
+    color: white;
+    grid-template-rows: 2;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;    
+    margin-bottom: 0!important;
+    .ButtonContainer {
+        grid-row-start: 2;
+        padding-top: 2rem;
+        text-align: left;
+        padding-left: 4vw;
+        }
+    }
+    .TopS6 {
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 4;
+        .p1S6 {
+            text-align: left;
+            padding-left: 4vw;
+            grid-column-start: 1;
+            grid-row-start: 1;
+            padding-top: 1.5vw;
+        }
+        .p2S6 {
+            grid-column-start: 1;
+            grid-row-start: 2;
+            padding-top: 1.5vw;
+            line-height: 1.6rem;
+            text-align: left;
+            padding-left: 4vw;
+        }
+        .p3S6 {
+            grid-column-start: 1;
+            grid-row-start: 3;
+            padding-top: 1.5vw;
+            line-height: 1.6rem;
+            text-align: left;
+            padding-left: 4vw;
+        }
+        .img4S6Container {
+            grid-column-start: 2;
+            grid-row-start: 1;
+            display: block;
+            text-align: center!important;
+                    img {
+                        
+                        width: 100%;
+                    }
+            }
+        }
+        
+    
 }
+
 @include media-breakpoint-up(lg){
 .S1 {
     display: grid;
@@ -715,14 +778,18 @@
     grid-template-rows: 2;
     background-color: black;
     font-family: "Montserrat", sans-serif;
-    img {
+    .PCImgViewS5 {
+        display: block!important;
         position: relative;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 3;
         width: 100%;
-    }    
+    }
+    .MobileImgViewS5 {
+        display: none!important;
+    }
     .SpanContainerS5 {
         z-index: 2;
         color: white;
@@ -761,13 +828,13 @@
     display: grid;
     color: white;
     grid-template-rows: 2;
-    padding-top: 3vw;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;    
+    margin-bottom: 0!important;
     .ButtonContainer {
         grid-row-start: 2;
-        padding-bottom: 5vw;
         padding-top: 2vw;
         text-align: center;
-        
     }
     .TopS6 {
         display: grid;
@@ -807,4 +874,3 @@
     
 }
 }
-
