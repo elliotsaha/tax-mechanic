@@ -215,6 +215,104 @@
         }
     }
 }
+.S4 {
+    background: linear-gradient(black, grey, black);
+    font-family: "Montserrat", sans-serif;
+
+    .S4Container {    
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 6;
+        
+    .TitleS4 {
+        color: white;
+        font-weight: 600;
+        font-size: 4rem;
+        text-align: center;
+        padding-top: 2rem;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-bottom: 2rem;
+    }
+    .Img1S4Container {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        display: block;
+        text-align: center;
+        img {
+            width: 30rem;
+        }
+    }
+    .Img2S4Container {
+        grid-column-start: 1;
+        grid-row-start: 4;
+        display: block;
+        text-align: center;
+        img {
+            width: 30rem;
+        }
+    }
+    .FraserText {
+        padding-top: 1.5rem;
+        text-align: center;
+        grid-column-start: 1;
+        grid-row-start: 3;
+         .FraserTitle {
+        color: white;
+        font-weight: 800;
+        font-size: 2rem;
+        } 
+        .FraserParaContainer {
+            padding-right: 5rem;
+            padding-left: 5rem;
+             .FraserPara {
+            color: white;
+            font-weight: 600;
+            }
+        }
+       
+    }
+    .DavidText {
+        padding-top: 1.5rem;
+        text-align: center;        
+        grid-column-start: 1;
+        grid-row-start: 5;
+        .DavidTitle {
+        color: white;
+        font-weight: 800;
+        font-size: 2rem;
+        padding-top: 0.9vw;
+
+        }
+        .DavidParaContainer {
+            padding-right: 5rem;
+            padding-left: 5rem;
+            .DavidPara {
+            color: white;
+            font-weight: 600;
+            }
+        }
+        
+    }
+    
+    .ButtonContainerS4 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        .Button {
+            font-size: 1rem!important;
+            .Arrow {
+            font-size: 1rem!important;
+            }
+        }
+    }
+    } 
+}
 
 }
 @include media-breakpoint-up(lg){
@@ -444,72 +542,97 @@
 .S4 {
     background: linear-gradient(black, grey, black);
     font-family: "Montserrat", sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1;
+
+    .S4Container {    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 4;
+
     .TitleS4 {
         color: white;
         font-weight: 600;
-        font-size: 4vw;
+        font-size: 4rem;
         text-align: center;
-        padding-top: 2vw;
+        padding-top: 2rem;
         grid-row-start: 1;
+        grid-row-end: 1;
         grid-column-start: 1;
         grid-column-end: 3;
+        padding-bottom: 2rem;
     }
-    .Img1S4 {
-        grid-row-start: 1;
+    .Img1S4Container {
+        grid-row-start: 2;
         grid-column-start: 1;
-        padding-top: 10vw;
-        padding-left: 12.5vw;
+        display: block;
+        text-align: center;
+        img {
+            width: 30rem;
+        }
     }
     .Img2S4Container {
         grid-column-start: 2;
-        grid-row-start: 1;
-        padding-left: 1vw;
-        .Img2S4 {
-        z-index: 2; 
-        padding-top: 10vw;
-        width: 28vw;
+        grid-row-start: 2;
+        display: block;
+        text-align: center;
+        img {
+            width: 30rem;
+        }
     }
-    }
-    .FraserTitle {
+    .FraserText {
+        padding-top: 1.5rem;
+        text-align: center;
+         .FraserTitle {
         color: white;
         font-weight: 800;
-        font-size: 2vw;
-        padding-left: 20vw;
-        padding-top: 1vw;
+        font-size: 2rem;
+        } 
+        .FraserParaContainer {
+            padding-right: 5rem;
+            padding-left: 5rem;
+             .FraserPara {
+            color: white;
+            font-weight: 600;
+            }
+        }
+       
     }
-    .DavidTitle {
+    .DavidText {
+        padding-top: 1.5rem;
+        text-align: center;
+        .DavidTitle {
         color: white;
         font-weight: 800;
-        font-size: 2vw;
+        font-size: 2rem;
         padding-top: 0.9vw;
         grid-column-start: 2;
         grid-row-start: 2;
-        padding-left: 9vw;
+        }
+        .DavidParaContainer {
+            padding-right: 5rem;
+            padding-left: 5rem;
+            .DavidPara {
+            color: white;
+            font-weight: 600;
+            }
+        }
+        
     }
-    .FraserPara {
-        color: white;
-        padding-left: 12.5vw;
-        padding-right: 2vw;
-        text-align: center;
-        font-weight: 600;
-    }
-    .DavidPara {
-        color: white;
-        text-align: center;
-        font-weight: 600;
-        padding-right: 17vw;
-    }
+    
     .ButtonContainerS4 {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 4;
         text-align: center;
-        padding-top: 4vw;
-        padding-bottom: 10vw;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        .Button {
+            font-size: 1rem!important;
+            .Arrow {
+            font-size: 1rem!important;
+            }
+        }
     }
+    } 
 }
 
 .S5 {

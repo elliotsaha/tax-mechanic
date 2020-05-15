@@ -9,12 +9,12 @@
   outline: none !important;
   border: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3vw;
+  font-size: 1.3rem;
 }
 
 .Button .Arrow {
   padding-left: 0.4rem;
-  font-size: 1.3vw;
+  font-size: 1.3rem;
   display: inline;
 }
 /*# sourceMappingURL=Button.css.map */

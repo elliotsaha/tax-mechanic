@@ -74,22 +74,37 @@ export function Section3() {
 export function Section4() {
     return (
         <div className="S4">
-            <span className="TitleS4">Our Team.</span>
-            <img className="Img1S4" src="./img/Homepage/Fraser.jpg" alt="Fraser -- Team"/>
+            <div className="S4Container">
+                <span className="TitleS4">Our Team.</span>
+
+            <div className="Img1S4Container">
+                <img className="Img1S4" src="./img/Homepage/Fraser.png" alt="Fraser -- Team"/>
+            </div>
+            
             <div className="Img2S4Container">
-                <img className="Img2S4" src="./img/Homepage/David.jpg" alt="David -- Team" />
+                <img className="Img2S4" src="./img/Homepage/David.png" alt="David -- Team" />
             </div>
             
+            <div className="FraserText">
+                <span className="FraserTitle">Fraser Simpson</span>
+                <div className="FraserParaContainer">
+                    <p className="FraserPara">Founder of Tax Mechanic, Simpson has been active in income tax consulting, residential and commercial real estate development since 1985.</p>
+                </div>  
+            </div>
             
+            <div className="DavidText">
+                <span className="DavidTitle">David Harris</span>
+                <div className="DavidParaContainer">
+                    <p className="DavidPara">Parter at the Tax Mechanic, Harris’s extensive background in sales, marketing and construction operations management are an asset at The Tax Mechanic.</p>
+                </div>
+                
+            </div>
             
-            <span className="FraserTitle">Fraser Simpson</span>
-            <p className="FraserPara">Founder of Tax Mechanic, Simpson has been active in income tax consulting, residential and commercial real estate development since 1985. Mr. Simpson obtained his Bachelor of Arts degree.</p>
-            <span className="DavidTitle">David Harris</span>
-            <p className="DavidPara">Parter at the Tax Mechanic, Harris’s extensive <br />background in sales, marketing and construction <br />operations management are an asset at The Tax Mechanic.</p>
             <div className="ButtonContainerS4">
-                <span className="Button">Read More About Our Team
-                &#8594;</span> 
+                <Button className="Button" text="Read More About Our Team"/>
             </div>
+            </div>
+            
 
             
         </div>

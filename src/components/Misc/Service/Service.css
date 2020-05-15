@@ -1,0 +1,21 @@
+.Service {
+  z-index: 2;
+  border-radius: 2rem;
+}
+
+.Service .ServiceText {
+  margin: 0rem;
+}
+
+.Service .ServiceText .Title {
+  color: #D78D00;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.Service .ServiceText .Para {
+  color: grey;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=Service.css.map */
