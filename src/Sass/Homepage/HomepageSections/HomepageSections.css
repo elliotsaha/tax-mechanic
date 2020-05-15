@@ -689,9 +689,10 @@
         grid-column-start: 1;
     display: block;
     text-align: center;
+    margin-top: auto;
   }
   .S4 .S4Container .Img1S4Container img {
-    width: 30rem;
+    width: 30rem !important;
   }
   .S4 .S4Container .Img2S4Container {
     -ms-grid-column: 2;
@@ -700,9 +701,10 @@
         grid-row-start: 2;
     display: block;
     text-align: center;
+    margin-top: auto;
   }
   .S4 .S4Container .Img2S4Container img {
-    width: 30rem;
+    width: 30rem !important;
   }
   .S4 .S4Container .FraserText {
     padding-top: 1.5rem;
@@ -724,16 +726,16 @@
   .S4 .S4Container .DavidText {
     padding-top: 1.5rem;
     text-align: center;
+    -ms-grid-column: 2 !important;
+        grid-column-start: 2 !important;
+    -ms-grid-row: 3 !important;
+        grid-row-start: 3 !important;
   }
   .S4 .S4Container .DavidText .DavidTitle {
     color: white;
     font-weight: 800;
     font-size: 2rem;
     padding-top: 0.9vw;
-    -ms-grid-column: 2;
-        grid-column-start: 2;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
   }
   .S4 .S4Container .DavidText .DavidParaContainer {
     padding-right: 5rem;
@@ -754,6 +756,7 @@
     padding-bottom: 8rem;
   }
   .S4 .S4Container .ButtonContainerS4 .Button {
+    padding: 1.2rem !important;
     font-size: 1rem !important;
   }
   .S4 .S4Container .ButtonContainerS4 .Button .Arrow {

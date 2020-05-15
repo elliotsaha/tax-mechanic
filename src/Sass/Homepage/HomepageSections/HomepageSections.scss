@@ -571,8 +571,9 @@
         grid-column-start: 1;
         display: block;
         text-align: center;
+        margin-top: auto;
         img {
-            width: 30rem;
+            width: 30rem!important;
         }
     }
     .Img2S4Container {
@@ -580,8 +581,9 @@
         grid-row-start: 2;
         display: block;
         text-align: center;
+        margin-top: auto;
         img {
-            width: 30rem;
+            width: 30rem!important;
         }
     }
     .FraserText {
@@ -604,14 +606,15 @@
     }
     .DavidText {
         padding-top: 1.5rem;
-        text-align: center;
+        text-align: center;        
+        grid-column-start: 2!important;
+        grid-row-start: 3!important;
         .DavidTitle {
         color: white;
         font-weight: 800;
         font-size: 2rem;
         padding-top: 0.9vw;
-        grid-column-start: 2;
-        grid-row-start: 2;
+
         }
         .DavidParaContainer {
             padding-right: 5rem;
@@ -632,6 +635,7 @@
         padding-top: 4rem;
         padding-bottom: 8rem;
         .Button {
+            padding: 1.2rem!important;
             font-size: 1rem!important;
             .Arrow {
             font-size: 1rem!important;
