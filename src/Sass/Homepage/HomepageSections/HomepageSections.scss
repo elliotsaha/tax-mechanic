@@ -379,63 +379,6 @@
     }
     
 }
-.S6 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    background-color: black;
-    display: grid;
-    color: white;
-    grid-template-rows: 2;
-    padding-bottom: 1.5rem;
-    padding-top: 1rem;    
-    margin-bottom: 0!important;
-    .ButtonContainer {
-        grid-row-start: 2;
-        padding-top: 2rem;
-        text-align: left;
-        padding-left: 4vw;
-        }
-    }
-    .TopS6 {
-        display: grid;
-        grid-template-columns: 2;
-        grid-template-rows: 4;
-        .p1S6 {
-            text-align: left;
-            padding-left: 4vw;
-            grid-column-start: 1;
-            grid-row-start: 1;
-            padding-top: 1.5vw;
-        }
-        .p2S6 {
-            grid-column-start: 1;
-            grid-row-start: 2;
-            padding-top: 1.5vw;
-            line-height: 1.6rem;
-            text-align: left;
-            padding-left: 4vw;
-        }
-        .p3S6 {
-            grid-column-start: 1;
-            grid-row-start: 3;
-            padding-top: 1.5vw;
-            line-height: 1.6rem;
-            text-align: left;
-            padding-left: 4vw;
-        }
-        .img4S6Container {
-            grid-column-start: 2;
-            grid-row-start: 1;
-            display: block;
-            text-align: center!important;
-                    img {
-                        display: none;
-                        width: 10rem;
-                    }
-            }
-        }
-        
-    
 }
 
 @include media-breakpoint-up(lg){
@@ -818,60 +761,6 @@
             width: 70%;
          }
     }
-    
-}
-
-.S6 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    background-color: black;
-    display: grid;
-    color: white;
-    grid-template-rows: 2;
-    padding-bottom: 1.5rem;
-    padding-top: 1rem;    
-    margin-bottom: 0!important;
-    .ButtonContainer {
-        grid-row-start: 2;
-        padding-top: 2vw;
-        text-align: center;
-    }
-    .TopS6 {
-        display: grid;
-        grid-template-columns: 4;
-        grid-template-rows: 1;
-        padding-left: 5.5vw;
-        .p1S6 {
-            text-align: left;
-            padding-left: 4vw;
-            grid-column-start: 1;
-            grid-row-start: 1;
-            padding-top: 1.5vw;
-        }
-        .p2S6 {
-            grid-column-start: 2;
-            grid-row-start: 1;
-            padding-top: 1.5vw;
-            line-height: 2vw;
-        }
-        .p3S6 {
-            grid-column-start: 3;
-            grid-row-start: 1;
-            padding-top: 1.5vw;
-            line-height: 1.5vw;
-        }
-        .img4S6Container {
-            grid-column-start: 4;
-            grid-row-start: 1;
-            display: flex;
-                    img {
-                        display: block;
-                        width: 12vw!important;
-                        height: 6.5vw!important;
-                    }
-            }
-        }
-        
     
 }
 }
