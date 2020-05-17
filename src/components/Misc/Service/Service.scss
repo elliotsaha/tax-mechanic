@@ -1,0 +1,18 @@
+@import "../../../Sass/customVariables";
+.Service {
+    z-index: 2;
+    border-radius: 2rem;
+    .ServiceText {
+        margin: 0rem;
+        .Title {
+            color: $DarkOrange;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.6rem;
+        }
+        .Para {
+            color: grey;
+            font-size: 1.2rem;
+        }
+    }
+}
