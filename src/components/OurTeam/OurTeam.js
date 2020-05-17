@@ -6,7 +6,7 @@ export default class OurTeam extends Component {
         return (
             <div>
                 <Section1 />
-                
+                <Section2 />
             </div>
         )
     }
