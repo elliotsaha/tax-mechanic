@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "react-elastic-carousel": "^0.4.1"
+    "react-elastic-carousel": "https://github.com/HerilS/react-elastic-carousel/tarball/master"
   }
 }

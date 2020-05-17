@@ -30,7 +30,7 @@ export class Section2 extends React.Component {
     }
     render() {
       return (
-        <Carousel breakPoints={this.breakPoints}>
+        <Carousel breakPoints={this.breakPoints} className="CarouselContainer">
           <Item>1</Item>
           <Item>2</Item>
           <Item>3</Item>

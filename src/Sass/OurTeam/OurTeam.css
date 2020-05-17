@@ -1,3 +1,9 @@
+.CarouselContainer {
+  padding: 2rem;
+  background-color: black;
+  outline: none;
+}
+
 .S1 {
   display: -ms-grid;
   display: grid;
