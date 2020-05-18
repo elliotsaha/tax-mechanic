@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, Component } from 'react'
 import Button from "../Misc/Button/Button";
-import Swiper from 'react-id-swiper';
-import 'swiper/swiper.scss';
 import "../../Sass/OurTeam/OurTeam.scss";
+import Swiper from 'swiper';
+import 'swiper/css/swiper.min.css';
+
 
 
 export function Section1() {
@@ -22,37 +23,32 @@ export function Section1() {
     )
 }
 
-
-export const Section2 = () => {
-
-    const params = {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
-      }
+export class Section2 extends Component{
+  componentDidMount(){
+    this.swiper=new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    slidesPerGroup: 3,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+    //add necessary parameters required by checking the offical docs of swiper
     }
-
-    const [Team, setTeam] = useState({img: "", description: ""});
-
-    const handleChange = (e) => {
-        if ()
+    render(){
+        return(
+            <div className="swiper-container">
+                <div className="swiper-wrapper">
+                    <div className="swiper-slide"></div>
+                    <div className="swiper-slide"></div>
+                    <div className="swiper-slide"></div>
+                    <div className="swiper-slide"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>)
     }
-    return (
-        <div className="S2">
-        <Swiper {...params}>
-            <div className="Slide">Slide #1</div>
-            <div className="Slide">Slide #2</div>
-            <div className="Slide">Slide #3</div>
-            <div className="Slide">Slide #4</div>
-            <div className="Slide">Slide #5</div>
-        </Swiper>
-        </div>
-      
-    )
-  };
+}
 
 export function Section3() {
-    
 }

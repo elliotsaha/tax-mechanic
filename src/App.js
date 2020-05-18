@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import  { Switch, Route } from "react-router-dom";
 import "./Sass/Bootstrap/App.css";
+
 //Components
 import Navbar from './components/Navbar/Navbar';
 import Footer from "./components/Footer/Footer";
