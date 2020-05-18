@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Button from "../Misc/Button/Button";
 import Swiper from 'react-id-swiper';
 import 'swiper/swiper.scss';
 import "../../Sass/OurTeam/OurTeam.scss";
+
 
 export function Section1() {
     return (
@@ -21,7 +22,9 @@ export function Section1() {
     )
 }
 
+
 export const Section2 = () => {
+
     const params = {
       slidesPerView: 3,
       spaceBetween: 30,
@@ -29,6 +32,12 @@ export const Section2 = () => {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
       }
+    }
+
+    const [Team, setTeam] = useState({img: "", description: ""});
+
+    const handleChange = (e) => {
+        if ()
     }
     return (
         <div className="S2">
