@@ -3,14 +3,7 @@
 @import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
 @import "../customVariables";
 
-.CarouselContainer {
-    padding: 2rem;
-    background-color: black;
-    outline: none;
-    .dot {
-        
-    }
-}
+
 @include media-breakpoint-up(xs) {
     .S1 {
         display: grid;
@@ -105,5 +98,13 @@
             }
         }
         
+    }
+    .S2 {
+        padding: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        .Slide {
+            text-align: center;
+        }
     }
 }

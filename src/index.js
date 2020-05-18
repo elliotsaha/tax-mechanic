@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './Sass/Bootstrap/App.css';
 import {BrowserRouter as Router} from  'react-router-dom';
+import { storage } from "./firebase"; 
 
 ReactDOM.render(
   <React.StrictMode>

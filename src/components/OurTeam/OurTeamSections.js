@@ -1,7 +1,8 @@
 import React from 'react'
 import Button from "../Misc/Button/Button";
-import Carousel from "react-elastic-carousel";
-import Item from "./Item";
+import Swiper from 'react-id-swiper';
+import 'swiper/swiper.scss';
+import "../../Sass/OurTeam/OurTeam.scss";
 
 export function Section1() {
     return (
@@ -20,27 +21,28 @@ export function Section1() {
     )
 }
 
-export class Section2 extends React.Component {
-    constructor(props) {
-      super(props)
-      this.breakPoints = [
-        { width: 1, itemsToShow: 1, itemsToScroll: 1 },
-        { width: 1200, itemsToShow: 3, itemsToScroll: 3}
-      ]
+export const Section2 = () => {
+    const params = {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      }
     }
-    render() {
-      return (
-        <Carousel breakPoints={this.breakPoints} className="CarouselContainer">
-          <Item>1</Item>
-          <Item>2</Item>
-          <Item>3</Item>
-          <Item>4</Item>
-          <Item>5</Item>
-          <Item>6</Item>
-        </Carousel>
-      )
-    }
-  }
+    return (
+        <div className="S2">
+        <Swiper {...params}>
+            <div className="Slide">Slide #1</div>
+            <div className="Slide">Slide #2</div>
+            <div className="Slide">Slide #3</div>
+            <div className="Slide">Slide #4</div>
+            <div className="Slide">Slide #5</div>
+        </Swiper>
+        </div>
+      
+    )
+  };
 
 export function Section3() {
     
