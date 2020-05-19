@@ -21,15 +21,15 @@ export default function Navbar() {
                 <div className="DropdownChildren">
                     <ReactBootStrap.NavDropdown.Item><Link to="/services" className="DropdownElementParents"><a href="/#" className="DropdownElements">ALL SERVICES</a></Link></ReactBootStrap.NavDropdown.Item>
                     <ReactBootStrap.NavDropdown.Divider />
-                    <ReactBootStrap.NavDropdown.Item><Link to="/services/taxrepresentation" className="DropdownElementParents"><a href="/#"className="DropdownElements">TAX REPRESENTATION</a></Link></ReactBootStrap.NavDropdown.Item>
-                    <ReactBootStrap.NavDropdown.Item><Link to="/services/taxappeal" className="DropdownElementParents"><a href="/#"className="DropdownElements">TAX APPEAL</a></Link></ReactBootStrap.NavDropdown.Item>
-                    <ReactBootStrap.NavDropdown.Item><Link to="/services/latetaxfilings" className="DropdownElementParents"><a href="/#"className="DropdownElements">LATE TAX FILINGS</a></Link></ReactBootStrap.NavDropdown.Item>
-                    <ReactBootStrap.NavDropdown.Item><Link to="/services/taxrelief" className="DropdownElementParents"><a href="/#"className="DropdownElements">TAX RELIEF</a></Link></ReactBootStrap.NavDropdown.Item>
-                    <ReactBootStrap.NavDropdown.Item><Link to="/services/voluntarydisclosure" className="DropdownElementParents"><a href="/#"className="DropdownElements">VOLUNTARY DISCLOSURE</a></Link></ReactBootStrap.NavDropdown.Item>
-                    <ReactBootStrap.NavDropdown.Item><Link to="/services/taxaudits" className="DropdownElementParents"><a href="/#"className="DropdownElements">TAX AUDITS</a></Link></ReactBootStrap.NavDropdown.Item>
-                    <ReactBootStrap.NavDropdown.Item><Link to="/services/taxpaymentplan" className="DropdownElementParents"><a href="/#"className="DropdownElements">TAX PAYMENT PLAN</a></Link></ReactBootStrap.NavDropdown.Item>
-                    <ReactBootStrap.NavDropdown.Item><Link to="/services/ongoingsupport" className="DropdownElementParents"><a href="/#"className="DropdownElements">ONGOING SUPPORT</a></Link></ReactBootStrap.NavDropdown.Item>
-                    <ReactBootStrap.NavDropdown.Item><Link to="/services/crataxreduction" className="DropdownElementParents"><a href="/#"className="DropdownElements">CRA TAX REDUCTION</a></Link></ReactBootStrap.NavDropdown.Item>
+                    <ReactBootStrap.NavDropdown.Item><Link to="/services/tax-representation" className="DropdownElementParents"><a href="/#"className="DropdownElements">TAX REPRESENTATION</a></Link></ReactBootStrap.NavDropdown.Item>
+                    <ReactBootStrap.NavDropdown.Item><Link to="/services/tax-appeal" className="DropdownElementParents"><a href="/#"className="DropdownElements">TAX APPEAL</a></Link></ReactBootStrap.NavDropdown.Item>
+                    <ReactBootStrap.NavDropdown.Item><Link to="/services/late-tax-filings" className="DropdownElementParents"><a href="/#"className="DropdownElements">LATE TAX FILINGS</a></Link></ReactBootStrap.NavDropdown.Item>
+                    <ReactBootStrap.NavDropdown.Item><Link to="/services/tax-relief" className="DropdownElementParents"><a href="/#"className="DropdownElements">TAX RELIEF</a></Link></ReactBootStrap.NavDropdown.Item>
+                    <ReactBootStrap.NavDropdown.Item><Link to="/services/voluntary-disclosure" className="DropdownElementParents"><a href="/#"className="DropdownElements">VOLUNTARY DISCLOSURE</a></Link></ReactBootStrap.NavDropdown.Item>
+                    <ReactBootStrap.NavDropdown.Item><Link to="/services/tax-audits" className="DropdownElementParents"><a href="/#"className="DropdownElements">TAX AUDITS</a></Link></ReactBootStrap.NavDropdown.Item>
+                    <ReactBootStrap.NavDropdown.Item><Link to="/services/tax-payment-plan" className="DropdownElementParents"><a href="/#"className="DropdownElements">TAX PAYMENT PLAN</a></Link></ReactBootStrap.NavDropdown.Item>
+                    <ReactBootStrap.NavDropdown.Item><Link to="/services/ongoing-support" className="DropdownElementParents"><a href="/#"className="DropdownElements">ONGOING SUPPORT</a></Link></ReactBootStrap.NavDropdown.Item>
+                    <ReactBootStrap.NavDropdown.Item><Link to="/services/cra-tax-reduction" className="DropdownElementParents"><a href="/#"className="DropdownElements">CRA TAX REDUCTION</a></Link></ReactBootStrap.NavDropdown.Item>
                 </div>
             </ReactBootStrap.NavDropdown>
             </div> 

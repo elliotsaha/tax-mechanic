@@ -1,52 +1,56 @@
 [
     {
-        "id":1,
-        "name": "book",
-        "desc": "hi"
+        "title": "Tax Representation",
+        "sub": "I don’t want to deal with CRA!",
+        "des": "We will professionally represent you.",
+        "link": "tax-representation"
     }, 
     {
-        "id":2,
-        "name": "book1",
-        "desc": "hi1"
+        "title": "Tax Appeal",
+        "sub": "I have to pay how much to CRA?!",
+        "des": "We will negotiate and appeal unfair tax assessments.",
+        "link": "tax-appeal"
     },
     {
-        "id":3,
-        "name": "book2",
-        "desc": "hi3"
+        "title": "Late Tax Filings",
+        "sub": "I am so late in filing my taxes!",
+        "des": "We will help to negotiate with CRA to achieve the best outcome.",
+        "link": "late-tax-filings"
     },
     {
-        "id":4,
-        "name": "book3",
-        "desc": "hi4"
+        "title": "Tax Relief",
+        "sub": "I just can’t afford to pay that much to CRA!",
+        "des": "We will help to reduce and if possible eliminate tax debts. You can count on it.",
+        "link": "tax-relief"
     },
     {
-        "id":5,
-        "name": "book3",
-        "desc": "hi4"
+        "title": "Voluntary Disclosure",
+        "sub": "I haven’t paid my taxes in years!",
+        "des": "We will help you take full advantage of the Voluntary Tax Disclosure Program.",
+        "link": "voluntary-disclosure"
     },
     {
-        "id":6,
-        "name": "book3",
-        "desc": "hi4"
+        "title": "Tax Audits",
+        "sub": "I just got a letter from CRA and I am being Audited!",
+        "des": "We will represent you and your best interests to ensure that your liability is limited.",
+        "link": "tax-audits"
     },
     {
-        "id":7,
-        "name": "book3",
-        "desc": "hi4"
+        "title": "Tax Payment Plan",
+        "sub": "I can’t make these monthly CRA collection monthly payments!",
+        "des": "We will negotiate on your behalf to work out the best payment plan for you.",
+        "link": "tax-payment-plan"
     },
     {
-        "id":8,
-        "name": "book3",
-        "desc": "hi4"
+        "title": "Ongoing Support",
+        "sub": "I just want someone to make this all go away!",
+        "des": "Our mission is to help our clients by fixing their tax problems so that they will never have this problem again.",
+        "link": "ongoing-support"
     },
     {
-        "id":9,
-        "name": "book3",
-        "desc": "hi4"
-    },
-    {
-        "id":10,
-        "name": "book3",
-        "desc": "hi4"
+        "title": "CRA Tax Reduction",
+        "sub": "At the Tax Mechanic, we pride ourselves on being a full-service tax company…",
+        "des": "From tax resolution, prior year income tax return preparation, and back tax debt relief to..",
+        "link": "cra-tax-reduction"
     }
 ]

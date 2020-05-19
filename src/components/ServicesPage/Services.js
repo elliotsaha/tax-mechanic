@@ -1,21 +1,20 @@
 import React, { Component } from "react";
 import data from "./Service.json";
-import { Card, CardDeck } from "react-bootstrap";
+import { Card, CardColumns } from "react-bootstrap";
+import "../../Sass/Service/Service.scss";
+import { Link } from "react-router-dom";
 
 const newdata = data.map((data) => {
-    return (
-        <Card key= {data.id} style={{ width: "18rem", textAlign: "center"}}>
+    return (  
+        <Card key={data.link} className="mx-auto m-3">
             <Card.Body>
-                <Card.Title>{data.name}</Card.Title>
+                <Card.Title>{data.title}</Card.Title>
+                <Card.Subtitle>{data.sub}</Card.Subtitle>
                 <Card.Text>
-                    {data.desc}
+                    {data.des}
                 </Card.Text>
 
-                <a className="btn-primary"
-                    href={data.name}
-                    target="_blank">
-                        Download
-                </a>
+                <Link to={`/services/${data.link}`}><a href="/#">Read More</a></Link>
             </Card.Body>
         </Card>
     )
@@ -24,8 +23,8 @@ const newdata = data.map((data) => {
 export default class Service extends Component {
     render() {
         return (
-            <CardDeck>  {newdata}  </CardDeck>
-           
+            
+            <CardColumns className="px-5">  {newdata}  </CardColumns>
         )
     }
 }
