@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import OurTeam from "./components/OurTeam/OurTeam";
 // Component Imports
 import Homepage from "./components/Homepage/Homepage";
-
+import Services from "./components/ServicesPage/Services";
 export default class App extends Component {
   render() {
     return (
@@ -16,6 +16,7 @@ export default class App extends Component {
         <Switch>
         <Route exact path="/" component={Homepage} />
         <Route exact path="/ourteam" component={OurTeam} />
+        <Route exact path="/services" component={Services} />
         </Switch>
         <Footer />
       </React.Fragment>
