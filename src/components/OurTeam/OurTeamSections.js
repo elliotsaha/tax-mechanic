@@ -3,7 +3,8 @@ import Button from "../Misc/Button/Button";
 import "../../Sass/OurTeam/OurTeam.scss";
 import Swiper from 'swiper';
 import 'swiper/css/swiper.min.css';
-
+//Firebase Backend 
+import firebase from "../../firebase/index";
 
 
 export function Section1() {
@@ -50,5 +51,7 @@ export class Section2 extends Component{
     }
 }
 
-export function Section3() {
+
+export class Section3 extends React.Component {
+  
 }
