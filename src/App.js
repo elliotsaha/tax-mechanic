@@ -5,8 +5,8 @@ import "./Sass/Bootstrap/App.css";
 import Navbar from './components/Navbar/Navbar';
 import Footer from "./components/Footer/Footer";
 import OurTeam from "./components/OurTeam/OurTeam";
-// Component Imports
 import Homepage from "./components/Homepage/Homepage";
+import Service from "./components/Services/Service";
 
 export default class App extends Component {
   render() {
