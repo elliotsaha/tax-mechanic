@@ -9,7 +9,7 @@ export default function TaxRepresentation() {
             <img className="GradientS1Comp" src="/img/OurTeam/TopImg.png" width="100%" alt="OurTeam"/>
                 <div className="S1TextContainer">
                     <div className="S1Text">
-                        <span>Tax Representation.</span>
+                        <span>Tax Relief.</span>
                         <div className="ButtonContainerS1">
                         <Button className="Button" text="Book For a Free Consultation Today"/>
                         </div>

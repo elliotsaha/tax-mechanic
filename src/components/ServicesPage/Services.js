@@ -10,8 +10,7 @@ const newdata = data.map((data) => {
         
             <Card 
                 key={data.link} 
-                className="mx-auto m-3"
-                className="CardContainer">
+                className="CardContainer mx-auto m-3">
             <Card.Body>
                 
                 <Card.Title style={{ fontWeight: "700" }}>{data.title}</Card.Title>
@@ -48,7 +47,7 @@ export default class Service extends Component {
                 </div>
             </div>
             <div className="Columns">
-                <CardColumns className="px-5" className="card-count">  
+                <CardColumns className="card-count px-5">
                         {newdata}</CardColumns>
             </div>      
             
