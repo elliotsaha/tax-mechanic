@@ -14,9 +14,9 @@ const newdata = data.map((data) => {
                 className="CardContainer">
             <Card.Body>
                 
-                <Card.Title>{data.title}</Card.Title>
+                <Card.Title style={{ fontWeight: "700" }}>{data.title}</Card.Title>
                 <hr />
-                <Card.Subtitle className="pb-2">{data.sub}</Card.Subtitle>
+                <Card.Subtitle className="pb-2" style={{ fontWeight: "600" }}>{data.sub}</Card.Subtitle>
                 <Card.Text className="pb-2">
                     {data.des}
                 </Card.Text>
