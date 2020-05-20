@@ -1,0 +1,135 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+@import "../../Sass/customVariables";
+
+@include media-breakpoint-up(xs) {
+    .Main {
+    .Columns {
+        background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, #000000),
+            color-stop(0.5, #848484),
+            color-stop(1, #000000)
+        );
+        background-image: -o-linear-gradient(bottom, #000000 0%, #848484 50%, #000000 100%);
+        background-image: -moz-linear-gradient(bottom, #000000 0%, #848484 50%, #000000 100%);
+        background-image: -webkit-linear-gradient(bottom, #000000 0%, #848484 50%, #000000 100%);
+        background-image: -ms-linear-gradient(bottom, #000000 0%, #848484 50%, #000000 100%);
+        background-image: linear-gradient(to bottom, #000000 0%, #848484 50%, #000000 100%);
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+
+        .CardContainer {
+            background-color: rgba(245, 245, 245, 0);
+            border: 0;
+            color: white;
+            font-family: "Montserrat", sans-serif;
+            text-align: center;
+            padding-bottom: 4rem;
+        }
+        .ServiceReadMore {
+            background: linear-gradient(to right, $LightOrange 0%, $DarkOrange 100%);
+            color: white;
+            font-family: "Montserrat", sans-serif;
+            border-radius: 1.1rem;
+            padding: 0.65rem;
+            text-decoration: none;
+            outline: none;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            a {
+                color: white;
+                outline: none;
+                text-decoration: none;
+            }
+            
+        }
+        hr {
+            background: linear-gradient(to right, $LightOrange 0%, $DarkOrange 100%);
+            border: none;
+            height: 0.2rem;
+            margin-right: 4rem;
+            margin-left: 4rem;
+        }
+    }
+}
+.card-columns {
+    -webkit-column-count: 1;
+    column-count: 1;
+}
+
+}
+
+@include media-breakpoint-up(sm) {
+    .Main {
+        .card-columns {
+            -webkit-column-count: 2;
+            column-count: 2;
+        }
+        .Columns {
+            padding-top: 7rem;
+            padding-bottom: 5rem;
+        }
+    }
+}
+@include media-breakpoint-up(lg) {
+    .Main {
+        .card-columns {
+            -webkit-column-count: 3;
+            column-count: 3;
+        }
+        .Columns {
+            background-image: -webkit-gradient(
+                linear,
+                left top,
+                left bottom,
+                color-stop(0, #000000),
+                color-stop(0.5, #848484),
+                color-stop(1, #000000)
+            );
+            background-image: -o-linear-gradient(bottom, #000000 0%, #848484 50%, #000000 100%);
+            background-image: -moz-linear-gradient(bottom, #000000 0%, #848484 50%, #000000 100%);
+            background-image: -webkit-linear-gradient(bottom, #000000 0%, #848484 50%, #000000 100%);
+            background-image: -ms-linear-gradient(bottom, #000000 0%, #848484 50%, #000000 100%);
+            background-image: linear-gradient(to bottom, #000000 0%, #848484 50%, #000000 100%);
+            padding-top: 7rem;
+            padding-bottom: 5rem;
+    
+            .CardContainer {
+                background-color: rgba(245, 245, 245, 0);
+                border: 0;
+                color: white;
+                font-family: "Montserrat", sans-serif;
+                text-align: center;
+                padding-bottom: 4rem;
+            }
+            .ServiceReadMore {
+                background: linear-gradient(to right, $LightOrange 0%, $DarkOrange 100%);
+                color: white;
+                font-family: "Montserrat", sans-serif;
+                border-radius: 1.1rem;
+                padding: 0.65rem;
+                text-decoration: none;
+                outline: none;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                a {
+                    color: white;
+                    outline: none;
+                    text-decoration: none;
+                }
+                
+            }
+            hr {
+                background: linear-gradient(to right, $LightOrange 0%, $DarkOrange 100%);
+                border: none;
+                height: 0.2rem;
+                margin-right: 4rem;
+                margin-left: 4rem;
+            }
+        }
+    }
+}

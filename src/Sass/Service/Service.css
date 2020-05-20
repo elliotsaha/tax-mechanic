@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=Service.css.map */
+.Main .Columns {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(50%, #848484), to(#000000));
+  background-image: linear-gradient(to bottom, #000000 0%, #848484 50%, #000000 100%);
+  padding-top: 4rem;
+  padding-bottom: 12rem;
+}
+
+.Main .Columns .CardContainer {
+  background-color: rgba(245, 245, 245, 0);
+  border: 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Main .Columns .ServiceReadMore {
+  background-color: blue;
+  padding: 0.65rem;
+}
+/*# sourceMappingURL=Service.css.map */
