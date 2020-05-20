@@ -7,8 +7,8 @@ import Service from "../Misc/Service/Service";
 export function Section1() {
     return (
         <div className="S1">
-            <img className="GradientS1Mobile" src="./img/Homepage/MobileTopWork.png" width="100%" alt="Homepage" />
-            <img className="GradientS1Comp" src="./img/Homepage/TopWork.jpg" width="100%" alt="Homepage"/>
+            <img className="GradientS1Mobile" src="/img/Homepage/MobileTopWork.png" width="100%" alt="Homepage" />
+            <img className="GradientS1Comp" src="/img/Homepage/TopWork.jpg" width="100%" alt="Homepage"/>
             <div className="S1TextContainer">
                 <div className="S1Text">
                     <span>We Fix Your Tax <br /> Problems. </span>
@@ -65,8 +65,8 @@ export function Section3() {
             <div className="ButtonContainer">
                 <Button className="Button" text="Read More About Our Services"/>
             </div>
-            <img src="./img/Homepage/BlueWork.jpg" className="DesktopViewImg" alt="Work"/>
-            <img src="./img/Homepage/Notepad.png" className="MobileViewImg" alt="Work"/>
+            <img src="/img/Homepage/BlueWork.jpg" className="DesktopViewImg" alt="Work"/>
+            <img src="/img/Homepage/Notepad.png" className="MobileViewImg" alt="Work"/>
         </div>
     )
 }
@@ -79,11 +79,11 @@ export function Section4() {
                 <span className="TitleS4">Our Team.</span>
 
             <div className="Img1S4Container">
-                <img className="Img1S4" src="./img/Homepage/Fraser.png" alt="Fraser -- Team"/>
+                <img className="Img1S4" src="/img/Homepage/Fraser.png" alt="Fraser -- Team"/>
             </div>
             
             <div className="Img2S4Container">
-                <img className="Img2S4" src="./img/Homepage/David.png" alt="David -- Team" />
+                <img className="Img2S4" src="/img/Homepage/David.png" alt="David -- Team" />
             </div>
             
             <div className="FraserText">
@@ -122,8 +122,8 @@ export function Section5() {
                 <div className="VideoS5" align="middle">
                     <iframe title="Who We Are." src="https://www.youtube.com/embed/qDBXEAvlItE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
             </div>
-            <img className="MobileImgViewS5" src="./img/Homepage/MobileVideoSection.png" alt="Plants"/>
-            <img className="PCImgViewS5" src="./img/Homepage/City.jpg" alt="City"/>
+            <img className="MobileImgViewS5" src="/img/Homepage/MobileVideoSection.png" alt="Plants"/>
+            <img className="PCImgViewS5" src="/img/Homepage/City.jpg" alt="City"/>
         </div>
     )
 }

@@ -17,7 +17,7 @@ export default function Footer() {
             <p className="p3S6">Email: <br/>david@taxmechanic.ca
             </p>
             <div className="img4S6Container">
-                <img src="./img/TaxMechanicLogo.png" alt="Logo"/>
+                <img src="/img/TaxMechanicLogo.png" alt="Logo"/>
             </div>
            
         </div>

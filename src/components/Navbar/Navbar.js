@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <React.Fragment>
         <ReactBootStrap.Navbar className="NavbarBackground" expand="xl">
-        <ReactBootStrap.Navbar.Brand><Link to="/" className="Logo"><img src="./img/TaxMechanicLogo.png" width="200px" alt="Tax Mechanic Logo"/></Link></ReactBootStrap.Navbar.Brand>
+        <ReactBootStrap.Navbar.Brand><Link to="/" className="Logo"><img src="/img/TaxMechanicLogo.png" width="200px" alt="Tax Mechanic Logo"/></Link></ReactBootStrap.Navbar.Brand>
         
         <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
         <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">

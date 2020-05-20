@@ -21,7 +21,8 @@ const newdata = data.map((data) => {
                     {data.des}
                 </Card.Text>
 
-                <Link to={`/services/${data.link}`}className="ServiceReadMore"><a href="/#"><span >Read More</span></a></Link>
+                <Link to={`/services/${data.link}`}className="ServiceReadMore"><a href="/#" className="stretched-link"><span >Read More
+                &#8594;</span></a></Link>
                   
             </Card.Body>
             </Card>
@@ -35,8 +36,8 @@ export default class Service extends Component {
         return (
             <div className="Main">
                 <div className="S1">
-            <img className="GradientS1Mobile" src="./img/OurTeam/TopImgMobile.png" width="100%" alt="Homepage" />
-            <img className="GradientS1Comp" src="./img/OurTeam/TopImg.png" width="100%" alt="OurTeam"/>
+            <img className="GradientS1Mobile" src="/img/OurTeam/TopImgMobile.png" width="100%" alt="Homepage" />
+            <img className="GradientS1Comp" src="/img/OurTeam/TopImg.png" width="100%" alt="OurTeam"/>
                 <div className="S1TextContainer">
                     <div className="S1Text">
                         <span>Our Services.</span>

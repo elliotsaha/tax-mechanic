@@ -32,11 +32,11 @@ export default class App extends Component {
         <Route exact path="/services/late-tax-filings" component={LateTaxFilings} />
         <Route exact path="/services/ongoing-support" component={OngoingSupport} />
         <Route exact path="/services/tax-appeal" component={TaxAppeal} />
-        <Route exact path="/services/tax-audits" componetn={TaxAudits} />
-        <Route exact path="/services/tax-payment-plan" componetn={TaxPaymentPlan} />
-        <Route exact path="/services/tax-relief" componetn={TaxRelief} />
-        <Route exact path="/services/tax-representation" componetn={TaxRepresentation} />
-        <Route exact path="/services/voluntary-disclosure" componetn={VoluntaryDisclosure} />
+        <Route exact path="/services/tax-audits" component={TaxAudits} />
+        <Route exact path="/services/tax-payment-plan" component={TaxPaymentPlan} />
+        <Route exact path="/services/tax-relief" component={TaxRelief} />
+        <Route exact path="/services/tax-representation" component={TaxRepresentation} />
+        <Route exact path="/services/voluntary-disclosure" component={VoluntaryDisclosure} />
 
         </Switch>
         <Footer />
