@@ -1,3 +1,7 @@
+.container {
+  padding-bottom: 8rem;
+}
+
 .NavbarBackground {
   background-color: black;
   z-index: 5;
@@ -66,6 +70,9 @@
 }
 
 @media (min-width: 1200px) {
+  .container {
+    padding-bottom: 8rem;
+  }
   .dropdown-item:hover, .dropdown-item:focus {
     background-color: black !important;
   }

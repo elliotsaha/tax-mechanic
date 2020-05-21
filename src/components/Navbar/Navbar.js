@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <React.Fragment>
-        <ReactBootStrap.Navbar className="NavbarBackground" expand="xl">
+        <ReactBootStrap.Container>
+        <ReactBootStrap.Navbar className="NavbarBackground" expand="xl" fixed="top">
         <ReactBootStrap.Navbar.Brand><Link to="/" className="Logo"><img src="/img/TaxMechanicLogo.png" width="200px" alt="Tax Mechanic Logo"/></Link></ReactBootStrap.Navbar.Brand>
         
         <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -43,7 +43,7 @@ export default function Navbar() {
             
         </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>   
-        </React.Fragment>
+        </ReactBootStrap.Container>
         
         
     )

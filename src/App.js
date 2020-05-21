@@ -17,7 +17,8 @@ import TaxPaymentPlan from "./components/ServicesPage/ServiceSpecific/TaxPayment
 import TaxRelief from "./components/ServicesPage/ServiceSpecific/TaxRelief";
 import TaxRepresentation from "./components/ServicesPage/ServiceSpecific/TaxRepresentation";
 import VoluntaryDisclosure from "./components/ServicesPage/ServiceSpecific/VoluntaryDisclosure";
-import Ebook from "./components/"
+import Ebook from "./components/Ebook/Ebook";
+
 export default class App extends Component {
   render() {
     return (
