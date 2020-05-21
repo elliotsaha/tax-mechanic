@@ -18,6 +18,7 @@ import TaxRelief from "./components/ServicesPage/ServiceSpecific/TaxRelief";
 import TaxRepresentation from "./components/ServicesPage/ServiceSpecific/TaxRepresentation";
 import VoluntaryDisclosure from "./components/ServicesPage/ServiceSpecific/VoluntaryDisclosure";
 import Ebook from "./components/Ebook/Ebook";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 export default class App extends Component {
   render() {
@@ -39,6 +40,7 @@ export default class App extends Component {
         <Route exact path="/services/tax-relief" component={TaxRelief} />
         <Route exact path="/services/tax-representation" component={TaxRepresentation} />
         <Route exact path="/services/voluntary-disclosure" component={VoluntaryDisclosure} />
+        <Route exact path="/testimonials" component={Testimonials} />
         </Switch>
         <Footer />
       </React.Fragment>
