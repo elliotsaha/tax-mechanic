@@ -19,12 +19,13 @@ import TaxRepresentation from "./components/ServicesPage/ServiceSpecific/TaxRepr
 import VoluntaryDisclosure from "./components/ServicesPage/ServiceSpecific/VoluntaryDisclosure";
 import Ebook from "./components/Ebook/Ebook";
 import Testimonials from "./components/Testimonials/Testimonials";
-
+// Blog 
+import Blog from "./components/Blog/Blog";
 export default class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
+        <Navbar />       
         <Switch>
         <Route exact path="/" component={Homepage} />
         <Route exact path="/ourteam" component={OurTeam} />
@@ -41,6 +42,9 @@ export default class App extends Component {
         <Route exact path="/services/tax-representation" component={TaxRepresentation} />
         <Route exact path="/services/voluntary-disclosure" component={VoluntaryDisclosure} />
         <Route exact path="/testimonials" component={Testimonials} />
+
+        {/*Blog*/}
+        <Route exact path="/blog" component={Blog} />
         </Switch>
         <Footer />
       </React.Fragment>
