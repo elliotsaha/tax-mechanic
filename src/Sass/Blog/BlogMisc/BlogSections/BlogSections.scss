@@ -1,0 +1,47 @@
+@import "../../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../../node_modules/bootstrap/scss/variables";
+@import "../../../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+@import "../../../customVariables";
+
+.ReactCard {
+    border: none;
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .CardContainer {
+        background-color: #000000f3;
+        font-family: "Montserrat", sans-serif;
+        .Title {
+            font-size: 2.2rem;
+            color: $DarkOrange;
+        }
+        .Subtitle {
+            font-size: 1.2rem;
+        }
+        .Text {
+            color: white;
+            padding-right: 35rem;
+            padding-bottom: 1.2rem;
+        }
+        .BlogBody {
+            Link {
+                text-decoration: none;
+                outline: none;
+            }
+            a {
+                text-decoration: none;
+                outline: none;
+                span {
+                    font-weight: 550;
+                    color: white;
+                    border-radius: 0.8rem;
+                    padding-top: 0.7rem;
+                    padding-bottom: 0.7rem;
+                    padding-left: 2.4rem;
+                    padding-right: 2.4rem;
+                    background: linear-gradient($LightOrange, $DarkOrange);
+                }
+            }
+        }
+    }
+}
