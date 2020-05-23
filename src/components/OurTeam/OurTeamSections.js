@@ -3,8 +3,6 @@ import Button from "../Misc/Button/Button";
 import "../../Sass/OurTeam/OurTeam.scss";
 import Swiper from 'swiper';
 import 'swiper/css/swiper.min.css';
-//Firebase Backend 
-import firebase from "../../firebase/index";
 
 
 export function Section1() {

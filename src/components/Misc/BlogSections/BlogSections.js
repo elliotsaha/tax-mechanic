@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../../Sass/Blog/BlogMisc/BlogSections.scss";
+import "../../../Sass/Blog/BlogMisc/BlogSections/BlogSections.scss";
 import { Card, CardColumns } from "react-bootstrap";
 import { Link } from "react-router-dom";
 export default function BlogSections({title, subtitle, text, link}) {

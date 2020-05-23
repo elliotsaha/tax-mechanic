@@ -20,7 +20,8 @@ import VoluntaryDisclosure from "./components/ServicesPage/ServiceSpecific/Volun
 import Ebook from "./components/Ebook/Ebook";
 import Testimonials from "./components/Testimonials/Testimonials";
 // Blog 
-import Blog from "./components/Blog/Blog";
+import Blog from "./components/Blog/Page1/Blog.js";
+import P1 from "./components/Blog/Page1/P1";
 export default class App extends Component {
   render() {
     return (
@@ -45,6 +46,7 @@ export default class App extends Component {
 
         {/*Blog*/}
         <Route exact path="/blog" component={Blog} />
+        <Route exact path="/blog/page1/underground-economy-in-a-pandemic" component={P1} />
         </Switch>
         <Footer />
       </React.Fragment>
