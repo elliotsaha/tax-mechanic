@@ -43,6 +43,13 @@ export default function Blog() {
         <BlogSections title="Artificial Intelligence and the CRA" subtitle="By: Fraser Simpson" text="AI and the CRA The Justice Department has quietly launched an artificial intelligence experiment as the Trudeau government prepares to use such sophisticated software to help make decisions in cases involving immigration, pension benefits and taxes. The 18-month pilot project, which involves the Canada Revenue Agency, was...
 "       link="blog/page1/artificial-intelligence-and-the-cra"/>
         
+        <div className="BlogBottomButtons">
+        <Link to="/blog/" className="BlogBottomLink"><a href="/#" className="BlogButtonActive">1</a></Link>
+        <Link to="/blog/page2" className="BlogBottomLink"><a href="/#">2</a></Link>
+        <Link to="/blog/page3" className="BlogBottomLink"><a href="/#">3</a></Link>
+        <Link to="/blog/page4" className="BlogBottomLink"><a href="/#">4</a></Link>
+        <Link to="/blog/page5" className="BlogBottomLink"><a href="/#">5</a></Link>
+        </div>
         </div>
     )
 }

@@ -51,6 +51,38 @@
     }
         }
     }
+    .BlogBottomButtons {
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        background-color: black;
+        .BlogBottomLink {
+            color: white!important;
+            outline: none!important;
+            font-size: 1.1rem;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            white-space: nowrap;
+            text-decoration: none!important;
+            padding-right: 2rem;
+            padding-left: 2rem;
+            .BlogButtonActive {
+                background: linear-gradient($LightOrange, $DarkOrange);
+                padding: 0.7rem;
+                padding-right: 1.1rem;
+                padding-left: 1.1rem;
+                border-radius: 4rem;
+            }
+            a {
+            
+            text-align: center;
+            outline: none!important;
+            position: relative;
+            text-decoration: none!important;
+            color: white!important;
+            padding-bottom: 0.2rem;
+            }
+        }
+    }
 }
 @include media-breakpoint-up(lg) { 
     .BlogMain {
