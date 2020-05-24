@@ -22,6 +22,9 @@ import Testimonials from "./components/Testimonials/Testimonials";
 // Blog 
 import Blog from "./components/Blog/Page1/Blog.js";
 import P1 from "./components/Blog/Page1/P1";
+import P2 from "./components/Blog/Page1/P2";
+import P3 from "./components/Blog/Page1/P3";
+
 export default class App extends Component {
   render() {
     return (
@@ -47,6 +50,8 @@ export default class App extends Component {
         {/*Blog*/}
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/blog/page1/underground-economy-in-a-pandemic" component={P1} />
+        <Route exact path="/blog/page1/are-you-behind-several-years-on-filing-your-taxes" component={P2} />
+        <Route exact path="/blog/page1/in-hiding-haunted-or-hunted-tax-terror-and-how-to-fix-it" component={P3} />
         </Switch>
         <Footer />
       </React.Fragment>
