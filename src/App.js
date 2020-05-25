@@ -43,6 +43,17 @@ import P7Page2 from "./components/Blog/Page2/P7-Page2";
 import P8Page2 from "./components/Blog/Page2/P8-Page2";
 import P9Page2 from "./components/Blog/Page2/P9-Page2";
 import P10Page2 from "./components/Blog/Page2/P10-Page2";
+//Page 3
+import BlogPage3 from "./components/Blog/Page3/Blog-Page3";
+import P1Page3 from "./components/Blog/Page3/P1-Page3";
+import P2Page3 from "./components/Blog/Page3/P2-Page3";
+import P3Page3 from "./components/Blog/Page3/P3-Page3";
+import P4Page3 from "./components/Blog/Page3/P4-Page3";
+import P5Page3 from "./components/Blog/Page3/P5-Page3";
+import P6Page3 from "./components/Blog/Page3/P6-Page3";
+import P7Page3 from "./components/Blog/Page3/P7-Page3";
+import P8Page3 from "./components/Blog/Page3/P8-Page3";
+import P9Page3 from "./components/Blog/Page3/P9-Page3";
 
 export default class App extends Component {
   render() {
@@ -90,6 +101,17 @@ export default class App extends Component {
         <Route exact path="/blog/page2/top-5-tips-to-increase-your-tax-refund" component={P8Page2} />
         <Route exact path="/blog/page2/did-you-get-a-bonus" component={P9Page2} />
         <Route exact path="/blog/page2/cra-tax-payment-plans" component={P10Page2} />
+        {/*Blog Page 3*/}
+        <Route exact path="/blog/page3" component={BlogPage3} />
+        <Route exact path="/blog/page3/hidden-meaning-behind-cra-notice-assessment" component={P1Page3} />
+        <Route exact path="/blog/page3/tax-tips-airbnb-owners-uber-drivers" component={P2Page3} />
+        <Route exact path="/blog/page3/voluntary-disclosure-filing-rules-change-10-days" component={P3Page3} />
+        <Route exact path="/blog/page3/paypal-ordered-hand" component={P4Page3} />
+        <Route exact path="/blog/page3/cra-penalties-interest" component={P5Page2} />
+        <Route exact path="/blog/page3/tax-changes-small-business-proposed-liberals-good-thing" component={P6Page3} />
+        <Route exact path="/blog/page3/divorce-and-taxes" component={P7Page3} />
+        <Route exact path="/blog/page3/not-filing-taxes-will-ineligible-just-credit" component={P8Page3} />
+        <Route exact path="/blog/page3/new-rules-leveling-playing-liberals-taking-aim-voluntary-disclosures" component={P9Page3} />
         </Switch>
         <Footer />
       </React.Fragment>
