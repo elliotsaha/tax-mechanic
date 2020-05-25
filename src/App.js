@@ -31,6 +31,8 @@ import P7 from "./components/Blog/Page1/P7";
 import P8 from "./components/Blog/Page1/P8";
 import P9 from "./components/Blog/Page1/P9";
 import P10 from "./components/Blog/Page1/P10";
+// Page 2
+import BlogPage2 from "./components/Blog/Page2/Blog-Page2";
 
 export default class App extends Component {
   render() {
@@ -66,6 +68,8 @@ export default class App extends Component {
         <Route exact path="/blog/page1/top-5-tips-to-increase-your-tax-refund" component={P8} />
         <Route exact path="/blog/page1/overcoming-stigma-and-shame-around-the-topic-of-taxes" component={P9} />
         <Route exact path="/blog/page1/artificial-intelligence-and-the-cra" component={P10} />
+        {/*Blog Page 2*/}
+        <Route exact path="/blog/page2" component={BlogPage2} />
         </Switch>
         <Footer />
       </React.Fragment>
