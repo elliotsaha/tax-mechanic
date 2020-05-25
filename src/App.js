@@ -33,6 +33,16 @@ import P9 from "./components/Blog/Page1/P9";
 import P10 from "./components/Blog/Page1/P10";
 // Page 2
 import BlogPage2 from "./components/Blog/Page2/Blog-Page2";
+import P1Page2 from "./components/Blog/Page2/P1-Page2";
+import P2Page2 from "./components/Blog/Page2/P2-Page2";
+import P3Page2 from "./components/Blog/Page2/P3-Page2";
+import P4Page2 from "./components/Blog/Page2/P4-Page2";
+import P5Page2 from "./components/Blog/Page2/P5-Page2";
+import P6Page2 from "./components/Blog/Page2/P6-Page2";
+import P7Page2 from "./components/Blog/Page2/P7-Page2";
+import P8Page2 from "./components/Blog/Page2/P8-Page2";
+import P9Page2 from "./components/Blog/Page2/P9-Page2";
+import P10Page2 from "./components/Blog/Page2/P10-Page2";
 
 export default class App extends Component {
   render() {
@@ -70,6 +80,16 @@ export default class App extends Component {
         <Route exact path="/blog/page1/artificial-intelligence-and-the-cra" component={P10} />
         {/*Blog Page 2*/}
         <Route exact path="/blog/page2" component={BlogPage2} />
+        <Route exact path="/blog/page2/the-cra-is-on-the-warpath" component={P1Page2} />
+        <Route exact path="/blog/page2/lower-tax-debt" component={P2Page2} />
+        <Route exact path="/blog/page2/tax-article-help-change-life-better" component={P3Page2} />
+        <Route exact path="/blog/page2/inside-cra-part-one" component={P4Page2} />
+        <Route exact path="/blog/page2/many-people-dont-file-taxes-canada" component={P5Page2} />
+        <Route exact path="/blog/page2/psychology-people-dont-file-taxes" component={P6Page2} />
+        <Route exact path="/blog/page2/spring-maybe-bank-account-might-still-winter-frozen-cra" component={P7Page2} />
+        <Route exact path="/blog/page2/not-filed-taxes-5-years-read" component={P8Page2} />
+        <Route exact path="/blog/page2/did-you-get-a-bonus" component={P9Page2} />
+        <Route exact path="/blog/page2/cra-tax-payment-plans" component={P10Page2} />
         </Switch>
         <Footer />
       </React.Fragment>
