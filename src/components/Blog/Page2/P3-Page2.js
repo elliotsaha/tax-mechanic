@@ -45,6 +45,7 @@ export default function P3Page2() {
             <br/><br/>
             <span>What is a ‘notional assessment’ and where does it happen?</span>
             <br/><br/>
+            <p>To get answers read complete article go to Maclean’s</p>
             <p>
             <span>Contact</span>
             <br/>
