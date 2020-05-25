@@ -39,7 +39,13 @@ export default function BlogPage3() {
 
         <BlogSections title="New Rules About Leveling The Playing: Liberals Taking Aim At Voluntary Disclosures" subtitle="By: Fraser Simpson" text="Over the past 15 years, we have seen big changes in our economy. The number of Canadian-controlled private corporations (CCPCs) has increased by 50 per cent and makes up a much bigger part of our economy than they did in the early 2000s. For professionals,...
 "       link="/blog/page3/new-rules-leveling-playing-liberals-taking-aim-voluntary-disclosures"/>
-
+        <div className="BlogBottomButtons">
+        <Link to="/blog/" className="BlogBottomLink"><a href="/#">1</a></Link>
+        <Link to="/blog/page2" className="BlogBottomLink"><a href="/#">2</a></Link>
+        <Link to="/blog/page3" className="BlogBottomLink"><a href="/#" className="BlogButtonActive">3</a></Link>
+        <Link to="/blog/page4" className="BlogBottomLink"><a href="/#">4</a></Link>
+        <Link to="/blog/page5" className="BlogBottomLink"><a href="/#">5</a></Link>
+        </div>
         </div>
     )
 }
