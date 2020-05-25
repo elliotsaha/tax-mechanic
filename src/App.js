@@ -87,7 +87,7 @@ export default class App extends Component {
         <Route exact path="/blog/page2/many-people-dont-file-taxes-canada" component={P5Page2} />
         <Route exact path="/blog/page2/psychology-people-dont-file-taxes" component={P6Page2} />
         <Route exact path="/blog/page2/spring-maybe-bank-account-might-still-winter-frozen-cra" component={P7Page2} />
-        <Route exact path="/blog/page2/not-filed-taxes-5-years-read" component={P8Page2} />
+        <Route exact path="/blog/page2/top-5-tips-to-increase-your-tax-refund" component={P8Page2} />
         <Route exact path="/blog/page2/did-you-get-a-bonus" component={P9Page2} />
         <Route exact path="/blog/page2/cra-tax-payment-plans" component={P10Page2} />
         </Switch>
