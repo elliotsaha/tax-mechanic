@@ -9,14 +9,14 @@ export default function P1Page2() {
             <img className="GradientS1Comp" src="/img/OurTeam/TopImg.png" width="100%" alt="OurTeam"/>
                 <div className="S1TextContainer">
                     <div className="S1Text">
-                        <span style={{whiteSpace: "normal"}}>Underground Economy In a Pandemic</span>
+                        <span style={{whiteSpace: "normal"}}>The CRA is on the warpath!!</span>
                         <div className="ButtonContainerS1">
                         <Button className="Button" text="Book For a Free Consultation Today"/>
                         </div>
                     </div>
                 </div>
             </div>
-            <BlogPages date="May 19, 2020" title="Underground Economy In A Pandemic" subtitle="By: Fraser Simpson" mainPara=
+            <BlogPages date="December 29, 2018" title="The CRA is on the warpath!!" subtitle="By: Fraser Simpson" mainPara=
             {
             <div>
             <p>
