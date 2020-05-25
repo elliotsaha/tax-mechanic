@@ -61,6 +61,42 @@
   font-size: 4vw !important;
 }
 
+.BlogBottomButtons {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+}
+
+.BlogBottomButtons .BlogBottomLink {
+  color: white !important;
+  outline: none !important;
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  white-space: nowrap;
+  text-decoration: none !important;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.BlogBottomButtons .BlogBottomLink .BlogButtonActive {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFA800), to(#D78D00));
+  background: linear-gradient(#FFA800, #D78D00);
+  padding: 0.7rem;
+  padding-right: 1.1rem;
+  padding-left: 1.1rem;
+  border-radius: 4rem;
+}
+
+.BlogBottomButtons .BlogBottomLink a {
+  text-align: center;
+  outline: none !important;
+  position: relative;
+  text-decoration: none !important;
+  color: white !important;
+  padding-bottom: 0.2rem;
+}
+
 @media (min-width: 992px) {
   .BlogMain {
     display: -ms-grid;
