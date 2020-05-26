@@ -4,7 +4,6 @@ import { Card, CardColumns } from "react-bootstrap";
 import "../../Sass/Service/Service.scss";
 import { Link } from "react-router-dom";
 import Button from "../Misc/Button/Button";
-
 const newdata = data.map((data) => {
     return (
         
@@ -20,7 +19,7 @@ const newdata = data.map((data) => {
                     {data.des}
                 </Card.Text>
 
-                <Link to={`/services/${data.link}`}className="ServiceReadMore"><a href="/#" className="stretched-link"><span >Read More
+                <Link to={`/services/${data.link}`}className="ServiceReadMore"><a href="/#" className="stretched-link"><span>Read More
                 &#8594;</span></a></Link>
                   
             </Card.Body>
@@ -41,7 +40,7 @@ export default class Service extends Component {
                     <div className="S1Text">
                         <span>Our Services.</span>
                         <div className="ButtonContainerS1">
-                        <Button className="Button" text="Book For a Free Consultation Today"/>
+                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

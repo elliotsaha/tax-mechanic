@@ -15,7 +15,7 @@ export default function BlogPage4() {
                     <div className="S1Text">
                         <span>Our Blog.</span>
                         <div className="ButtonContainerS1">
-                        <Button className="Button" text="Book For a Free Consultation Today"/>
+                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

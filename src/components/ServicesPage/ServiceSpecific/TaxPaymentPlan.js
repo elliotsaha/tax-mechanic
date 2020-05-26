@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../../Sass/Service/ServiceSpecific/ServiceSpecific.scss";
 import Button from "../../Misc/Button/Button";
+import { Link } from "react-router-dom";
 export default function TaxRepresentation() {
     return (
         <div>
@@ -11,7 +12,7 @@ export default function TaxRepresentation() {
                     <div className="S1Text">
                         <span>Tax Payment Plan.</span>
                         <div className="ButtonContainerS1">
-                        <Button className="Button" text="Book For a Free Consultation Today"/>
+                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

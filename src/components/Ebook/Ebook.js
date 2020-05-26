@@ -1,6 +1,7 @@
 import React from 'react';
 import "../../Sass/Ebook/Ebook.scss";
 import Button from "../Misc/Button/Button";
+import { Link } from "react-router-dom";
 export default function Ebook() {
     return (
         <div>
@@ -11,7 +12,7 @@ export default function Ebook() {
                     <div className="S1Text">
                         <span>E-book</span>
                         <div className="ButtonContainerS1">
-                        <Button className="Button" text="Book For a Free Consultation Today"/>
+                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

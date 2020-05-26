@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from "../Misc/Button/Button";
 import "../../Sass/Testimonials/Testimonials.scss";
+import { Link } from "react-router-dom";
 export default function Testimonials() {
     return (
         <div>
@@ -11,7 +12,7 @@ export default function Testimonials() {
                     <div className="S1Text">
                         <span>Testimonials.</span>
                         <div className="ButtonContainerS1">
-                        <Button className="Button" text="Book For a Free Consultation Today"/>
+                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

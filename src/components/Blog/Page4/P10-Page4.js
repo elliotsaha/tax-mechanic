@@ -1,6 +1,7 @@
 import React from 'react'
 import BlogPages from "../../Misc/BlogPages/BlogPages";
 import Button from "../../Misc/Button/Button";
+import { Link } from "react-router-dom";
 export default function P10Page4() {
     return (
             <div className="BlogMain">
@@ -11,7 +12,7 @@ export default function P10Page4() {
                     <div className="S1Text">
                         <span style={{whiteSpace: "normal"}}>If You Think The CRA Wouldn't Come After You, Think Again.</span>
                         <div className="ButtonContainerS1">
-                        <Button className="Button" text="Book For a Free Consultation Today"/>
+                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

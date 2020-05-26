@@ -3,7 +3,7 @@ import Button from "../Misc/Button/Button";
 import "../../Sass/OurTeam/OurTeam.scss";
 import Swiper from 'swiper';
 import 'swiper/css/swiper.min.css';
-
+import { Link } from "react-router-dom";
 
 export function Section1() {
     return (
@@ -14,7 +14,7 @@ export function Section1() {
                 <div className="S1Text">
                     <span>Our Team.</span>
                     <div className="ButtonContainerS1">
-                        <Button className="Button" text="Book For a Free Consultation Today"/>
+                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
                     </div>
                 </div>
             </div>

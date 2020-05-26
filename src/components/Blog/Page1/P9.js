@@ -1,6 +1,7 @@
 import React from 'react'
 import BlogPages from "../../Misc/BlogPages/BlogPages";
 import Button from "../../Misc/Button/Button";
+import { Link } from "react-router-dom";
 export default function P1() {
     return (
             <div className="BlogMain">
@@ -11,7 +12,7 @@ export default function P1() {
                     <div className="S1Text">
                         <span style={{whiteSpace: "normal"}}>Overcoming Stigma and Shame Around the Topic of Taxes</span>
                         <div className="ButtonContainerS1">
-                        <Button className="Button" text="Book For a Free Consultation Today"/>
+                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

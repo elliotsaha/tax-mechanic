@@ -2,6 +2,7 @@ import React from 'react';
 import "../../Sass/Homepage/HomepageSections/HomepageSections.scss";
 import Button from "../Misc/Button/Button";
 import Service from "../Misc/Service/Service";
+import { Link } from "react-router-dom";
 
 // Section 1
 export function Section1() {
@@ -13,7 +14,7 @@ export function Section1() {
                 <div className="S1Text">
                     <span>We Fix Your Tax <br /> Problems. </span>
                     <div className="ButtonContainerS1">
-                        <Button className="Button" text="Book For a Free Consultation Today"/>
+                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
                     </div>
                 </div>
             </div>
@@ -33,7 +34,7 @@ export function Section2() {
                 <p className="BradJS2">Brad J, Ontario</p>
                 <div className="ButtonContainerS2">
                     
-                        <Button text="Read More Testimonials"/>
+                    <Link to="/testimonials"><Button text="Read More Testimonials"/></Link>    
                     
                 </div>
                 
@@ -63,7 +64,7 @@ export function Section3() {
                
             <span className="BottomHeader">No matter the issue, we can help.</span>
             <div className="ButtonContainer">
-                <Button className="Button" text="Read More About Our Services"/>
+            <Link to="/services"><Button className="Button" text="Read More About Our Services"/></Link>    
             </div>
             <img src="/img/Homepage/BlueWork.jpg" className="DesktopViewImg" alt="Work"/>
             <img src="/img/Homepage/Notepad.png" className="MobileViewImg" alt="Work"/>
@@ -102,7 +103,7 @@ export function Section4() {
             </div>
             
             <div className="ButtonContainerS4">
-                <Button className="Button" text="Read More About Our Team"/>
+                <Link to="/ourteam"><Button className="Button" text="Read More About Our Team"/></Link>
             </div>
             </div>
             
