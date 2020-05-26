@@ -16,10 +16,14 @@ export default function P5Page5() {
                     </div>
                 </div>
             </div>
-            <BlogPages date=" September 9, 2017" title="A Tax Horror Story With A Happy Ending." subtitle="By: Fraser Simpson" mainPara=
+            <BlogPages date="February 28, 2017" title="What Are My Chances Of a Tax Audit" subtitle="By: Fraser Simpson" mainPara=
             {
             <div>
-            
+            <p>
+            That’s not something CRA discloses. But chances of an audit are far better than most lotteries, because targeting suspicious cases pulls in billions of extra dollars annually. CRA estimates 12.2 per cent of small businesses do not comply with tax law, and nearly half of those it targets for audits. Audits are almost a sure thing if a former spouse, employee, tenant, competitor, or customer calls the CRA’s informant lead centre (1-866-809-6841).
+            <br/><br/>
+            “People think they only have a three-year window when tax returns can be checked, but in case of fraud there is no statute-barred exemption,” says Katz. 
+            </p>
             <p>
             <span>Contact</span>
             <br/>
