@@ -66,7 +66,13 @@ import P7Page4 from "./components/Blog/Page4/P7-Page4";
 import P8Page4 from "./components/Blog/Page4/P8-Page4";
 import P9Page4 from "./components/Blog/Page4/P9-Page4";
 import P10Page4 from "./components/Blog/Page4/P10-Page4";
-
+//Page5
+import BlogPage5 from "./components/Blog/Page5/Blog-Page5";
+import P1Page5 from "./components/Blog/Page5/P1-Page5";
+import P2Page5 from "./components/Blog/Page5/P2-Page5";
+import P3Page5 from "./components/Blog/Page5/P3-Page5";
+import P4Page5 from "./components/Blog/Page5/P4-Page5";
+import P5Page5 from "./components/Blog/Page5/P5-Page5";
 export default class App extends Component {
   render() {
     return (
@@ -136,6 +142,13 @@ export default class App extends Component {
         <Route exact path="/blog/page4/40000-tax-bill-become-8000-benefit" component={P8Page4} />
         <Route exact path="/blog/page4/revenue-canadas-criminal-investigations-program" component={P9Page4} />
         <Route exact path="/blog/page4/think-cra-wouldnt-come-think" component={P10Page4} />
+        {/*Blog Page5*/}
+        <Route exact path="/blog/page5" component={BlogPage5} />
+        <Route exact path="/blog/page5/house-flippers-beware" component={P1Page5} />
+        <Route exact path="/blog/page5/underground-framer-comes-clean-with-cra-as-much-as-100k" component={P2Page5} />
+        <Route exact path="/blog/page5/when-you-get-a-notice-of-assessment-that-you-dont-want-to-get" component={P3Page5} />
+        <Route exact path="/blog/page5/whitby-resident-jailed-and-fined-for-tax-evasion" component={P4Page5} />
+        <Route exact path="/blog/page5/chances-tax-audit" component={P5Page5} />
         </Switch>
         <Footer />
       </React.Fragment>
