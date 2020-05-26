@@ -9,14 +9,14 @@ export default function P1Page5() {
             <img className="GradientS1Comp" src="/img/OurTeam/TopImg.png" width="100%" alt="OurTeam"/>
                 <div className="S1TextContainer">
                     <div className="S1Text">
-                        <span style={{whiteSpace: "normal"}}>A Tax Horror Story With A Happy Ending.</span>
+                        <span style={{whiteSpace: "normal"}}>House Flipperss Beware!</span>
                         <div className="ButtonContainerS1">
                         <Button className="Button" text="Book For a Free Consultation Today"/>
                         </div>
                     </div>
                 </div>
             </div>
-            <BlogPages date=" September 9, 2017" title="A Tax Horror Story With A Happy Ending." subtitle="By: Fraser Simpson" mainPara=
+            <BlogPages date="May 4, 2017" title="House Flipperss Beware!" subtitle="By: Fraser Simpson" mainPara=
             {
             <div>
             <p>
