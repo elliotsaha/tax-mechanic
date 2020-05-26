@@ -9,7 +9,7 @@ export default function P1Page4() {
             <img className="GradientS1Comp" src="/img/OurTeam/TopImg.png" width="100%" alt="OurTeam"/>
                 <div className="S1TextContainer">
                     <div className="S1Text">
-                        <span style={{whiteSpace: "normal"}}>Tax Tips For AirBNB Owners And Uber Drivers</span>
+                        <span style={{whiteSpace: "normal"}}>A Tax Horror Story With A Happy Ending.</span>
                         <div className="ButtonContainerS1">
                         <Button className="Button" text="Book For a Free Consultation Today"/>
                         </div>
