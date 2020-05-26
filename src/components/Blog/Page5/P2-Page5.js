@@ -9,14 +9,14 @@ export default function P2Page5() {
             <img className="GradientS1Comp" src="/img/OurTeam/TopImg.png" width="100%" alt="OurTeam"/>
                 <div className="S1TextContainer">
                     <div className="S1Text">
-                        <span style={{whiteSpace: "normal"}}>A Tax Horror Story With A Happy Ending.</span>
+                        <span style={{whiteSpace: "normal"}}>Underground Farmer Comes Clean With CRA And Saves $100K</span>
                         <div className="ButtonContainerS1">
                         <Button className="Button" text="Book For a Free Consultation Today"/>
                         </div>
                     </div>
                 </div>
             </div>
-            <BlogPages date="April 20, 2017" title="UnderGround Farmer Comes Clean With CRA And Saves $100K" subtitle="By: Fraser Simpson" mainPara=
+            <BlogPages date="April 20, 2017" title="Underground Farmer Comes Clean With CRA And Saves $100K" subtitle="By: Fraser Simpson" mainPara=
             {
             <div>
             <p>
