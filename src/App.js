@@ -54,6 +54,18 @@ import P6Page3 from "./components/Blog/Page3/P6-Page3";
 import P7Page3 from "./components/Blog/Page3/P7-Page3";
 import P8Page3 from "./components/Blog/Page3/P8-Page3";
 import P9Page3 from "./components/Blog/Page3/P9-Page3";
+//Page 4
+import BlogPage4 from "./components/Blog/Page4/Blog-Page4";
+import P1Page4 from "./components/Blog/Page4/P1-Page4";
+import P2Page4 from "./components/Blog/Page4/P2-Page4";
+import P3Page4 from "./components/Blog/Page4/P3-Page4";
+import P4Page4 from "./components/Blog/Page4/P4-Page4";
+import P5Page4 from "./components/Blog/Page4/P5-Page4";
+import P6Page4 from "./components/Blog/Page4/P6-Page4";
+import P7Page4 from "./components/Blog/Page4/P7-Page4";
+import P8Page4 from "./components/Blog/Page4/P8-Page4";
+import P9Page4 from "./components/Blog/Page4/P9-Page4";
+import P10Page4 from "./components/Blog/Page4/P10-Page4";
 
 export default class App extends Component {
   render() {
@@ -107,11 +119,23 @@ export default class App extends Component {
         <Route exact path="/blog/page3/tax-tips-airbnb-owners-uber-drivers" component={P2Page3} />
         <Route exact path="/blog/page3/voluntary-disclosure-filing-rules-change-10-days" component={P3Page3} />
         <Route exact path="/blog/page3/paypal-ordered-hand" component={P4Page3} />
-        <Route exact path="/blog/page3/cra-penalties-interest" component={P5Page2} />
+        <Route exact path="/blog/page3/cra-penalties-interest" component={P5Page3} />
         <Route exact path="/blog/page3/tax-changes-small-business-proposed-liberals-good-thing" component={P6Page3} />
         <Route exact path="/blog/page3/divorce-and-taxes" component={P7Page3} />
         <Route exact path="/blog/page3/not-filing-taxes-will-ineligible-just-credit" component={P8Page3} />
         <Route exact path="/blog/page3/new-rules-leveling-playing-liberals-taking-aim-voluntary-disclosures" component={P9Page3} />
+        {/*Blog Page 4*/}
+        <Route exact path="/blog/page4" component={BlogPage4} />
+        <Route exact path="/blog/page4/tax-horror-story-happy-ending" component={P1Page4} />
+        <Route exact path="/blog/page4/business-taxes-accounting-make-sense" component={P2Page4} />
+        <Route exact path="/blog/page4/cra-targeting-contractors-construction-industry" component={P3Page4} />
+        <Route exact path="/blog/page4/cra-aggressively-going-taxpayers-whats-next" component={P4Page4} />
+        <Route exact path="/blog/page4/new-cra-rules-regarding-voluntary-disclosure-program-start-january-1-2018" component={P5Page4} />
+        <Route exact path="/blog/page4/changes-voluntary-disclosure-program-coming-time-now-file" component={P6Page4} />
+        <Route exact path="/blog/page4/like-put-glass-water" component={P7Page4} />
+        <Route exact path="/blog/page4/40000-tax-bill-become-8000-benefit" component={P8Page4} />
+        <Route exact path="/blog/page4/revenue-canadas-criminal-investigations-program" component={P9Page4} />
+        <Route exact path="/blog/page4/think-cra-wouldnt-come-think" component={P10Page4} />
         </Switch>
         <Footer />
       </React.Fragment>
