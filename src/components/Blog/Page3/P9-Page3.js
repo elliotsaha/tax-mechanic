@@ -16,10 +16,31 @@ export default function P9Page3() {
                     </div>
                 </div>
             </div>
-            <BlogPages date="October 23, 2018" title="Lower your Tax Debt" subtitle="By: Fraser Simpson" mainPara=
+            <BlogPages date="September 11, 2017" title="New Rules About Leveling The Playing: Liberal Taking Aim At Voluntary Disclosures" subtitle="By: Fraser Simpson" mainPara=
             {
             <div>
-            
+            <p>
+            Over the past 15 years, we have seen big changes in our economy. The number of Canadian-controlled private corporations (CCPCs) has increased by 50 per cent and makes up a much bigger part of our economy than they did in the early 2000s. For professionals, the number of corporations has tripled over that same period.
+            <br/><br/>
+            The average income in Canada is estimated to be about $49,000 this year. An incorporated professional earning $300,000 with a spouse and two adult children can save about $48,000 in taxes by using just one of these loopholes. What that means is an incorporated professional could be taxed at a lower rate than a salaried nurse practitioner or police officer making much less a year.
+            <br/><br/>
+            At the heart of these proposals is the Liberals promise to the middle class, and a belief that every Canadian should feel confident that they have the same opportunity to succeed and benefit from a growing economy. That confidence starts with knowing everyone is treated fairly.
+            <br/>
+            <p>Circumstances Under Which VDP Relief May be Granted Will Change;</p>
+            <p>Currently relief from penalty and prosecution, as provided for under the VDP, may be considered if a taxpayer:</p>
+            <ul>
+            <li>failed to fulfill their obligations under the applicable act,</li>
+                <li>failed to report any taxable income they received,</li>
+                <li>claimed ineligible expenses on a tax return,</li>
+                <li>failed to remit source deductions of their employees,</li>
+                <li>failed to report an amount of GST/HST, (which may include undisclosed liabilities or improperly claimed refunds or rebates, </li>
+                <li>unpaid tax or net tax from a previous reporting period),</li>
+                <li>failed to file information returns, and</li>
+                <li>failed to report foreign sourced income that is taxable in Canada.</li>
+            </ul>
+            <p>This list will certainly shrink come January 2018</p>
+            <p>If you are considering filing an application under the Voluntary Disclosure Program, do it now BEFORE the rules change.</p>
+            </p>
             <p>
             <span>Contact</span>
             <br/>
