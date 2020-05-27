@@ -31,10 +31,10 @@ exports.submit = functions.https.onRequest((req, res) => {
         from: req.body.email,
         replyTo: req.body.email,
         to: gmailEmail,
-        subject: `${req.body.name} -- Contact`,
+        subject: `${req.body.firstname} ${req.body.lastname}-- Contact`,
         text: req.body.message,
         html: `
-        <p>Name: ${req.body.name}</p>
+        <p>Name: ${req.body.firstname} ${req.body.lastname}</p>
         <p>Email: ${req.body.email}</p>
         <p>Phone: ${req.body.phone}</p>
         <p>Message: ${req.body.message}</p>

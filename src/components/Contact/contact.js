@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Axios, db } from '../../firebase/index';
-
+import "../../Sass/Contact/contact.scss";
 const ContactForm = () => {
   const [formData, setFormData] = useState({})
 
@@ -14,7 +14,8 @@ const ContactForm = () => {
     event.preventDefault()
     sendEmail()
     setFormData({
-      name: '',
+      firstname: '',
+      lastname: '',
       email: '',
       message: '',
       phone: ''
@@ -27,7 +28,8 @@ const ContactForm = () => {
     )
       .then(res => {
         db.collection('emails').add({
-          name: formData.name,
+          firstname: formData.firstname,
+          lastname: formData.lastname,
           email: formData.email,
           message: formData.message,
           phone: formData.phone,
@@ -44,10 +46,17 @@ const ContactForm = () => {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          name="name"
-          placeholder="Name"
+          name="firstname"
+          placeholder="First Name"
           onChange={updateInput}
-          value={formData.name || ''}
+          value={formData.firstname || ''}
+        />
+        <input
+          type="text"
+          name="lastname"
+          placeholder="Last Name"
+          onChange={updateInput}
+          value={formData.lastname || ''}
         />
         <input
           type="email"
