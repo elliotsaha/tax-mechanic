@@ -73,6 +73,9 @@ import P2Page5 from "./components/Blog/Page5/P2-Page5";
 import P3Page5 from "./components/Blog/Page5/P3-Page5";
 import P4Page5 from "./components/Blog/Page5/P4-Page5";
 import P5Page5 from "./components/Blog/Page5/P5-Page5";
+//Contact 
+import contact from "./components/Contact/contact";
+
 export default class App extends Component {
   render() {
     return (
@@ -149,6 +152,8 @@ export default class App extends Component {
         <Route exact path="/blog/page5/when-you-get-a-notice-of-assessment-that-you-dont-want-to-get" component={P3Page5} />
         <Route exact path="/blog/page5/whitby-resident-jailed-and-fined-for-tax-evasion" component={P4Page5} />
         <Route exact path="/blog/page5/chances-tax-audit" component={P5Page5} />
+        {/*Contact*/}
+        <Route exact path="/contact" component={contact} />
         </Switch>
         <Footer />
       </React.Fragment>
