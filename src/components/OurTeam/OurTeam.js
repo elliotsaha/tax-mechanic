@@ -8,6 +8,7 @@ export default class OurTeam extends Component {
             <div>
                 <Section1 />
                 <Section2 />
+                <Section3 />
             </div>
         )
     }

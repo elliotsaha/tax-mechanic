@@ -83,7 +83,7 @@ export default class App extends Component {
         <Navbar />       
         <Switch>
         <Route exact path="/" component={Homepage} />
-        <Route exact path="/ourteam" component={OurTeam} />
+        <Route exact path="/ourteam/" component={OurTeam} />
         <Route exact path="/services" component={Services}/>
         <Route exact path="/ebook" component={Ebook} />
         {/*Services*/}
