@@ -6,7 +6,7 @@
 // xs Media Query
 @include media-breakpoint-up(xs) {
     .container {
-        padding-bottom: 8rem;
+        padding-bottom: 6.7rem!important;
     }
     .NavbarBackground {
         background-color: black;

@@ -42,46 +42,93 @@ const ContactForm = () => {
   }
 
   return (
-    <>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="firstname"
-          placeholder="First Name"
-          onChange={updateInput}
-          value={formData.firstname || ''}
-        />
-        <input
-          type="text"
+    <div className="background">
+    <div className="container">
+      <div className="screen">
+        <div className="screen-header">
+          <div className="screen-header-left">
+            <div className="screen-header-button shut"></div>
+            <div className="screen-header-button maximize"></div>
+            <div className="screen-header-button minimize"></div>
+          </div>
+          <div className="screen-header-right">
+            <div className="screen-header-ellipsis"></div>
+            <div className="screen-header-ellipsis"></div>
+            <div className="screen-header-ellipsis"></div>
+          </div>
+        </div>
+        <div className="screen-body">
+          <div className="screen-body-item left">
+            <div className="app-title">
+              <span>CONTACT</span>
+              <span>US</span>
+            </div>
+            <div className="app-contact">CONTACT INFO : 647-499-5693</div>
+          </div>
+        <div className="screen-body-item">
+           <div className="app-form">
+               <form onSubmit={handleSubmit}>
+                    <div className="app-form-group">
+                        <input 
+                        className="app-form-control"
+                        type="text"
+                        name="firstname"
+                        placeholder="FIRST NAME"
+                        onChange={updateInput}
+                        value={formData.firstname || ''}
+                        />
+                    </div>
+                    <div className="app-form-group">
+                        <input 
+                        className="app-form-control"
+                        type="text"
           name="lastname"
-          placeholder="Last Name"
+          placeholder="LAST NAME"
           onChange={updateInput}
           value={formData.lastname || ''}
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
+                        />
+                    </div>
+                    <div className="app-form-group">
+                        <input 
+                        className="app-form-control"
+                        type="text"
+                        name="email"
+          placeholder="EMAIL"
           onChange={updateInput}
           value={formData.email || ''}
-        />
-        <input
-          type="tel"
+                        />
+                    </div>
+                    <div className="app-form-group">
+                        <input 
+                        className="app-form-control"
+                        type="tel"
           name="phone"
-          placeholder="Phone Number"
+          placeholder="PHONE NUMBER"
           onChange={updateInput}
           value={formData.phone || ''}
-        />
-        <textarea
-          type="text"
-          name="message"
-          placeholder="Message"
-          onChange={updateInput}
-          value={formData.message || ''}
-        ></textarea>
-        <button type="submit">Submit</button>
-      </form>
-    </>
+                        />
+                    </div>
+                    <div className="app-form-group message">
+                        <textarea
+                        type="text"
+                        name="message" 
+                        className="app-form-control"
+                        placeholder="MESSAGE"
+                        onChange={updateInput}
+                        value={formData.message || ''}
+                        rows="5"
+                        ></textarea>
+                    </div>
+                    <div className="app-form-group buttons">
+                    <button type="submit" className="app-form-button">SEND</button>
+                    </div>
+               </form>
+            </div> 
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
   )
 }
 
