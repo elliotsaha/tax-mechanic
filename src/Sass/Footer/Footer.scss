@@ -4,6 +4,9 @@
 @import "../customVariables";
 @include media-breakpoint-up(xs) {
     .S6 {
+        .PrivacyPolicyLink {
+            color: white;
+        }
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
         background-color: black;
