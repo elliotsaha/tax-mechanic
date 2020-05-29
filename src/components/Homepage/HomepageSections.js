@@ -3,7 +3,6 @@ import "../../Sass/Homepage/HomepageSections/HomepageSections.scss";
 import Button from "../Misc/Button/Button";
 import Service from "../Misc/Service/Service";
 import { Link } from "react-router-dom";
-
 // Section 1
 export function Section1() {
     return (

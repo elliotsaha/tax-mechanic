@@ -8,11 +8,12 @@
         grid-template-columns: 1;
         grid-template-rows: 1;
         .GradientS1Mobile {
+            display: block!important;
             grid-column-start: 1;
             grid-row-start: 1;
         }
         .GradientS1Comp {
-            display: none;
+            display: none!important;
         }
         .S1TextContainer {
             grid-column-start: 1;
@@ -27,7 +28,7 @@
                     color: white;
                     font-family: "Montserrat", sans-serif;
                     font-weight: 600;
-                    font-size: 10vw;
+                    font-size: 10vw!important;
                     white-space: nowrap;
                 }
             }
@@ -57,19 +58,19 @@
         .BodyS2 {
             font-family: "Montserrat", sans-serif;
             text-align: center;
-            padding-top: 6vw;
-            padding-bottom: 18vw;
+            padding-top: 6vw!important;
+            padding-bottom: 18vw!important;
             .TitleS2 {
                 font-weight: 600;
-                font-size: 5vw;
+                font-size: 8vw;
             }
             .S2Para {
                 padding-top: 2vw;
-                padding-left: 20%;
-                padding-right: 20%;
+                padding-left: 5%;
+                padding-right: 5%;
                 padding-bottom: 1.2vw;
-                font-weight: 600;
-                font-size: 3vw;
+                font-weight: 450;
+                font-size: 4vw;
             }
             hr {
                 border: 0.13rem solid $DarkOrange;
@@ -77,17 +78,17 @@
                 margin-right: 38%;
             }
             .BradJS2 {
-                font-size: 3vw;
+                font-size: 4vw;
             }
         }
         .ButtonContainerS2 {
-            padding-top: 2.5vw;
+            padding-top: 4vw;
             .Button {
-                font-size: 3vw;
-                padding-left: 3vw;
-                padding-right: 3vw;
-                padding-top: 1.5vw;
-                padding-bottom: 1.5vw;
+                font-size: 4vw;
+                padding-left: 6vw;
+                padding-right: 6vw;
+                padding-top: 4vw;
+                padding-bottom: 4vw;
                 .Arrow {
                     font-size: 3vw;
                 }
@@ -130,11 +131,11 @@
             padding-left: 7vw;
     }
         .TopTagPS3 {
-            display: none;
+            display: none!important;
     }
         .TopTagSpanS3 {
             white-space: nowrap;
-            font-size: 7vw;
+            font-size: 9vw;
             font-weight: 600;
         }
     }
@@ -218,8 +219,7 @@
     }
     .Button {
         font-size: 4vw!important;
-        padding-top: 3vw;
-        padding-bottom: 3vw;
+        padding: 4vw;
         .Arrow {
             font-size: 4vw!important;
         }
@@ -319,10 +319,7 @@
         padding-top: 3rem;
         padding-bottom: 7rem;
         .Button {
-            padding-top: 2.5vw;
-            padding-bottom: 2.5vw;
-            padding-right: 4vw;
-            padding-left: 4vw;
+            padding: 4vw;
             font-size: 4vw!important;
             .Arrow {
             font-size: 4vw!important;
