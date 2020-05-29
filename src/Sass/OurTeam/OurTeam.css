@@ -649,8 +649,8 @@ html {
         grid-row-start: 6;
   }
   .OurTeamS3Container #Abdelhaliem {
-    -ms-grid-column: 1;
-        grid-column-start: 1;
+    -ms-grid-column: 2;
+        grid-column-start: 2;
     -ms-grid-row: 6;
         grid-row-start: 6;
   }
