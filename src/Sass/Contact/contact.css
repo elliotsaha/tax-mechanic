@@ -1,12 +1,8 @@
 .background {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background: -webkit-gradient(linear, left top, right top, from(#FFA800), to(#eb466b));
-  background: linear-gradient(to right, #FFA800 0%, #eb466b 100%);
+  padding-top: 5rem;
+  background-size: cover;
+  background-image: url("./BlueWork.jpg");
+  background-repeat: no-repeat;
   font-size: 12px;
 }
 

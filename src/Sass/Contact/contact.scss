@@ -4,11 +4,10 @@
 @import "../customVariables";
 
   .background {
-    display: flex;
-    min-height: 100vh;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    background: linear-gradient(to right, $LightOrange 0%, #eb466b 100%);
+    padding-top: 5rem;
+    background-size: cover;
+    background-image: url("./BlueWork.jpg");
+    background-repeat: no-repeat;
     font-size: 12px;
   }
   

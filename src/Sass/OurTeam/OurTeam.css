@@ -210,6 +210,13 @@ html {
       grid-row-start: 11;
 }
 
+.OurTeamS3Container #Abdelhaliem {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-row: 12;
+      grid-row-start: 12;
+}
+
 .OurTeamS3Container div {
   display: -ms-grid;
   display: grid;
@@ -428,6 +435,12 @@ html {
     -ms-grid-row: 11;
         grid-row-start: 11;
   }
+  .OurTeamS3Container #Abdelhaliem {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-row: 12;
+        grid-row-start: 12;
+  }
   .OurTeamS3Container div {
     display: -ms-grid;
     display: grid;
@@ -630,6 +643,12 @@ html {
         grid-row-start: 5;
   }
   .OurTeamS3Container #Jimena {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-row: 6;
+        grid-row-start: 6;
+  }
+  .OurTeamS3Container #Abdelhaliem {
     -ms-grid-column: 1;
         grid-column-start: 1;
     -ms-grid-row: 6;

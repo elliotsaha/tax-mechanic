@@ -80,6 +80,9 @@ export class Section2 extends Component{
                     <div className="swiper-slide">
                     <a href="#Vithalan"><img src="./img/OurTeam/TeamMembers/Vithalan.png" className="ImageContainerOurTeam"/></a>                    
                     </div>
+                    <div className="swiper-slide">
+                    <a href="#Abdelhaliem"><img src="./img/OurTeam/TeamMembers/Abdelhaliem.jpg" className="ImageContainerOurTeam"/></a>                    
+                    </div>
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -101,8 +104,7 @@ export class Section3 extends React.Component {
                 <span>Fraser Simpson</span>
                 <p>
                 <br/><br/>
-                Mr. Simpson has been active in income tax consulting, residential and commercial real estate development since 1985.
-                Prior to founding the Tax Mechanic, he held several senior management positions, including Director of Land development for a real estate investment company (John DiPoce Management) and Controller of Communicorp Multi Media Inc., a TSX listed company. Mr. Simpson obtained his Bachelor of Arts degree from York University, Toronto, and qualified as a Chartered Accountant in 1993. He has also completed the Canadian Securities and Partners, Directors and Senior Officers courses.
+                Fraser Simpson is a tax consultant with over thirty years of specialized experience in solving tax problems. In his decades of experience, he has seen the terrible consequences that the CRA’s incompetence and injustice has had on Canadians, from property liens to freezing bank accounts to harassment from CRA agents. It is for this reason that Fraser acts as an advocate for Canadians, vowing to stand up and represent taxpayers to solve their tax problems without abuse from the CRA. He’s been described as an effective, empathetic contact for clients, and seeks to become the leading tax advocate in Canada. Outside of work, Fraser Simpson is an avid marathon runner and guitarist. 
                 </p>
               </div>
               <span class="anchor" id="Simpson"></span>
@@ -123,7 +125,7 @@ export class Section3 extends React.Component {
                 
                 <span>David Harris</span>
                 <p>
-                <br/><br/>Mr. Harris, Fraser’s business partner, is a specialist. With an extensive background in Sales and Marketing, Construction Operations Management and a tax consultation specialist he is well versed in almost all tax-related matters. His extensive experience and organizational skills compliment the business and corporate tax solutions services offered at The Tax Mechanic. Clients appreciate his empathetic nature in resolving highly personal tax issues, helping to achieve the best outcomes possible. In his free time, Mr. Harris also is the founder of Team Unbreakable, a registered charity dedicated to promoting better youth mental health.</p>
+                <br/><br/>Mr. Harris is a partner and founder of the Tax Mechanic. With an extensive background in sales and marketing, construction operations management and tax consulting, he is well versed in almost all tax-related matters. He is a skilled and empathetic client manager, supporting clients through the process of solving their tax problems and helping them find the best solutions .Mr. Harris also is the founder of Team Unbreakable, a registered charity dedicated to promoting better youth mental health, and a marathon runner….24 completed and counting.</p>
               </div>
               <span class="anchor" id="Saha"></span>
               <div id="Saha">
@@ -143,7 +145,7 @@ export class Section3 extends React.Component {
                 
                 <span>John Knox</span>
                 <p>
-                <br/><br/>John Knox is a client turned marketing expert. After being a client of the Tax Mechanic himself, he was so impressed he decided to work there. With a long career in traditional sales and marketing roles, he has an extensive skill set in advertising and working with clients. With a solution-based approach, Mr. Knox successfully engages and builds long-term relationships with clients. In his spare time, he is a multiple Ironman Triathlon athlete and marathon runner.</p>
+                <br/><br/>John Knox is a client-turned-marketing expert. After being a client of the Tax Mechanic himself, he was so impressed with the vision and scope of the business that he decided to get involved, providing various marketing and sales services.. With a solution-based approach, Mr. Knox successfully engages and builds long-term relationships with clients, and aids in the promotion of the Tax Mechanic on social media and elsewhere. In his spare time, he is a multiple Ironman Triathlon athlete and marathon runner.</p>
             </div>
             <span class="anchor" id="Tanweer"></span>
             <div id="Tanweer">
@@ -153,7 +155,7 @@ export class Section3 extends React.Component {
                
                 <span>Moneeba Tanweer</span>
                 <p>
-                <br/><br/>Moneeba Tanweer is an artist. With the ability to talk her way into and out of the most complex situation she is not only an artist with her words but with a paintbrush too. In the past year, Ms. Tanweer has been working at the Tax Mechanic creating digital content for the company's social media outlets. To see her work, go check out the Tax Mechanic’s Instagram! In her spare time, she is a 4th year medical student. </p>
+                <br/><br/>Moneeba Tanweer is an artist- both with words, and a paintbrush. With the ability to talk her way into and out of the most complex situation, she is a valuable asset to the Tax Mechanic in resolving tax problems. In the past year, Ms. Tanweer has put her artistic talent to work, creating digital content for the company's social media outlets. </p>
             </div>
             <span class="anchor" id="Shahadat"></span>
             <div id="Shahadat">
@@ -163,7 +165,7 @@ export class Section3 extends React.Component {
                 
                 <span>Tanweer Shahadat</span>
                 <p>
-                <br/><br/>Tanweer Shahadat is a numbers expert. With over 10 years of experience in the tax business and having served as a senior accountant for over 20 years, Mr.Shahadat is an expert in all financial problems. He completed his bachelor's in engineering from NED University of Engineering and Technology, Pakistan, and later he pursued a career in accounting from the Institute of Cost and Management Accountants of Pakistan. His work experience includes working as a finance manager for over 10 years in the multinational company Cadbury Pakistan Ltd. Mr.Shahadat joined our team at Tax Mechanic in 2017 and is working currently as Head Accountant.</p>
+                <br/><br/>Tanweer Shahadat is a numbers expert. With over 10 years of experience in the tax business and having served as a senior accountant for over 20 years, Mr. Shahadat is an expert in all financial problems. He completed his bachelor's in engineering from NED University of Engineering and Technology, Pakistan, and later he pursued a career in accounting from the Institute of Cost and Management Accountants of Pakistan. His work experience includes working as a finance manager for over 10 years in the multinational company Cadbury Pakistan Ltd. Mr.Shahadat joined our team at Tax Mechanic in 2017 and is working currently as Head Accountant. </p>
             </div>
             <span class="anchor" id="Lazar"></span>
             <div id="Lazar">
@@ -173,7 +175,7 @@ export class Section3 extends React.Component {
                 
                 <span>Christa Lazar</span>
                 <p>
-                <br/><br/>Ms. Lazar is a closer. With a background in sales, marketing, strategic planning, analysis in commercial and residential real estate, as well as years of experience in office and client management, Ms. Lazar brings her management expertise to the table as an accredited liaison between clients, the CRA and the Tax Mechanic. As a Certified Negotiations Expert, her ability to analyze and problem solve are one of her greatest strengths in ensuring the successful progress of a case with every detail evaluated and passed through her - assuring a victory for our clients. </p>
+                <br/><br/>Ms. Lazar is a closer. With a background in sales, marketing, strategic planning, as well as years of experience in office and client management, Ms. Lazar brings her management expertise to the table as an accredited liaison between clients, the CRA and the Tax Mechanic. As a Certified Negotiations Expert, her ability to analyze and problem solve are one of her greatest strengths in ensuring the successful progress of a case with every detail evaluated and passed through her - assuring a victory for our clients. </p>
             </div>
             <span class="anchor" id="Jones"></span>
             <div id="Jones">
@@ -183,8 +185,7 @@ export class Section3 extends React.Component {
                 
                 <span>Meekaaeel Jones</span>
                 <p>
-                <br/><br/>Meekaaeel Jones is an entrepreneur. With specializations in video production and editing, his aim is always to bring focus and attention to the details that, while otherwise inane, could shift the paradigm of one's judgement or ideals.
-                His schooling has thus been focused on the arts and language arts, with minor study in psychology and business. Having been born in Botswana and raised between Canada and Southern Africa, Meekaaeel has grown up with the benefit of the experience that travel brings, still utilizing many of the skills he picked up before completing any formal education. Only after a 5 year mentorship under a marketing and film professional did things begin to click.</p>
+                <br/><br/>Meekaaeel Jones is an entrepreneur and video expert at the Tax Mechanic. Born in Botswana and raised between Canada and South Africa, Meekaaeel has a global perspective on design and media. He has schooling focused on the arts, including psychology and business, and spent 5 years in a mentorship to learn marketing and film. Using the skills he learned internationally he brings a unique skillset to the Tax Mechanic, with a focus on social media management, design, and film.</p>
             </div>
             <span class="anchor" id="Vithalan"></span>
             <div id="Vithalan">
@@ -194,7 +195,7 @@ export class Section3 extends React.Component {
                 
                 <span>Keval Vithalan</span>
                 <p>
-                <br/><br/>Keval Vithalan is a problem solver. With a commerce specialization in accounting and tax from Mumbai University, Mr. Vithalan is an expert in preparing  T1, T2, GST/HST and submitting it to the CRA. With extensive experience in tax and accounting in an international market, he’s well-versed in the preparation and finalization of accounts and taxes. In his spare time, he is an avid traveller and chess enthusiast.</p>
+                <br/><br/>Keval Vithalan is a problem solver. With a commerce specialization in accounting and tax from Mumbai University, Mr. Vithalan is an expert in preparing tax documents efficiently and accurately for submission to the CRA. With extensive experience in tax and accounting in an international market, he’s well-versed  in the preparation and finalization of accounts and taxes. In his spare time, he is an avid traveller and chess enthusiast.</p>
             </div>
             <span class="anchor" id="Jimena"></span>
             <div id="Jimena">
@@ -204,7 +205,17 @@ export class Section3 extends React.Component {
                
                 <span>Maria Jimena</span>
                 <p>
-                <br/><br/>Maria Jimena is a customer service expert. As the Accounting Manager and Office Manager, she knows no single approach is the right one for every client. With a background in education and business administration as well as being a law clerk, Mrs. Jimena has a unique set of management skills to handle deadlines and any stressful situation. Her passion for her work at the Tax Mechanic stems from her love of making a difference in people’s lives. In her spare time, she is a mom of three kids and adorable puppy.</p>
+                <br/><br/>Maria Jimena is a customer service expert. As the Accounting Manager and Office Manager at the Tax Mechanic, she knows no single approach is the right one for every client. With a background in education and business administration as well as being a law clerk, Mrs. Jimena has a unique set of management skills to handle deadlines and stressful situations. Her passion for her work at the Tax Mechanic stems from her love of making a difference in people’s lives. In her spare time, she is a mom of three kids and an adorable puppy!</p>
+            </div>
+            <span class="anchor" id="Abdelhaliem"></span>
+            <div id="Abdelhaliem">
+                <div>
+                     <img src="./img/OurTeam/TeamMembers/Abdelhaliem.jpg" className="ImageContainerOurTeam"/>
+                </div>
+               
+                <span>Ahmed Abdelhaliem</span>
+                <p>
+                <br/><br/>Ahmed is a financial expert with over 10 years of experience in accounting. With a business administration degree in Egypt, Ahmed continued his education in Canada for accounting and became a CPA member. He has experience in not only analyzing financial statements and problems, but also has done some work in editing and podcasting.At the Tax Mechanic, he holds many rolls as an accountant, in IT as well as videography and editing related to marketing. </p>
             </div>
           </div>
       )
