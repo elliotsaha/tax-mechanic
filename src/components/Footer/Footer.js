@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="ButtonContainer">
             <span
             >&copy;
-            2020 Tax Filing Services Toronto – Taxmechanic.ca. All Rights Reserved.</span>
+            {(new Date().getFullYear())} Tax Filing Services Toronto – Taxmechanic.ca. All Rights Reserved.</span>
         </div>
         
         </div>
