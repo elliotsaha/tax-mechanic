@@ -9,7 +9,7 @@ import ScrollToTop from 'react-router-scroll-top';
 import ScrollMemory from "react-router-scroll-memory";
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="/React">
+    <Router basename="/">
     <ScrollMemory />
       <ScrollToTop>
         <App />
