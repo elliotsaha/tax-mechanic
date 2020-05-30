@@ -8,6 +8,7 @@
 }
 
 .S1 .GradientS1Mobile {
+  display: block !important;
   -ms-grid-column: 1;
       grid-column-start: 1;
   -ms-grid-row: 1;
@@ -15,7 +16,7 @@
 }
 
 .S1 .GradientS1Comp {
-  display: none;
+  display: none !important;
 }
 
 .S1 .S1TextContainer {
@@ -25,8 +26,8 @@
       grid-row-start: 1;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 13% 34% 53%;
-      grid-template-rows: 13% 34% 53%;
+  -ms-grid-rows: 10% 34% 56% !important;
+      grid-template-rows: 10% 34% 56% !important;
 }
 
 .S1 .S1TextContainer .S1Text {
@@ -41,7 +42,7 @@
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 10vw;
+  font-size: 10vw !important;
   white-space: nowrap;
 }
 
@@ -69,22 +70,22 @@
 .S2 .BodyS2 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  padding-top: 6vw;
-  padding-bottom: 18vw;
+  padding-top: 6vw !important;
+  padding-bottom: 18vw !important;
 }
 
 .S2 .BodyS2 .TitleS2 {
   font-weight: 600;
-  font-size: 5vw;
+  font-size: 8vw;
 }
 
 .S2 .BodyS2 .S2Para {
   padding-top: 2vw;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-bottom: 1.2vw;
-  font-weight: 600;
-  font-size: 3vw;
+  font-weight: 450;
+  font-size: 4vw;
 }
 
 .S2 .BodyS2 hr {
@@ -94,19 +95,19 @@
 }
 
 .S2 .BodyS2 .BradJS2 {
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 .S2 .ButtonContainerS2 {
-  padding-top: 2.5vw;
+  padding-top: 4vw;
 }
 
 .S2 .ButtonContainerS2 .Button {
-  font-size: 3vw;
-  padding-left: 3vw;
-  padding-right: 3vw;
-  padding-top: 1.5vw;
-  padding-bottom: 1.5vw;
+  font-size: 4vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
 }
 
 .S2 .ButtonContainerS2 .Button .Arrow {
@@ -161,12 +162,12 @@
 }
 
 .S3 .S3TopText .TopTagPS3 {
-  display: none;
+  display: none !important;
 }
 
 .S3 .S3TopText .TopTagSpanS3 {
   white-space: nowrap;
-  font-size: 7vw;
+  font-size: 9vw;
   font-weight: 600;
 }
 
@@ -271,8 +272,7 @@
 
 .S3 .Button {
   font-size: 4vw !important;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
+  padding: 4vw;
 }
 
 .S3 .Button .Arrow {
@@ -409,10 +409,7 @@
 }
 
 .S4 .S4Container .ButtonContainerS4 .Button {
-  padding-top: 2.5vw;
-  padding-bottom: 2.5vw;
-  padding-right: 4vw;
-  padding-left: 4vw;
+  padding: 4vw;
   font-size: 4vw !important;
 }
 
@@ -895,6 +892,8 @@
             align-items: center;
     font-weight: 600;
     white-space: nowrap;
+    padding-top: 9rem;
+    padding-bottom: 4rem;
   }
   .S5 .VideoS5 {
     z-index: 2;
@@ -906,7 +905,7 @@
   }
   .S5 .VideoS5 iframe {
     border: 0;
-    height: 50rem;
+    height: 40rem;
     left: 0;
     top: 0;
     width: 70%;
