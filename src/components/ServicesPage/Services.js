@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import data from "./Service.json";
-import { Card, CardColumns } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import "../../Sass/Service/Service.scss";
 import { Link } from "react-router-dom";
 import Button from "../Misc/Button/Button";

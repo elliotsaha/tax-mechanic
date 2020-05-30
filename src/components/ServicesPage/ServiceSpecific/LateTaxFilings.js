@@ -19,50 +19,40 @@ export default function TaxRepresentation() {
             </div>
             <div className="text">
                 <span className="Title">
-                    When do you need a tax representative?
+                Late Filings
+
                 </span>
                 <p className="para">
-                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
+                Penalties of late tax filing for individuals and corporations are 5% of your balance owing, plus 1% of your balance owing for each full month that your return is late, to a maximum of 12 months, or the total of 17% in tax penalties. If CRA charged a late-filing tax penalty for any of the preceding three years, current late-filing penalties will be 10% of your current year balance owing, plus 2% of your current year balance owing for each full month that your return is late, to a maximum of 20 months or the total amount penalties of 50%.
+
                 </p>
                 <span className="Title">
-                    We have established relationships with the CRA.
+                Repeated failure to report income penalty
+
                 </span>
                 <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor? <br/>
-                    <div className="bullet">
-                        <span>&bull;Preparing your own taxes is time-consuming, stressful or confusing. </span><br />
-
-                        <span>&bull;You want to make sure your tax returns are accurate. </span><br/>
-
-                        <span>&bull;Your tax situation is pretty complex, perhaps because something changed this year, and you need specialized advice and tips. </span><br />
-                
-                        <span>&bull;You want detailed tax planning advice going forward.</span> <br />
-
-                        <span>&bull;You are facing a tax problem such as filing back taxes, paying off a tax debt or fighting an CRA audit.</span><br />
-
-                        <span>&bull;You’ve started a business, invested in the stock market, bought rental property, or a variety of other reasons.</span><br />
-                    </div>
+                If you fail to report an amount on your personal or business return in any year and you also failed to report an amount on your return for any of the preceding three years, you may have to pay a federal and provincial/territorial repeated failure to report income penalty. The federal and provincial/territorial tax penalties are each 10% (or combined 20%) of the amount that you failed to report for repeat failure of reporting income.
+ <br/>
+                    
                     
                 
                 </p>
                 
                 <span className="Title">
-                    Finding a Tax and Accounting Firm.
+                False statements or omissions penalty
+
                 </span>
                 <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
+                If CRA believes that you, knowingly or under circumstances amounting to gross negligence, have made a false statement or omission there could be a penalty. The tax penalties are 50% of the understatement of tax and/or the overstatement of credits related to the false statement or omission.
+
                 </p>
                 <span className="Title">
-                    Experience with a difference.
+                Late Filing Tax Penalties: Consequences of Not Filing Past-Due Returns
+
                 </span>
                 <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
-                </p>
-                <span className="Title">
-                    Representation Case Study.
-                </span>
-                <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
+                If you fail to file a tax return, the CRA has the ability to paralyze you financially by charging tax penalties and interests. CRA often use aggressive legal actions to collect the tax debts. Those legal actions Include ,income garnishment, freezing bank accounts etc.
+
                 </p>
             </div>
         </div>

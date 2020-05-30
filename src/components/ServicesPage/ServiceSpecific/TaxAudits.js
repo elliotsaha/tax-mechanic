@@ -19,50 +19,61 @@ export default function TaxRepresentation() {
             </div>
             <div className="text">
                 <span className="Title">
-                    When do you need a tax representative?
+                How CRA select files for their tax audits?
+
                 </span>
                 <p className="para">
-                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
+                     To pick potential tax audit target, CRA typically use the following four methods:<br/><br/>
+1. Computer-generated lists<br/><br/>
+Most returns are selected for tax audit review from computer-generated lists. For example, the computer system can compare selected financial information of clients engaged in similar business or occupations and generate lists of returns with tax audit potential. From these lists CRA chooses specific returns to be audited.<br/><br/>
+2. Tax Audit projects<br/><br/>
+In some cases, CRA test the compliance of a particular group of clients. If the tax audit test results indicate that there is significant non compliance within the group, CRA may audit its members on a local, regional, or national basis.<br/><br/>
+3. Leads for tax audit<br/><br/>
+Leads include information from other tax audits or investigations, as well as information from outside sources.<br/><br/>
+4. Secondary files<br/><br/>
+Sometimes CRA select files for tax audit because of their association with other previously selected files. For example, if you are in partnership with another client, and that person’s file has been selected for tax audit, it is usually more convenient to examine all the records at the same time.
+
                 </p>
                 <span className="Title">
-                    We have established relationships with the CRA.
+                How are tax audits conducted?
+
                 </span>
                 <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor? <br/>
-                    <div className="bullet">
-                        <span>&bull;Preparing your own taxes is time-consuming, stressful or confusing. </span><br />
+                If your return is selected for tax audit, an auditor will review your records at a CRA office or called office audit or at your place of business, also known as field audit. The tax audit usually includes an examination of the following documents:
+                <br/><br/>
+                –  Information on file at the CRA, such as the returns selected for tax audit, financial statements, tax audit reports from any previous tax audits, and any other information on file; and
+                <br/><br/>
+                – Your business records including your ledgers, journals, bank accounts, sales invoices, purchase vouchers, and expense accounts.
+                <br/><br/>
+                The auditor will contact you and either request that you send specific records to a CRA office, or arrange a convenient date and time to start the tax audit at your place of business. Throughout the process, the auditor can get information from any relevant people.
 
-                        <span>&bull;You want to make sure your tax returns are accurate. </span><br/>
-
-                        <span>&bull;Your tax situation is pretty complex, perhaps because something changed this year, and you need specialized advice and tips. </span><br />
+                </p>
                 
-                        <span>&bull;You want detailed tax planning advice going forward.</span> <br />
+                <span className="Title">
+                Office Audits
 
-                        <span>&bull;You are facing a tax problem such as filing back taxes, paying off a tax debt or fighting an CRA audit.</span><br />
+                </span>
+                <p className="para">
+                Notice of a Desk Audit will probably arrive by mail and may require that you identify specific items on the return that are in question. You or your professional tax representative may be required to bring certain documents such as bank records to your local tax office for examination. This allows the tax man to check for unreported income. Generally speaking, tax office audits are performed with a Tax Examiner who will request various documents and explanations of deductions.
 
-                        <span>&bull;You’ve started a business, invested in the stock market, bought rental property, or a variety of other reasons.</span><br />
-                    </div>
-                    
-                
-                </p>
-                
-                <span className="Title">
-                    Finding a Tax and Accounting Firm.
-                </span>
-                <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
                 </p>
                 <span className="Title">
-                    Experience with a difference.
+                Field Audits
+
                 </span>
                 <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
+                When a tax audit is scheduled at your home or office it should be considered a serious matter. The revenue agents handling these types of tax audits have received a great deal of training beyond the typical Tax Examiner. Naturally, during any type of audit, it can lead to audits of other tax years and other tax deductions.
+
                 </p>
                 <span className="Title">
-                    Representation Case Study.
+                Why get professional tax audit help?
+
                 </span>
                 <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
+                While the auditor’s function is to insure compliance with the law, many government auditors are often pressed for time so they don’t always perform a comprehensive review of all appropriate documents. Plus, it’s often difficult for an auditor to be objective, assuring the taxpayer of his or her rights.<br/><br/>
+Very often, auditors request information without explaining how the information will be used, plus they may not explain properly what might happen to those missing information. Because of these issues, errors can occur on the part of the auditor and as a result, an assessment with error along with potential fraud penalties costing the taxpayer significant dollars.<br/><br/>
+Our tax audit services include: CRA Income Tax Audit, GST/HST Tax Audit,  Payroll CRA Audit, Tax Audit Representation, WSIB Audit, etc.
+
                 </p>
             </div>
         </div>

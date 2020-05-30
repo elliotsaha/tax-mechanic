@@ -19,51 +19,21 @@ export default function TaxRepresentation() {
             </div>
             <div className="text">
                 <span className="Title">
-                    When do you need a tax representative?
+                Tax Payment Plan
                 </span>
                 <p className="para">
-                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
+                The CRA has many ways to retrieve the tax owing and the CRA will not hesitate to follow through on aggressive collections practices even take legal actions against you in the absence of a CRA tax payment plan. The CRA can put liens against a delinquent taxpayer’s property, they can direct sheriffs to sell taxpayers’ assets, freeze taxpayer’s bank accounts or they can garnish income. Dealing with taxes owing or negotiating a CRA tax payment plan with a  CRA collection agent can be intimidating..
+<br/><br/>
+No one will be able to get away with not paying their taxes. The Tax Mechanic has to the experience and negotiating skills necessary to help minimize the financial burden.
                 </p>
                 <span className="Title">
-                    We have established relationships with the CRA.
+                What you need to do immediately to get a CRA tax payment plan negotiated?
                 </span>
                 <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor? <br/>
-                    <div className="bullet">
-                        <span>&bull;Preparing your own taxes is time-consuming, stressful or confusing. </span><br />
+                If you have tax debts that are beyond your means and you are being pursued by CRA then it is time for you to contact the Tax Mechanic. We deal with the CRA every day, and can present your case to the CRA on its own merits, with full knowledge of all the rules and regulations.
 
-                        <span>&bull;You want to make sure your tax returns are accurate. </span><br/>
-
-                        <span>&bull;Your tax situation is pretty complex, perhaps because something changed this year, and you need specialized advice and tips. </span><br />
-                
-                        <span>&bull;You want detailed tax planning advice going forward.</span> <br />
-
-                        <span>&bull;You are facing a tax problem such as filing back taxes, paying off a tax debt or fighting an CRA audit.</span><br />
-
-                        <span>&bull;You’ve started a business, invested in the stock market, bought rental property, or a variety of other reasons.</span><br />
-                    </div>
-                    
-                
                 </p>
                 
-                <span className="Title">
-                    Finding a Tax and Accounting Firm.
-                </span>
-                <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
-                </p>
-                <span className="Title">
-                    Experience with a difference.
-                </span>
-                <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
-                </p>
-                <span className="Title">
-                    Representation Case Study.
-                </span>
-                <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
-                </p>
             </div>
         </div>
     )

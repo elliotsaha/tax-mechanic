@@ -19,50 +19,58 @@ export default function TaxRepresentation() {
             </div>
             <div className="text">
                 <span className="Title">
-                    When do you need a tax representative?
+                Tax Relief Provision
+
                 </span>
                 <p className="para">
-                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
-                </p>
-                <span className="Title">
-                    We have established relationships with the CRA.
-                </span>
-                <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor? <br/>
+                CRA normally grants taxpayers relief from penalties and interest due to extraordinary circumstances, actions of the CRA and inability to pay or financial hardship. Penalties and interest may be waived or cancelled in whole or in part where there are circumstances that are beyond the taxpayer’s control.
+The following are typical examples of situations that may merit for taxpayer’s relief:
+<br/>
                     <div className="bullet">
-                        <span>&bull;Preparing your own taxes is time-consuming, stressful or confusing. </span><br />
+                        <span>&bull;Natural or man-made disasters such as, floods, fires, hurricanes, civil disturbances
+ </span><br />
 
-                        <span>&bull;You want to make sure your tax returns are accurate. </span><br/>
+                        <span>&bull;Serious illness or accidents
+</span><br/>
 
-                        <span>&bull;Your tax situation is pretty complex, perhaps because something changed this year, and you need specialized advice and tips. </span><br />
+                        <span>&bull;Serious mental or emotional distress, such as a death in the immediate family.
+</span>
                 
-                        <span>&bull;You want detailed tax planning advice going forward.</span> <br />
-
-                        <span>&bull;You are facing a tax problem such as filing back taxes, paying off a tax debt or fighting an CRA audit.</span><br />
-
-                        <span>&bull;You’ve started a business, invested in the stock market, bought rental property, or a variety of other reasons.</span><br />
                     </div>
                     
                 
                 </p>
-                
+                <p className="para">
+                You can apply under taxpayer relief if actions of the CRA created unfair penalties and interest. CRA makes mistakes all the time! Examples of this would be processing delays, errors in the information you provided and delays in resolving objections and appeals
+
+                </p>
                 <span className="Title">
                     Finding a Tax and Accounting Firm.
                 </span>
                 <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
+                The Taxpayer relief provision enables the taxpayer to settle their account with possible financial relief. The result of successful taxpayer relief includes:
+                <div className="bullet">
+                        <span>&bull;Waive or cancel penalties and interest,
+
+ </span><br />
+
+                        <span>&bull;Extend the filing-due date for making certain elections or grant permission to amend or revoke certain elections.
+
+</span><br/>
+
+                        <span>&bull;Authorize a refund to an individual even though an income tax return is filed outside the normal filing period;
+
+</span><br />
+<span>&bull;Authorize a reassessment or re-determination for an individual beyond the three-year normal reassessment period to allow a refund or a reduction in an amount payable.
+
+
+</span>
+                
+                    </div>
                 </p>
-                <span className="Title">
-                    Experience with a difference.
-                </span>
                 <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
-                </p>
-                <span className="Title">
-                    Representation Case Study.
-                </span>
-                <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
+                You have 10 years from the end of the calendar year in which the tax year or fiscal period at issue ended to make a request to the CRA for tax payer relief.
+
                 </p>
             </div>
         </div>
