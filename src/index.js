@@ -5,11 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './Sass/Bootstrap/App.css';
 import {BrowserRouter as Router} from  'react-router-dom';
-import ScrollToTop from 'react-router-scroll-top'
-
+import ScrollToTop from 'react-router-scroll-top';
+import ScrollMemory from "react-router-scroll-memory";
 ReactDOM.render(
   <React.StrictMode>
     <Router>
+    <ScrollMemory />
       <ScrollToTop>
         <App />
       </ScrollToTop>

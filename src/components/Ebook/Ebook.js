@@ -6,8 +6,8 @@ export default function Ebook() {
     return (
         <div>
             <div className="EbookS1">
-            <img className="GradientS1Mobile" src="/img/OurTeam/TopImgMobile.png" width="100%" alt="Homepage" />
-            <img className="GradientS1Comp" src="/img/OurTeam/TopImg.png" width="100%" alt="OurTeam"/>
+            <img className="GradientS1Mobile" src="/img/Ebook/TopImageMobile.jpg" width="100%" alt="Homepage" />
+            <img className="GradientS1Comp" src="/img/Ebook/TopImage.png" width="100%" alt="OurTeam"/>
                 <div className="S1TextContainer">
                     <div className="S1Text">
                         <span>E-book</span>

@@ -34,8 +34,8 @@ export default class Service extends Component {
         return (
             <div className="Main">
                 <div className="S1">
-            <img className="GradientS1Mobile" src="/img/OurTeam/TopImgMobile.png" width="100%" alt="Homepage" />
-            <img className="GradientS1Comp" src="/img/OurTeam/TopImg.png" width="100%" alt="OurTeam"/>
+            <img className="GradientS1Mobile" src="/img/Services/TopImageMobile.jpg" width="100%" alt="Homepage" />
+            <img className="GradientS1Comp" src="/img/Services/TopImage.png" width="100%" alt="OurTeam"/>
                 <div className="S1TextContainer">
                     <div className="S1Text">
                         <span>Our Services.</span>

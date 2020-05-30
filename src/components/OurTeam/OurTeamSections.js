@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from 'react'
+import React, { Component } from 'react'
 import Button from "../Misc/Button/Button";
 import "../../Sass/OurTeam/OurTeam.scss";
 import Swiper from 'swiper';
@@ -9,8 +9,8 @@ import "../../Sass/OurTeam/OurTeam.scss";
 export function Section1() {
     return (
         <div className="S1">
-            <img className="GradientS1Mobile" src="/img/OurTeam/TopImgMobile.png" width="100%" alt="Homepage" />
-            <img className="GradientS1Comp" src="/img/OurTeam/TopImg.png" width="100%" alt="OurTeam"/>
+            <img className="GradientS1Mobile" src="/img/OurTeam/TopImageMobile.jpg" width="100%" alt="Homepage" />
+            <img className="GradientS1Comp" src="/img/OurTeam/TopImage.png" width="100%" alt="OurTeam"/>
             <div className="S1TextContainer">
                 <div className="S1Text">
                     <span>Our Team.</span>
@@ -51,37 +51,37 @@ export class Section2 extends Component{
             <div className="swiper-container">
                 <div className="swiper-wrapper">
                     <div className="swiper-slide">
-                   <a href="#Fraser"><img src="./img/OurTeam/TeamMembers/Fraser-Simpson.png" className="ImageContainerOurTeam"/>            </a>         
+                   <a href="#Fraser"><img src="./img/OurTeam/TeamMembers/Fraser-Simpson.png" className="ImageContainerOurTeam" alt="Team Member"/>            </a>         
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Simpson"><img src="./img/OurTeam/TeamMembers/Simpson.png" className="ImageContainerOurTeam"/></a>       
+                    <a href="#Simpson"><img src="./img/OurTeam/TeamMembers/Simpson.png" className="ImageContainerOurTeam" alt="Team Member"/></a>       
                     </div>
                     <div className="swiper-slide">
-                     <a href="#Harris"><img src="./img/OurTeam/TeamMembers/Harris.png" className="ImageContainerOurTeam"/></a>      
+                     <a href="#Harris"><img src="./img/OurTeam/TeamMembers/Harris.png" className="ImageContainerOurTeam" alt="Team Member"/></a>      
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Saha"><img src="./img/OurTeam/TeamMembers/Saha.png" className="ImageContainerOurTeam"/></a>                    
+                    <a href="#Saha"><img src="./img/OurTeam/TeamMembers/Saha.png" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Knox"><img src="./img/OurTeam/TeamMembers/Knox.png" className="ImageContainerOurTeam"/></a>                    
+                    <a href="#Knox"><img src="./img/OurTeam/TeamMembers/Knox.png" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Tanweer"><img src="./img/OurTeam/TeamMembers/Tanweer.png" className="ImageContainerOurTeam"/></a>                    
+                    <a href="#Tanweer"><img src="./img/OurTeam/TeamMembers/Tanweer.png" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Shahadat"><img src="./img/OurTeam/TeamMembers/Shahadat.png" className="ImageContainerOurTeam"/></a>        
+                    <a href="#Shahadat"><img src="./img/OurTeam/TeamMembers/Shahadat.png" className="ImageContainerOurTeam" alt="Team Member"/></a>        
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Lazar"><img src="./img/OurTeam/TeamMembers/Lazar.png" className="ImageContainerOurTeam"/></a>                    
+                    <a href="#Lazar"><img src="./img/OurTeam/TeamMembers/Lazar.png" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Jones"><img src="./img/OurTeam/TeamMembers/Jones.png" className="ImageContainerOurTeam"/></a>                    
+                    <a href="#Jones"><img src="./img/OurTeam/TeamMembers/Jones.png" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Vithalan"><img src="./img/OurTeam/TeamMembers/Vithalan.png" className="ImageContainerOurTeam"/></a>                    
+                    <a href="#Vithalan"><img src="./img/OurTeam/TeamMembers/Vithalan.png" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Abdelhaliem"><img src="./img/OurTeam/TeamMembers/Abdelhaliem.jpg" className="ImageContainerOurTeam"/></a>                    
+                    <a href="#Abdelhaliem"><img src="./img/OurTeam/TeamMembers/Abdelhaliem.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                 </div>
                 <div class="swiper-button-next"></div>
@@ -99,7 +99,7 @@ export class Section3 extends React.Component {
               <span class="anchor" id="Fraser"></span>
               <div id="Fraser">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Fraser-Simpson.png" className="ImageContainerOurTeam"/>
+                    <img src="./img/OurTeam/TeamMembers/Fraser-Simpson.png" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 <span>Fraser Simpson</span>
                 <p>
@@ -110,7 +110,7 @@ export class Section3 extends React.Component {
               <span class="anchor" id="Simpson"></span>
               <div id="Simpson">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Simpson.png" className="ImageContainerOurTeam"/>
+                    <img src="./img/OurTeam/TeamMembers/Simpson.png" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 
                 <span>Stephanie Simpson</span>
@@ -120,7 +120,7 @@ export class Section3 extends React.Component {
               <span class="anchor" id="Harris"></span>
               <div id="Harris">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Harris.png" className="ImageContainerOurTeam"/>
+                    <img src="./img/OurTeam/TeamMembers/Harris.png" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 
                 <span>David Harris</span>
@@ -130,7 +130,7 @@ export class Section3 extends React.Component {
               <span class="anchor" id="Saha"></span>
               <div id="Saha">
                   <div>
-                       <img src="./img/OurTeam/TeamMembers/Saha.png" className="ImageContainerOurTeam"/>
+                       <img src="./img/OurTeam/TeamMembers/Saha.png" className="ImageContainerOurTeam" alt="Team Member"/>
                   </div>
                  
                   <span>Turni Saha</span>
@@ -140,7 +140,7 @@ export class Section3 extends React.Component {
               <span class="anchor" id="Knox"></span>
             <div id="Knox">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Knox.png" className="ImageContainerOurTeam"/>
+                    <img src="./img/OurTeam/TeamMembers/Knox.png" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 
                 <span>John Knox</span>
@@ -150,7 +150,7 @@ export class Section3 extends React.Component {
             <span class="anchor" id="Tanweer"></span>
             <div id="Tanweer">
                 <div>
-                     <img src="./img/OurTeam/TeamMembers/Tanweer.png" className="ImageContainerOurTeam"/>
+                     <img src="./img/OurTeam/TeamMembers/Tanweer.png" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                
                 <span>Moneeba Tanweer</span>
@@ -160,7 +160,7 @@ export class Section3 extends React.Component {
             <span class="anchor" id="Shahadat"></span>
             <div id="Shahadat">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Shahadat.png" className="ImageContainerOurTeam"/>
+                    <img src="./img/OurTeam/TeamMembers/Shahadat.png" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 
                 <span>Tanweer Shahadat</span>
@@ -170,7 +170,7 @@ export class Section3 extends React.Component {
             <span class="anchor" id="Lazar"></span>
             <div id="Lazar">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Lazar.png" className="ImageContainerOurTeam"/>
+                    <img src="./img/OurTeam/TeamMembers/Lazar.png" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 
                 <span>Christa Lazar</span>
@@ -180,7 +180,7 @@ export class Section3 extends React.Component {
             <span class="anchor" id="Jones"></span>
             <div id="Jones">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Jones.png" className="ImageContainerOurTeam"/>
+                    <img src="./img/OurTeam/TeamMembers/Jones.png" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 
                 <span>Meekaaeel Jones</span>
@@ -190,7 +190,7 @@ export class Section3 extends React.Component {
             <span class="anchor" id="Vithalan"></span>
             <div id="Vithalan">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Vithalan.png" className="ImageContainerOurTeam"/>
+                    <img src="./img/OurTeam/TeamMembers/Vithalan.png" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 
                 <span>Keval Vithalan</span>
@@ -200,7 +200,7 @@ export class Section3 extends React.Component {
             <span class="anchor" id="Jimena"></span>
             <div id="Jimena">
                 <div>
-                     <img src="./img/OurTeam/TeamMembers/Jimena.png" className="ImageContainerOurTeam"/>
+                     <img src="./img/OurTeam/TeamMembers/Jimena.png" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                
                 <span>Maria Jimena</span>
@@ -210,7 +210,7 @@ export class Section3 extends React.Component {
             <span class="anchor" id="Abdelhaliem"></span>
             <div id="Abdelhaliem">
                 <div>
-                     <img src="./img/OurTeam/TeamMembers/Abdelhaliem.jpg" className="ImageContainerOurTeam"/>
+                     <img src="./img/OurTeam/TeamMembers/Abdelhaliem.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                
                 <span>Ahmed Abdelhaliem</span>

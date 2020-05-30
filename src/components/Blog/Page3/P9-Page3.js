@@ -6,8 +6,8 @@ export default function P9Page3() {
     return (
             <div className="BlogMain">
                 <div className="BlogS1">
-            <img className="GradientS1Mobile" src="/img/OurTeam/TopImgMobile.png" width="100%" alt="Homepage" />
-            <img className="GradientS1Comp" src="/img/OurTeam/TopImg.png" width="100%" alt="OurTeam"/>
+                <img className="GradientS1Mobile" src="/img/Blog/TopImageMobile.jpg" width="100%" alt="Homepage" />
+            <img className="GradientS1Comp" src="/img/Blog/TopImage.png" width="100%" alt="OurTeam"/>
                 <div className="S1TextContainer">
                     <div className="S1Text">
                         <span style={{whiteSpace: "normal"}}>Lower your Tax Debt</span>

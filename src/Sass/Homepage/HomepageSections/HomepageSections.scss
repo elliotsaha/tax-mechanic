@@ -19,7 +19,7 @@
             grid-column-start: 1;
             grid-row-start: 1;
             display: grid;
-            grid-template-rows: 13% 34% 53%;
+            grid-template-rows: 10% 34% 56%!important;
             .S1Text {
                 grid-column-start: 1;
                 grid-row-start: 2;
@@ -743,6 +743,8 @@
         align-items: center;
         font-weight: 600;
         white-space: nowrap;
+        padding-top: 9rem;
+        padding-bottom: 4rem;
     }
     .VideoS5 {
         z-index: 2;
@@ -751,7 +753,7 @@
         text-align: center;
          iframe {
             border: 0;
-            height: 50rem;
+            height: 40rem;
             left: 0;
             top: 0;
             width: 70%;

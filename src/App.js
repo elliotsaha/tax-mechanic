@@ -81,7 +81,8 @@ export default class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />       
+        
+          <Navbar />       
         <Switch>
         <Route exact path="/" component={Homepage} />
         <Route exact path="/ourteam/" component={OurTeam} />
@@ -159,6 +160,8 @@ export default class App extends Component {
         <Route exact path="/privacypolicy" component={PrivacyPolicy} />
         </Switch>
         <Footer />
+        
+        
       </React.Fragment>
     )
   }

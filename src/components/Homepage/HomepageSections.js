@@ -122,7 +122,7 @@ export function Section5() {
                 <div className="VideoS5" align="middle">
                     <iframe title="Who We Are." src="https://www.youtube.com/embed/qDBXEAvlItE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
             </div>
-            <img className="MobileImgViewS5" src="/img/Homepage/MobileVideoSection.png" alt="Plants"/>
+            <img className="MobileImgViewS5" src="/img/Homepage/MobileVideoSection.jpg" alt="Plants"/>
             <img className="PCImgViewS5" src="/img/Homepage/City.jpg" alt="City"/>
         </div>
     )
