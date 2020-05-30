@@ -3,7 +3,9 @@ import "../../Sass/Homepage/HomepageSections/HomepageSections.scss";
 import Button from "../Misc/Button/Button";
 import Service from "../Misc/Service/Service";
 import { Link } from "react-router-dom";
+
 // Section 1
+
 export function Section1() {
     return (
         <div className="S1">
@@ -11,7 +13,13 @@ export function Section1() {
             <img className="GradientS1Comp" src="/img/Homepage/TopWork.jpg" width="100%" alt="Homepage"/>
             <div className="S1TextContainer">
                 <div className="S1Text">
-                    <span>We Fix Your Tax <br /> Problems. </span>
+                
+                    <span>       
+                    We Fix Your Tax 
+                    <br />         
+                     Problems.      
+                    </span>
+                    
                     <div className="ButtonContainerS1">
                         <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
                     </div>

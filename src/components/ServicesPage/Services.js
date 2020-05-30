@@ -46,8 +46,8 @@ export default class Service extends Component {
                 </div>
             </div>
             <div className="Columns">
-                <CardColumns className="card-count px-5">
-                        {newdata}</CardColumns>
+                <div className="card-count px-5 ServiceContainer">
+                        {newdata}</div>
             </div>      
             
             </div>
