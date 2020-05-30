@@ -1,5 +1,6 @@
 {
   "name": "taxmechanic",
+  "homepage": "https://frosty-mahavira-31df44.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
