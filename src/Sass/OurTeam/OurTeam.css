@@ -28,8 +28,8 @@ html {
 }
 
 .swiper-slide img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   border: 5px solid #D78D00;
 }
@@ -104,7 +104,8 @@ html {
   scroll-behavior: smooth;
   padding: 3rem;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 8rem !important;
+  z-index: 4 !important;
 }
 
 .S2 .Slide {
@@ -112,6 +113,7 @@ html {
 }
 
 .OurTeamS3Container {
+  padding-top: 5rem !important;
   scroll-behavior: smooth;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(50%, #848484), to(#000000));
   background-image: linear-gradient(to bottom, #000000 0%, #848484 50%, #000000 100%);
@@ -281,8 +283,8 @@ html {
     /*this one holds the dimension of each slides and can be changed according to the user wish*/
   }
   .swiper-slide img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     border: 5px solid #D78D00;
   }
@@ -345,12 +347,14 @@ html {
   .S2 {
     padding: 3rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 8rem !important;
+    z-index: 4 !important;
   }
   .S2 .Slide {
     text-align: center;
   }
   .OurTeamS3Container {
+    padding-top: 5rem !important;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(50%, #848484), to(#000000));
     background-image: linear-gradient(to bottom, #000000 0%, #848484 50%, #000000 100%);
     color: white;
@@ -493,8 +497,8 @@ html {
     /*this one holds the dimension of each slides and can be changed according to the user wish*/
   }
   .swiper-slide img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     border: 5px solid #D78D00;
   }
@@ -555,14 +559,16 @@ html {
     font-size: 1.3rem !important;
   }
   .S2 {
+    z-index: 4 !important;
     padding: 3rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 8rem !important;
   }
   .S2 .Slide {
     text-align: center;
   }
   .OurTeamS3Container {
+    padding-top: 3rem !important;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(50%, #848484), to(#000000));
     background-image: linear-gradient(to bottom, #000000 0%, #848484 50%, #000000 100%);
     color: white;

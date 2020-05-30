@@ -30,8 +30,8 @@
         text-align: center;
         /*this one holds the dimension of each slides and can be changed according to the user wish*/
         img {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         border-radius: 100%;
         border: 5px solid $DarkOrange;
         }
@@ -88,12 +88,14 @@
         scroll-behavior: smooth;
         padding: 3rem;
         padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding-bottom: 8rem!important;
         .Slide {
             text-align: center;
         }
+        z-index: 4!important;
     }
     .OurTeamS3Container {
+        padding-top: 5rem!important;
         scroll-behavior: smooth;
         background-image: -webkit-gradient(
             linear,
@@ -221,8 +223,8 @@
         text-align: center;
         /*this one holds the dimension of each slides and can be changed according to the user wish*/
         img {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         border-radius: 100%;
         border: 5px solid $DarkOrange;
         }
@@ -277,12 +279,14 @@
     .S2 {
         padding: 3rem;
         padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding-bottom: 8rem!important;
         .Slide {
             text-align: center;
         }
+        z-index: 4!important;
     }
     .OurTeamS3Container {
+        padding-top: 5rem!important;
         background-image: -webkit-gradient(
             linear,
             left top,
@@ -400,8 +404,8 @@
         text-align: center;
         /*this one holds the dimension of each slides and can be changed according to the user wish*/
         img {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         border-radius: 100%;
         border: 5px solid $DarkOrange;
         }
@@ -454,14 +458,16 @@
         
     }
     .S2 {
+        z-index: 4!important;
         padding: 3rem;
         padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding-bottom: 8rem!important;
         .Slide {
             text-align: center;
         }
     }
     .OurTeamS3Container {
+        padding-top: 3rem!important;
         background-image: -webkit-gradient(
             linear,
             left top,
