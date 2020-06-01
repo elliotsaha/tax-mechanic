@@ -36,7 +36,7 @@ export default function Navbar() {
             
             <div className="MobileServices"><ReactBootStrap.Nav.Link><Link to="/services" className="NavbarLink"><a href="/#"className="DropdownElements">SERVICES</a></Link></ReactBootStrap.Nav.Link></div>
             <ReactBootStrap.Nav.Link><Link to="/blog" className="NavbarLink"><a href="/#">BLOG</a></Link></ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link><Link to="/ebook" className="NavbarLink"><a href="/#">E-BOOK</a></Link></ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link><Link to="/e-book" className="NavbarLink"><a href="/#">E-BOOK</a></Link></ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link><Link to="/testimonials" className="NavbarLink"><a href="/#">TESTIMONIALS</a></Link></ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link><Link to="/contact" className="NavbarLink"><a href="/#">CONTACT US</a></Link></ReactBootStrap.Nav.Link>
             </ReactBootStrap.Nav>

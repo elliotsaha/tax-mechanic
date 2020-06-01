@@ -87,7 +87,7 @@ export default class App extends Component {
         <Route exact path="/" component={Homepage} />
         <Route exact path="/ourteam/" component={OurTeam} />
         <Route exact path="/services" component={Services}/>
-        <Route exact path="/ebook" component={Ebook} />
+        <Route exact path="/e-book" component={Ebook} />
         {/*Services*/}
         <Route exact path="/services/cra-tax-reduction" component={CRATaxReduction}/>
         <Route exact path="/services/late-tax-filings" component={LateTaxFilings} />
