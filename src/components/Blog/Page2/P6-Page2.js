@@ -12,7 +12,7 @@ export default function P6Page2() {
                     <div className="S1Text">
                         <span style={{whiteSpace: "normal"}}>The Psychology of Why People don’t File Their Taxes</span>
                         <div className="ButtonContainerS1">
-                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
+                        <Link to="/contact"><Button className="Button" text="Book a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ export default function P1() {
                     <div className="S1Text">
                         <span style={{whiteSpace: "normal"}}>Are you behind several years on filing your taxes?</span>
                         <div className="ButtonContainerS1">
-                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
+                        <Link to="/contact"><Button className="Button" text="Book a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ export default function P2Page3() {
                     <div className="S1Text">
                         <span style={{whiteSpace: "normal"}}>Tax Tips For AirBNB Owners And Uber Drivers</span>
                         <div className="ButtonContainerS1">
-                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
+                        <Link to="/contact"><Button className="Button" text="Book a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

@@ -21,7 +21,7 @@ export function Section1() {
                     </span>
                     
                     <div className="ButtonContainerS1">
-                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
+                        <Link to="/contact"><Button className="Button" text="Book a Free Consultation Today"/></Link>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@ export function Section4() {
             <div className="DavidText">
                 <span className="DavidTitle">David Harris</span>
                 <div className="DavidParaContainer">
-                    <p className="DavidPara">Parter at the Tax Mechanic, Harris’s extensive background in sales, marketing and construction operations management are an asset at The Tax Mechanic.</p>
+                    <p className="DavidPara">Partner at the Tax Mechanic, Harris’s extensive background in sales, marketing and construction operations management are an asset at The Tax Mechanic.</p>
                 </div>
                 
             </div>

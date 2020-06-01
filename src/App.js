@@ -77,6 +77,7 @@ import P5Page5 from "./components/Blog/Page5/P5-Page5";
 import contact from "./components/Contact/contact";
 //PrivacyPolicy
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
+
 export default class App extends Component {
   render() {
     return (

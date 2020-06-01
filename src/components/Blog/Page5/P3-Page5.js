@@ -12,7 +12,7 @@ export default function P3Page5() {
                     <div className="S1Text">
                         <span style={{whiteSpace: "normal"}}>When You Get A Notice Of Assessment That You Don't Want To Get.</span>
                         <div className="ButtonContainerS1">
-                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
+                        <Link to="/contact"><Button className="Button" text="Book a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

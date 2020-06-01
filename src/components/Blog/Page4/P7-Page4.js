@@ -12,7 +12,7 @@ export default function P7Page4() {
                     <div className="S1Text">
                         <span style={{whiteSpace: "normal"}}>Would You Like To Put That Glass Of Water Down?</span>
                         <div className="ButtonContainerS1">
-                        <Link to="/contact"><Button className="Button" text="Book For a Free Consultation Today"/></Link>
+                        <Link to="/contact"><Button className="Button" text="Book a Free Consultation Today"/></Link>
                         </div>
                     </div>
                 </div>

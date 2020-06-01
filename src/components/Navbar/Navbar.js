@@ -1,21 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import * as ReactBootStrap from 'react-bootstrap';
 import "../../Sass/Navbar/Navbar.css";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
-    return (
+        const [expanded, setExpanded] = useState(false);
+        return (
         <ReactBootStrap.Container>
-        <ReactBootStrap.Navbar className="NavbarBackground" expand="xl" fixed="top">
+        <ReactBootStrap.Navbar className="NavbarBackground" expand="xl" fixed="top" expanded={expanded}>
         <ReactBootStrap.Navbar.Brand><Link to="/" className="Logo"><img src="/img/TaxMechanicLogo.png" width="200px" alt="Tax Mechanic Logo"/></Link></ReactBootStrap.Navbar.Brand>
         
-        <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
         <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
             <ReactBootStrap.Nav className="mr-auto">
                     
                 
-            <ReactBootStrap.Nav.Link><Link to="/" className="NavbarLink"><a href="/#">HOME</a></Link></ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link><Link to="/ourteam" className="NavbarLink"><a href="/#">OUR TEAM</a></Link></ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link><Link onClick={() => setTimeout(() => {setExpanded(false)}, 150)} to="/" className="NavbarLink"><a href="/#">HOME</a></Link></ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link><Link onClick={() => setTimeout(() => {setExpanded(false)}, 150)} to="/ourteam" className="NavbarLink"><a href="/#">OUR TEAM</a></Link></ReactBootStrap.Nav.Link>
             <div className="DefaultServices">
                 <ReactBootStrap.NavDropdown title={<div className="NavbarLink"><a href="/#">SERVICES</a></div>}  id="basic-nav-dropdown">
                 <div className="DropdownChildren">
@@ -34,11 +35,11 @@ export default function Navbar() {
             </ReactBootStrap.NavDropdown>
             </div> 
             
-            <div className="MobileServices"><ReactBootStrap.Nav.Link><Link to="/services" className="NavbarLink"><a href="/#"className="DropdownElements">SERVICES</a></Link></ReactBootStrap.Nav.Link></div>
-            <ReactBootStrap.Nav.Link><Link to="/blog" className="NavbarLink"><a href="/#">BLOG</a></Link></ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link><Link to="/e-book" className="NavbarLink"><a href="/#">E-BOOK</a></Link></ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link><Link to="/testimonials" className="NavbarLink"><a href="/#">TESTIMONIALS</a></Link></ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link><Link to="/contact" className="NavbarLink"><a href="/#">CONTACT US</a></Link></ReactBootStrap.Nav.Link>
+            <div className="MobileServices"><ReactBootStrap.Nav.Link><Link onClick={() => setTimeout(() => {setExpanded(false)}, 150)} to="/services" className="NavbarLink"><a href="/#"className="DropdownElements">SERVICES</a></Link></ReactBootStrap.Nav.Link></div>
+            <ReactBootStrap.Nav.Link><Link onClick={() => setTimeout(() => {setExpanded(false)}, 150)} to="/blog" className="NavbarLink"><a href="/#">BLOG</a></Link></ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link><Link onClick={() => setTimeout(() => {setExpanded(false)}, 150)} to="/e-book" className="NavbarLink"><a href="/#">E-BOOK</a></Link></ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link><Link onClick={() => setTimeout(() => {setExpanded(false)}, 150)} to="/testimonials" className="NavbarLink"><a href="/#">TESTIMONIALS</a></Link></ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link><Link onClick={() => setTimeout(() => {setExpanded(false)}, 150)} to="/contact" className="NavbarLink"><a href="/#">CONTACT US</a></Link></ReactBootStrap.Nav.Link>
             </ReactBootStrap.Nav>
             
         </ReactBootStrap.Navbar.Collapse>
@@ -47,4 +48,5 @@ export default function Navbar() {
         
         
     )
+     
 }
