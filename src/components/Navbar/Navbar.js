@@ -8,7 +8,7 @@ export default function Navbar() {
         return (
         <ReactBootStrap.Container>
         <ReactBootStrap.Navbar className="NavbarBackground" expand="xl" fixed="top" expanded={expanded}>
-        <ReactBootStrap.Navbar.Brand><Link to="/" className="Logo"><img src="/img/TaxMechanicLogo.png" width="200px" alt="Tax Mechanic Logo"/></Link></ReactBootStrap.Navbar.Brand>
+        <ReactBootStrap.Navbar.Brand><Link onClick={() => setTimeout(() => {setExpanded(false)}, 150)} to="/" className="Logo"><img src="/img/TaxMechanicLogo.png" width="200px" alt="Tax Mechanic Logo"/></Link></ReactBootStrap.Navbar.Brand>
         
         <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
         <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
