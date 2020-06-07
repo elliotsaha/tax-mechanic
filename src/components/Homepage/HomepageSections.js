@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export function Section1() {
     return (
         <div className="S1">
-            <img className="GradientS1Mobile" src="/img/Homepage/MobileTopWork.png" width="100%" alt="Homepage" />
+            <img className="GradientS1Mobile" src="/img/Homepage/MobileTopWork.jpg" width="100%" alt="Homepage" />
             <img className="GradientS1Comp" src="/img/Homepage/TopWork.jpg" width="100%" alt="Homepage"/>
             <div className="S1TextContainer">
                 <div className="S1Text">
@@ -74,7 +74,7 @@ export function Section3() {
             <Link to="/services"><Button className="Button" text="Read More About Our Services"/></Link>    
             </div>
             <img src="/img/Homepage/BlueWork.jpg" className="DesktopViewImg" alt="Work"/>
-            <img src="/img/Homepage/Notepad.png" className="MobileViewImg" alt="Work"/>
+            <img src="/img/Homepage/Notepad.jpg" className="MobileViewImg" alt="Work"/>
         </div>
     )
 }
@@ -87,11 +87,11 @@ export function Section4() {
                 <span className="TitleS4">Our Team.</span>
 
             <div className="Img1S4Container">
-                <img className="Img1S4" src="/img/Homepage/Fraser.png" alt="Fraser -- Team"/>
+                <img className="Img1S4" src="/img/Homepage/Fraser.jpg" alt="Fraser -- Team"/>
             </div>
             
             <div className="Img2S4Container">
-                <img className="Img2S4" src="/img/Homepage/David.png" alt="David -- Team" />
+                <img className="Img2S4" src="/img/Homepage/David.jpg" alt="David -- Team" />
             </div>
             
             <div className="FraserText">

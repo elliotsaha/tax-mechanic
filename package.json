@@ -21,15 +21,18 @@
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-google-login": "^5.1.20",
+    "react-lazyload": "^2.6.7",
     "react-router-dom": "^5.2.0",
     "react-router-scroll-memory": "^2.0.6",
     "react-router-scroll-top": "^0.2.1",
     "react-scripts": "^3.4.1",
+    "source-map-explorer": "^2.4.2",
     "styled-components": "^5.1.0",
     "swiper": "^5.4.0",
     "verge": "^1.10.2"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

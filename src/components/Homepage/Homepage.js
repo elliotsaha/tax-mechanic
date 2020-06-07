@@ -14,4 +14,3 @@ export default class Homepage extends Component {
         )
     }
 }
-
