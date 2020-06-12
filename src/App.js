@@ -86,79 +86,79 @@ export default class App extends Component {
           <Navbar />       
         <Switch>
         <Route exact path="/" component={Homepage} />
-        <Route exact path="/ourteam/" component={OurTeam} />
-        <Route exact path="/services" component={Services}/>
-        <Route exact path="/e-book" component={Ebook} />
+        <Route path="/ourteam/" component={OurTeam} />
+        <Route exact path="/services/" component={Services}/>
+        <Route path="/e-book/" component={Ebook} />
         {/*Services*/}
-        <Route exact path="/services/cra-tax-reduction" component={CRATaxReduction}/>
-        <Route exact path="/services/late-tax-filings" component={LateTaxFilings} />
-        <Route exact path="/services/ongoing-support" component={OngoingSupport} />
-        <Route exact path="/services/tax-appeal" component={TaxAppeal} />
-        <Route exact path="/services/tax-audits" component={TaxAudits} />
-        <Route exact path="/services/tax-payment-plan" component={TaxPaymentPlan} />
-        <Route exact path="/services/tax-relief" component={TaxRelief} />
-        <Route exact path="/services/tax-representation" component={TaxRepresentation} />
-        <Route exact path="/services/voluntary-disclosure" component={VoluntaryDisclosure} />
-        <Route exact path="/testimonials" component={Testimonials} />
+        <Route path="/services/cra-tax-reduction/" component={CRATaxReduction}/>
+        <Route path="/services/late-tax-filings/" component={LateTaxFilings} />
+        <Route path="/services/ongoing-support/" component={OngoingSupport} />
+        <Route path="/services/tax-appeal/" component={TaxAppeal} />
+        <Route path="/services/tax-audits/" component={TaxAudits} />
+        <Route path="/services/tax-payment-plan/" component={TaxPaymentPlan} />
+        <Route path="/services/tax-relief/" component={TaxRelief} />
+        <Route path="/services/tax-representation/" component={TaxRepresentation} />
+        <Route path="/services/voluntary-disclosure/" component={VoluntaryDisclosure} />
+        <Route path="/testimonials/" component={Testimonials} />
 
         {/*Blog*/}
-        <Route exact path="/blog" component={Blog} />
-        <Route exact path="/blog/page1/underground-economy-in-a-pandemic" component={P1} />
-        <Route exact path="/blog/page1/are-you-behind-several-years-on-filing-your-taxes" component={P2} />
-        <Route exact path="/blog/page1/in-hiding-haunted-or-hunted-tax-terror-and-how-to-fix-it" component={P3} />
-        <Route exact path="/blog/page1/the-tax-gap-and-how-it-relates-to-you" component={P4} />
-        <Route exact path="/blog/page1/everything-you-need-to-know-about-canadas-carbon-tax" component={P5} />
-        <Route exact path="/blog/page1/who-to-hire-to-solve-your-tax-problem-3-things-to-look-for" component={P6} />
-        <Route exact path="/blog/page1/is-your-late-tax-problem-eating-you-away" component={P7} />
-        <Route exact path="/blog/page1/top-5-tips-to-increase-your-tax-refund" component={P8} />
-        <Route exact path="/blog/page1/overcoming-stigma-and-shame-around-the-topic-of-taxes" component={P9} />
-        <Route exact path="/blog/page1/artificial-intelligence-and-the-cra" component={P10} />
+        <Route exact path="/blog/" component={Blog} />
+        <Route path="/blog/page1/underground-economy-in-a-pandemic/" component={P1} />
+        <Route path="/blog/page1/are-you-behind-several-years-on-filing-your-taxes/" component={P2} />
+        <Route path="/blog/page1/in-hiding-haunted-or-hunted-tax-terror-and-how-to-fix-it/" component={P3} />
+        <Route path="/blog/page1/the-tax-gap-and-how-it-relates-to-you/" component={P4} />
+        <Route path="/blog/page1/everything-you-need-to-know-about-canadas-carbon-tax/" component={P5} />
+        <Route path="/blog/page1/who-to-hire-to-solve-your-tax-problem-3-things-to-look-for/" component={P6} />
+        <Route path="/blog/page1/is-your-late-tax-problem-eating-you-away/" component={P7} />
+        <Route path="/blog/page1/top-5-tips-to-increase-your-tax-refund/" component={P8} />
+        <Route path="/blog/page1/overcoming-stigma-and-shame-around-the-topic-of-taxes/" component={P9} />
+        <Route path="/blog/page1/artificial-intelligence-and-the-cra/" component={P10} />
         {/*Blog Page 2*/}
-        <Route exact path="/blog/page2" component={BlogPage2} />
-        <Route exact path="/blog/page2/the-cra-is-on-the-warpath" component={P1Page2} />
-        <Route exact path="/blog/page2/lower-tax-debt" component={P2Page2} />
-        <Route exact path="/blog/page2/tax-article-help-change-life-better" component={P3Page2} />
-        <Route exact path="/blog/page2/inside-cra-part-one" component={P4Page2} />
-        <Route exact path="/blog/page2/many-people-dont-file-taxes-canada" component={P5Page2} />
-        <Route exact path="/blog/page2/psychology-people-dont-file-taxes" component={P6Page2} />
-        <Route exact path="/blog/page2/spring-maybe-bank-account-might-still-winter-frozen-cra" component={P7Page2} />
-        <Route exact path="/blog/page2/top-5-tips-to-increase-your-tax-refund" component={P8Page2} />
-        <Route exact path="/blog/page2/did-you-get-a-bonus" component={P9Page2} />
-        <Route exact path="/blog/page2/cra-tax-payment-plans" component={P10Page2} />
+        <Route exact path="/blog/page2/" component={BlogPage2} />
+        <Route path="/blog/page2/the-cra-is-on-the-warpath/" component={P1Page2} />
+        <Route path="/blog/page2/lower-tax-debt/" component={P2Page2} />
+        <Route path="/blog/page2/tax-article-help-change-life-better/" component={P3Page2} />
+        <Route path="/blog/page2/inside-cra-part-one/" component={P4Page2} />
+        <Route path="/blog/page2/many-people-dont-file-taxes-canada/" component={P5Page2} />
+        <Route path="/blog/page2/psychology-people-dont-file-taxes/" component={P6Page2} />
+        <Route path="/blog/page2/spring-maybe-bank-account-might-still-winter-frozen-cra/" component={P7Page2} />
+        <Route path="/blog/page2/top-5-tips-to-increase-your-tax-refund/" component={P8Page2} />
+        <Route path="/blog/page2/did-you-get-a-bonus/" component={P9Page2} />
+        <Route path="/blog/page2/cra-tax-payment-plans/" component={P10Page2} />
         {/*Blog Page 3*/}
         <Route exact path="/blog/page3" component={BlogPage3} />
-        <Route exact path="/blog/page3/hidden-meaning-behind-cra-notice-assessment" component={P1Page3} />
-        <Route exact path="/blog/page3/tax-tips-airbnb-owners-uber-drivers" component={P2Page3} />
-        <Route exact path="/blog/page3/voluntary-disclosure-filing-rules-change-10-days" component={P3Page3} />
-        <Route exact path="/blog/page3/paypal-ordered-hand" component={P4Page3} />
-        <Route exact path="/blog/page3/cra-penalties-interest" component={P5Page3} />
-        <Route exact path="/blog/page3/tax-changes-small-business-proposed-liberals-good-thing" component={P6Page3} />
-        <Route exact path="/blog/page3/divorce-and-taxes" component={P7Page3} />
-        <Route exact path="/blog/page3/not-filing-taxes-will-ineligible-just-credit" component={P8Page3} />
-        <Route exact path="/blog/page3/new-rules-leveling-playing-liberals-taking-aim-voluntary-disclosures" component={P9Page3} />
+        <Route path="/blog/page3/hidden-meaning-behind-cra-notice-assessment/" component={P1Page3} />
+        <Route path="/blog/page3/tax-tips-airbnb-owners-uber-drivers/" component={P2Page3} />
+        <Route path="/blog/page3/voluntary-disclosure-filing-rules-change-10-days/" component={P3Page3} />
+        <Route path="/blog/page3/paypal-ordered-hand/" component={P4Page3} />
+        <Route path="/blog/page3/cra-penalties-interest/" component={P5Page3} />
+        <Route path="/blog/page3/tax-changes-small-business-proposed-liberals-good-thing/" component={P6Page3} />
+        <Route path="/blog/page3/divorce-and-taxes/" component={P7Page3} />
+        <Route path="/blog/page3/not-filing-taxes-will-ineligible-just-credit/" component={P8Page3} />
+        <Route path="/blog/page3/new-rules-leveling-playing-liberals-taking-aim-voluntary-disclosures/" component={P9Page3} />
         {/*Blog Page 4*/}
-        <Route exact path="/blog/page4" component={BlogPage4} />
-        <Route exact path="/blog/page4/tax-horror-story-happy-ending" component={P1Page4} />
-        <Route exact path="/blog/page4/business-taxes-accounting-make-sense" component={P2Page4} />
-        <Route exact path="/blog/page4/cra-targeting-contractors-construction-industry" component={P3Page4} />
-        <Route exact path="/blog/page4/cra-aggressively-going-taxpayers-whats-next" component={P4Page4} />
-        <Route exact path="/blog/page4/new-cra-rules-regarding-voluntary-disclosure-program-start-january-1-2018" component={P5Page4} />
-        <Route exact path="/blog/page4/changes-voluntary-disclosure-program-coming-time-now-file" component={P6Page4} />
-        <Route exact path="/blog/page4/like-put-glass-water" component={P7Page4} />
-        <Route exact path="/blog/page4/40000-tax-bill-become-8000-benefit" component={P8Page4} />
-        <Route exact path="/blog/page4/revenue-canadas-criminal-investigations-program" component={P9Page4} />
-        <Route exact path="/blog/page4/think-cra-wouldnt-come-think" component={P10Page4} />
+        <Route exact path="/blog/page4/" component={BlogPage4} />
+        <Route path="/blog/page4/tax-horror-story-happy-ending/" component={P1Page4} />
+        <Route path="/blog/page4/ss-taxes-accounting-make-sense/" component={P2Page4} />
+        <Route path="/blog/page4/cra-targeting-contractors-construction-industry/" component={P3Page4} />
+        <Route path="/blog/page4/cra-aggressively-going-taxpayers-whats-next/" component={P4Page4} />
+        <Route path="/blog/page4/new-cra-rules-regarding-voluntary-disclosure-program-start-january-1-2018/" component={P5Page4} />
+        <Route path="/blog/page4/changes-voluntary-disclosure-program-coming-time-now-file/" component={P6Page4} />
+        <Route path="/blog/page4/like-put-glass-water/" component={P7Page4} />
+        <Route path="/blog/page4/40000-tax-bill-become-8000-benefit/" component={P8Page4} />
+        <Route path="/blog/page4/revenue-canadas-criminal-investigations-program/" component={P9Page4} />
+        <Route path="/blog/page4/think-cra-wouldnt-come-think/" component={P10Page4} />
         {/*Blog Page5*/}
-        <Route exact path="/blog/page5" component={BlogPage5} />
-        <Route exact path="/blog/page5/house-flippers-beware" component={P1Page5} />
-        <Route exact path="/blog/page5/underground-framer-comes-clean-with-cra-as-much-as-100k" component={P2Page5} />
-        <Route exact path="/blog/page5/when-you-get-a-notice-of-assessment-that-you-dont-want-to-get" component={P3Page5} />
-        <Route exact path="/blog/page5/whitby-resident-jailed-and-fined-for-tax-evasion" component={P4Page5} />
-        <Route exact path="/blog/page5/chances-tax-audit" component={P5Page5} />
+        <Route exact path="/blog/page5/" component={BlogPage5} />
+        <Route path="/blog/page5/house-flippers-beware/" component={P1Page5} />
+        <Route path="/blog/page5/underground-framer-comes-clean-with-cra-as-much-as-100k/" component={P2Page5} />
+        <Route path="/blog/page5/when-you-get-a-notice-of-assessment-that-you-dont-want-to-get/" component={P3Page5} />
+        <Route path="/blog/page5/whitby-resident-jailed-and-fined-for-tax-evasion/" component={P4Page5} />
+        <Route path="/blog/page5/chances-tax-audit" component={P5Page5} />
         {/*Contact*/}
-        <Route exact path="/contact" component={contact} />
+        <Route path="/contact/" component={contact} />
         {/*Privacy Policy*/}
-        <Route exact path="/privacypolicy" component={PrivacyPolicy} />
+        <Route path="/privacypolicy/" component={PrivacyPolicy} />
         </Switch>
         <Footer />
         
