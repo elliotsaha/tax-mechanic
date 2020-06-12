@@ -51,37 +51,40 @@ export class Section2 extends Component{
             <div className="swiper-container">
                 <div className="swiper-wrapper">
                     <div className="swiper-slide">
-                   <a href="#Fraser"><img src="./img/OurTeam/TeamMembers/Fraser-Simpson.jpg" className="ImageContainerOurTeam" alt="Team Member"/>            </a>         
+                   <a href="#Fraser"><img src="/img/OurTeam/TeamMembers/Fraser-Simpson.jpg" className="ImageContainerOurTeam" alt="Team Member"/>            </a>         
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Simpson"><img src="./img/OurTeam/TeamMembers/Simpson.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>       
+                    <a href="#Simpson"><img src="/img/OurTeam/TeamMembers/Simpson.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>       
                     </div>
                     <div className="swiper-slide">
-                     <a href="#Harris"><img src="./img/OurTeam/TeamMembers/Harris.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>      
+                     <a href="#Harris"><img src="/img/OurTeam/TeamMembers/Harris.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>      
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Saha"><img src="./img/OurTeam/TeamMembers/Saha.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
+                    <a href="#Saha"><img src="/img/OurTeam/TeamMembers/Saha.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Knox"><img src="./img/OurTeam/TeamMembers/Knox.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
+                    <a href="#Knox"><img src="/img/OurTeam/TeamMembers/Knox.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Tanweer"><img src="./img/OurTeam/TeamMembers/Tanweer.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
+                    <a href="#Tanweer"><img src="/img/OurTeam/TeamMembers/Tanweer.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Shahadat"><img src="./img/OurTeam/TeamMembers/Shahadat.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>        
+                    <a href="#Shahadat"><img src="/img/OurTeam/TeamMembers/Shahadat.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>        
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Lazar"><img src="./img/OurTeam/TeamMembers/Lazar.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
+                    <a href="#Lazar"><img src="/img/OurTeam/TeamMembers/Lazar.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Jones"><img src="./img/OurTeam/TeamMembers/Jones.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
+                    <a href="#Jones"><img src="/img/OurTeam/TeamMembers/Jones.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Vithalan"><img src="./img/OurTeam/TeamMembers/Vithalan.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
+                    <a href="#Vithalan"><img src="/img/OurTeam/TeamMembers/Vithalan.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
-                    <a href="#Abdelhaliem"><img src="./img/OurTeam/TeamMembers/Abdelhaliem.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
+                    <a href="#Abdelhaliem"><img src="/img/OurTeam/TeamMembers/Abdelhaliem.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
+                    </div>
+                    <div className="swiper-slide">
+                    <a href="#Jimena"><img src="/img/OurTeam/TeamMembers/Jimena.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                 </div>
                 <div class="swiper-button-next"></div>
@@ -99,7 +102,7 @@ export class Section3 extends React.Component {
               <span class="anchor" id="Fraser"></span>
               <div id="Fraser">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Fraser-Simpson.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                    <img src="/img/OurTeam/TeamMembers/Fraser-Simpson.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 <span>Fraser Simpson</span>
                 <p>
@@ -107,30 +110,61 @@ export class Section3 extends React.Component {
                 Fraser Simpson is a tax consultant with over thirty years of specialized experience in solving tax problems. In his decades of experience, he has seen the terrible consequences that the CRA’s incompetence and injustice has had on Canadians, from property liens to freezing bank accounts to harassment from CRA agents. It is for this reason that Fraser acts as an advocate for Canadians, vowing to stand up and represent taxpayers to solve their tax problems without abuse from the CRA. He’s been described as an effective, empathetic contact for clients, and seeks to become the leading tax advocate in Canada. Outside of work, Fraser Simpson is an avid marathon runner and guitarist. 
                 </p>
               </div>
-              <span class="anchor" id="Simpson"></span>
-              <div id="Simpson">
-                <div>
-                    <img src="./img/OurTeam/TeamMembers/Simpson.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
-                </div>
-                
-                <span>Stephanie Simpson</span>
-                <p>
-                <br/><br/>Stephanie Simpson is a research professional studying Political Science and Economics at the University of British Columbia. With a background in academic research and digital marketing, she does consulting and contract work for the Tax Mechanic, specializing in research and copywriting. She is passionate about providing interesting and quality content to Tax Mechanic prospects and clients, and seeks to educate Canadians on their options when it comes to taxes and business.</p>
-              </div>
               <span class="anchor" id="Harris"></span>
               <div id="Harris">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Harris.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                    <img src="/img/OurTeam/TeamMembers/Harris.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 
                 <span>David Harris</span>
                 <p>
                 <br/><br/>Mr. Harris is a partner and founder of the Tax Mechanic. With an extensive background in sales and marketing, construction operations management and tax consulting, he is well versed in almost all tax-related matters. He is a skilled and empathetic client manager, supporting clients through the process of solving their tax problems and helping them find the best solutions .Mr. Harris also is the founder of Team Unbreakable, a registered charity dedicated to promoting better youth mental health, and a marathon runner….24 completed and counting.</p>
               </div>
+              <span class="anchor" id="Jimena"></span>
+            <div id="Jimena">
+                <div>
+                     <img src="/img/OurTeam/TeamMembers/Jimena.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                </div>
+               
+                <span>Maria Jimena</span>
+                <p>
+                <br/><br/>Maria Jimena is a customer service expert. As the Accounting Manager and Office Manager at the Tax Mechanic, she knows no single approach is the right one for every client. With a background in education and business administration as well as being a law clerk, Mrs. Jimena has a unique set of management skills to handle deadlines and stressful situations. Her passion for her work at the Tax Mechanic stems from her love of making a difference in people’s lives. In her spare time, she is a mom of three kids and an adorable puppy!</p>
+              </div>
+              <span class="anchor" id="Shahadat"></span>
+            <div id="Shahadat">
+                <div>
+                    <img src="/img/OurTeam/TeamMembers/Shahadat.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                </div>
+                
+                <span>Tanweer Shahadat</span>
+                <p>
+                <br/><br/>Tanweer Shahadat is a numbers expert. With over 10 years of experience in the tax business and having served as a senior accountant for over 20 years, Mr. Shahadat is an expert in all financial problems. He completed his bachelor's in engineering from NED University of Engineering and Technology, Pakistan, and later he pursued a career in accounting from the Institute of Cost and Management Accountants of Pakistan. His work experience includes working as a finance manager for over 10 years in the multinational company Cadbury Pakistan Ltd. Mr.Shahadat joined our team at Tax Mechanic in 2017 and is working currently as Head Accountant. </p>
+              </div>
+              <span class="anchor" id="Lazar"></span>
+            <div id="Lazar">
+                <div>
+                    <img src="/img/OurTeam/TeamMembers/Lazar.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                </div>
+                
+                <span>Christa Lazar</span>
+                <p>
+                <br/><br/>Ms. Lazar is a closer. With a background in sales, marketing, strategic planning, as well as years of experience in office and client management, Ms. Lazar brings her management expertise to the table as an accredited liaison between clients, the CRA and the Tax Mechanic. As a Certified Negotiations Expert, her ability to analyze and problem solve are one of her greatest strengths in ensuring the successful progress of a case with every detail evaluated and passed through her - assuring a victory for our clients. </p>
+            </div>
+              <span class="anchor" id="Simpson"></span>
+              <div id="Simpson">
+                <div>
+                    <img src="/img/OurTeam/TeamMembers/Simpson.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                </div>
+                
+                <span>Stephanie Simpson</span>
+                <p>
+                <br/><br/>Stephanie Simpson is a research professional studying Political Science and Economics at the University of British Columbia. With a background in academic research and digital marketing, she does consulting and contract work for the Tax Mechanic, specializing in research and copywriting. She is passionate about providing interesting and quality content to Tax Mechanic prospects and clients, and seeks to educate Canadians on their options when it comes to taxes and business.</p>
+              </div>
+              
               <span class="anchor" id="Saha"></span>
               <div id="Saha">
                   <div>
-                       <img src="./img/OurTeam/TeamMembers/Saha.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                       <img src="/img/OurTeam/TeamMembers/Saha.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
                   </div>
                  
                   <span>Turni Saha</span>
@@ -140,7 +174,7 @@ export class Section3 extends React.Component {
               <span class="anchor" id="Knox"></span>
             <div id="Knox">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Knox.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                    <img src="/img/OurTeam/TeamMembers/Knox.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 
                 <span>John Knox</span>
@@ -150,37 +184,19 @@ export class Section3 extends React.Component {
             <span class="anchor" id="Tanweer"></span>
             <div id="Tanweer">
                 <div>
-                     <img src="./img/OurTeam/TeamMembers/Tanweer.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                     <img src="/img/OurTeam/TeamMembers/Tanweer.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                
                 <span>Moneeba Tanweer</span>
                 <p>
                 <br/><br/>Moneeba Tanweer is an artist- both with words, and a paintbrush. With the ability to talk her way into and out of the most complex situation, she is a valuable asset to the Tax Mechanic in resolving tax problems. In the past year, Ms. Tanweer has put her artistic talent to work, creating digital content for the company's social media outlets. </p>
             </div>
-            <span class="anchor" id="Shahadat"></span>
-            <div id="Shahadat">
-                <div>
-                    <img src="./img/OurTeam/TeamMembers/Shahadat.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
-                </div>
-                
-                <span>Tanweer Shahadat</span>
-                <p>
-                <br/><br/>Tanweer Shahadat is a numbers expert. With over 10 years of experience in the tax business and having served as a senior accountant for over 20 years, Mr. Shahadat is an expert in all financial problems. He completed his bachelor's in engineering from NED University of Engineering and Technology, Pakistan, and later he pursued a career in accounting from the Institute of Cost and Management Accountants of Pakistan. His work experience includes working as a finance manager for over 10 years in the multinational company Cadbury Pakistan Ltd. Mr.Shahadat joined our team at Tax Mechanic in 2017 and is working currently as Head Accountant. </p>
-            </div>
-            <span class="anchor" id="Lazar"></span>
-            <div id="Lazar">
-                <div>
-                    <img src="./img/OurTeam/TeamMembers/Lazar.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
-                </div>
-                
-                <span>Christa Lazar</span>
-                <p>
-                <br/><br/>Ms. Lazar is a closer. With a background in sales, marketing, strategic planning, as well as years of experience in office and client management, Ms. Lazar brings her management expertise to the table as an accredited liaison between clients, the CRA and the Tax Mechanic. As a Certified Negotiations Expert, her ability to analyze and problem solve are one of her greatest strengths in ensuring the successful progress of a case with every detail evaluated and passed through her - assuring a victory for our clients. </p>
-            </div>
+            
+            
             <span class="anchor" id="Jones"></span>
             <div id="Jones">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Jones.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                    <img src="/img/OurTeam/TeamMembers/Jones.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 
                 <span>Meekaaeel Jones</span>
@@ -190,27 +206,18 @@ export class Section3 extends React.Component {
             <span class="anchor" id="Vithalan"></span>
             <div id="Vithalan">
                 <div>
-                    <img src="./img/OurTeam/TeamMembers/Vithalan.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                    <img src="/img/OurTeam/TeamMembers/Vithalan.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                 
                 <span>Keval Vithalan</span>
                 <p>
                 <br/><br/>Keval Vithalan is a problem solver. With a commerce specialization in accounting and tax from Mumbai University, Mr. Vithalan is an expert in preparing tax documents efficiently and accurately for submission to the CRA. With extensive experience in tax and accounting in an international market, he’s well-versed  in the preparation and finalization of accounts and taxes. In his spare time, he is an avid traveller and chess enthusiast.</p>
             </div>
-            <span class="anchor" id="Jimena"></span>
-            <div id="Jimena">
-                <div>
-                     <img src="./img/OurTeam/TeamMembers/Jimena.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
-                </div>
-               
-                <span>Maria Jimena</span>
-                <p>
-                <br/><br/>Maria Jimena is a customer service expert. As the Accounting Manager and Office Manager at the Tax Mechanic, she knows no single approach is the right one for every client. With a background in education and business administration as well as being a law clerk, Mrs. Jimena has a unique set of management skills to handle deadlines and stressful situations. Her passion for her work at the Tax Mechanic stems from her love of making a difference in people’s lives. In her spare time, she is a mom of three kids and an adorable puppy!</p>
-            </div>
+            
             <span class="anchor" id="Abdelhaliem"></span>
             <div id="Abdelhaliem">
                 <div>
-                     <img src="./img/OurTeam/TeamMembers/Abdelhaliem.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
+                     <img src="/img/OurTeam/TeamMembers/Abdelhaliem.jpg" className="ImageContainerOurTeam" alt="Team Member"/>
                 </div>
                
                 <span>Ahmed Abdelhaliem</span>

@@ -158,7 +158,8 @@ export default class App extends Component {
         {/*Contact*/}
         <Route path="/contact/" component={contact} />
         {/*Privacy Policy*/}
-        <Route path="/privacypolicy/" component={PrivacyPolicy} />
+          <Route path="/privacy-policy/" component={PrivacyPolicy} />
+          <Route path="/privacypolicy/" component={PrivacyPolicy} />
         </Switch>
         <Footer />
         

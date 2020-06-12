@@ -13,7 +13,7 @@ export default function Footer() {
             </p>
 
             <p className="p2S6">TEL: 647-499-5693 <br/>
-            FAX: 647-494-0169<br/><Link to="/privacypolicy" className="PrivacyPolicyLink">Privacy Policy</Link></p>
+            FAX: 647-494-0169<br/><Link to="/privacy-policy/" className="PrivacyPolicyLink">Privacy Policy</Link></p>
 
             <p className="p3S6">Email: <br/>david@taxmechanic.ca
             </p>
