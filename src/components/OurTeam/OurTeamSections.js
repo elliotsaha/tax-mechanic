@@ -60,6 +60,9 @@ export class Section2 extends Component{
                      <a href="#Harris"><img src="/img/OurTeam/TeamMembers/Harris.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>      
                     </div>
                     <div className="swiper-slide">
+                    <a href="#Jimena"><img src="/img/OurTeam/TeamMembers/Jimena.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
+                    </div>
+                    <div className="swiper-slide">
                     <a href="#Saha"><img src="/img/OurTeam/TeamMembers/Saha.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
                     <div className="swiper-slide">
@@ -83,9 +86,7 @@ export class Section2 extends Component{
                     <div className="swiper-slide">
                     <a href="#Abdelhaliem"><img src="/img/OurTeam/TeamMembers/Abdelhaliem.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
                     </div>
-                    <div className="swiper-slide">
-                    <a href="#Jimena"><img src="/img/OurTeam/TeamMembers/Jimena.jpg" className="ImageContainerOurTeam" alt="Team Member"/></a>                    
-                    </div>
+                    
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>

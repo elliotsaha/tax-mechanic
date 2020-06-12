@@ -160,6 +160,7 @@ export default class App extends Component {
         {/*Privacy Policy*/}
           <Route path="/privacy-policy/" component={PrivacyPolicy} />
           <Route path="/privacypolicy/" component={PrivacyPolicy} />
+          <Route path="/our-team/" component={OurTeam} />
         </Switch>
         <Footer />
         
