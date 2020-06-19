@@ -2,6 +2,7 @@ import firebase from "firebase/app";
 import 'firebase/auth'
 import 'firebase/database'
 import 'firebase/firestore';
+import 'firebase/analytics';
 import Axios from "axios"
 
 let config = {
@@ -16,7 +17,7 @@ let config = {
   };
 
 firebase.initializeApp(config);
-
+firebase.analytics();
 const db = firebase.firestore()
 
 export { Axios, db }

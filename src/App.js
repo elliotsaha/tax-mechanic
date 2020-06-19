@@ -77,7 +77,6 @@ import P5Page5 from "./components/Blog/Page5/P5-Page5";
 import contact from "./components/Contact/contact";
 //PrivacyPolicy
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
-
 export default class App extends Component {
   render() {
     return (
@@ -156,7 +155,8 @@ export default class App extends Component {
         <Route path="/blog/page5/whitby-resident-jailed-and-fined-for-tax-evasion/" component={P4Page5} />
         <Route path="/blog/page5/chances-tax-audit" component={P5Page5} />
         {/*Contact*/}
-        <Route path="/contact/" component={contact} />
+          <Route path="/contact/" component={contact} />
+          <Route path="/contact-us/" component={contact} />
         {/*Privacy Policy*/}
           <Route path="/privacy-policy/" component={PrivacyPolicy} />
           <Route path="/privacypolicy/" component={PrivacyPolicy} />

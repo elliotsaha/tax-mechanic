@@ -1,6 +1,17 @@
 import React, { useState } from 'react'
 import { Axios, db } from '../../firebase/index';
 import "../../Sass/Contact/contact.scss";
+import ReactPixel from 'react-facebook-pixel';
+
+const advancedMatching = { em: 'some@email.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
+const options = {
+  autoConfig: true, // set pixel's autoConfig
+  debug: false, // enable logs
+};
+ReactPixel.init('803163109840564', advancedMatching, options);
+
+ReactPixel.pageView(); // For tracking page view
+
 const ContactForm = () => {
   const [formData, setFormData] = useState({})
 
