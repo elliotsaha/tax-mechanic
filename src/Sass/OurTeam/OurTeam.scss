@@ -133,17 +133,21 @@
             grid-column-start: 1;
             grid-row-start: 3;
         }
+        #Shahadat {
+            grid-column-start: 1;
+            grid-row-start: 4;
+        }
         #Lazar {
             grid-column-start: 1;
             grid-row-start: 5;
         }
         #Vithalan {
             grid-column-start: 1;
-            grid-row-start: 7;
-        }
-        #Shahadat {
-            grid-column-start: 1;
             grid-row-start: 6;
+        }
+        #Abdelhaliem {
+            grid-column-start: 1;
+            grid-row-start: 7;
         }
         #Simpson {
             grid-column-start: 1;
@@ -170,10 +174,7 @@
         }
         
         
-        #Abdelhaliem {
-            grid-column-start: 1;
-            grid-row-start: 13;
-        }
+        
         div {
             display: grid;
             grid-template-columns: 1;
@@ -328,17 +329,21 @@
             grid-column-start: 1;
             grid-row-start: 3;
         }
+        #Shahadat {
+            grid-column-start: 1;
+            grid-row-start: 4;
+        }
         #Lazar {
             grid-column-start: 1;
             grid-row-start: 5;
         }
         #Vithalan {
             grid-column-start: 1;
-            grid-row-start: 7;
-        }
-        #Shahadat {
-            grid-column-start: 1;
             grid-row-start: 6;
+        }
+        #Abdelhaliem {
+            grid-column-start: 1;
+            grid-row-start: 7;
         }
         #Simpson {
             grid-column-start: 1;
@@ -362,12 +367,6 @@
         #Jones {
             grid-column-start: 1;
             grid-row-start: 12;
-        }
-        
-        
-        #Abdelhaliem {
-            grid-column-start: 1;
-            grid-row-start: 13;
         }
         div {
             display: grid;
@@ -503,7 +502,7 @@
             margin-top: -200px; /*same height as header*/
             visibility: hidden;
           }
-        #Fraser {
+          #Fraser {
             grid-column-start: 1;
             grid-row-start: 1;
         }
@@ -515,45 +514,43 @@
             grid-column-start: 1;
             grid-row-start: 2;
         }
-        #Lazar {
+        #Shahadat {
             grid-column-start: 2;
             grid-row-start: 2;
         }
-        #Vithalan {
+        #Lazar {
             grid-column-start: 1;
             grid-row-start: 3;
         }
-        #Shahadat {
+        #Vithalan {
             grid-column-start: 2;
             grid-row-start: 3;
         }
-        #Simpson {
+        #Abdelhaliem {
             grid-column-start: 1;
+            grid-row-start: 4;
+        }
+        #Simpson {
+            grid-column-start: 2;
             grid-row-start: 4;
         }
         
         #Saha {
-            grid-column-start: 2;
-            grid-row-start: 4;
-        }
-        #Knox {
             grid-column-start: 1;
             grid-row-start: 5;
         }
-        #Tanweer {
+        #Knox {
             grid-column-start: 2;
             grid-row-start: 5;
+        }
+        #Tanweer {
+            grid-column-start: 1;
+            grid-row-start: 6;
         }
         
         
         #Jones {
             grid-column-start: 2;
-            grid-row-start: 6;
-        }
-        
-        
-        #Abdelhaliem {
-            grid-column-start: 1;
             grid-row-start: 6;
         }
         div {
