@@ -3,6 +3,9 @@ import { Axios, db } from '../../firebase/index';
 import "../../Sass/Contact/contact.scss";
 import ReactPixel from 'react-facebook-pixel';
 
+const setAlert = () => {
+  alert('\t\t\t Thank You. \t\t\t\n\nWe Take Pleasure Helping Those In Need.')
+}
 const advancedMatching = { em: 'some@email.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
 const options = {
   autoConfig: true, // set pixel's autoConfig
@@ -24,6 +27,7 @@ const ContactForm = () => {
   const handleSubmit = event => {
     event.preventDefault()
     sendEmail()
+    setAlert()
     setFormData({
       firstname: '',
       lastname: '',
