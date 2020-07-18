@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import './Sass/Bootstrap/App.css';
 import {BrowserRouter as Router} from  'react-router-dom';
 import ScrollMemory from "react-router-scroll-memory";
+
 ReactDOM.render(
   <React.StrictMode>
     <Router basename="/">
