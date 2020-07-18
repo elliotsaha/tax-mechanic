@@ -4,7 +4,7 @@ import "../../Sass/Contact/contact.scss";
 import ReactPixel from 'react-facebook-pixel';
 
 const setAlert = () => {
-  alert('\t\t\t Thank You. \t\t\t\n\nWe Take Pleasure Helping Those In Need.')
+  alert('\t\t\t Thank You. \t\t\t\n\nWe will get back to you as soon as possible!')
 }
 const advancedMatching = { em: 'some@email.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
 const options = {
