@@ -97,7 +97,7 @@ export function Section4() {
             <div className="FraserText">
                 <span className="FraserTitle">Fraser Simpson</span>
                 <div className="FraserParaContainer">
-                    <p className="FraserPara">Founder of Tax Mechanic, Simpson has been active in income tax consulting, residential and commercial real estate development since 1985.</p>
+                    <p className="FraserPara">Partner at the Tax Mechanic, Simpson has been active in income tax consulting, residential and commercial real estate development since 1985.</p>
                 </div>  
             </div>
             

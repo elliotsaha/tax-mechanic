@@ -60,12 +60,6 @@ The litigation of a federal tax dispute is commenced by a taxpayer filing a Noti
 In General Procedure cases, discoveries are held by exchange of documents followed by the examination, without a judge, of one witness on behalf of each party. One or both parties may then apply for a hearing date where witnesses will be examined and cross-examined before a judge and documents formally entered into evidence. Trials in the Tax Court of Canada typically take one day or less, particularly where the parties have agreed on all or substantially all of the facts, but in more complex and contentious cases the trial may not be completed for several weeks or even months.
 
                 </p>
-                <span className="Title">
-                    Representation Case Study.
-                </span>
-                <p className="para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus cum sit illo veritatis culpa nam, mollitia pariatur in magnam numquam illum consequuntur facere fugiat? Repudiandae eos tenetur debitis similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, facilis explicabo! Reprehenderit, aliquam sint. Corrupti delectus molestiae hic illo deserunt? Iste delectus similique quia at reiciendis corrupti expedita eaque laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt impedit, obcaecati reprehenderit similique veniam sequi provident, qui minus accusamus totam voluptatum ab ducimus accusantium nesciunt quos officia fugiat distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quas cumque nulla eligendi architecto, in animi laboriosam soluta impedit cum doloribus explicabo illum. A ullam ad temporibus vel odit dolor?
-                </p>
             </div>
         </div>
     )
