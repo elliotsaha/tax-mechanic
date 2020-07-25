@@ -119,7 +119,7 @@ export class Section3 extends React.Component {
                 
                 <span>David Harris</span>
                 <p>
-                <br/><br/>Mr. Harris is a partner and founder of the Tax Mechanic. With an extensive background in sales and marketing, construction operations management and tax consulting, he is well versed in almost all tax-related matters. He is a skilled and empathetic client manager, supporting clients through the process of solving their tax problems and helping them find the best solutions .Mr. Harris also is the founder of Team Unbreakable, a registered charity dedicated to promoting better youth mental health, and a marathon runner….24 completed and counting.</p>
+                <br/><br/>Mr. Harris joined the Tax Mechanic in 2017 as a corporate partner. His background in sales, marketing and construction operations management allows him to onboard clients with confidence through experience. He is a skilled and empathetic client manager, supporting clients through the process of solving their tax problems and helping them find the best solutions. Mr. Harris also is the founder of Team Unbreakable, a registered charity dedicated to promoting better youth mental health, and a marathon runner….24 completed and counting. </p>
               </div>
               <span class="anchor" id="Jimena"></span>
             <div id="Jimena">
