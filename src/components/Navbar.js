@@ -46,11 +46,12 @@ const useStyles = makeStyles(theme =>
     },
     appBarScroll: {
       width: "100%",
-      transition: "all 0.15s ease",
-      background: "black",
-      paddingBottom: "1rem",
+      backgroundColor: "black",
       textTransform: "none",
+      transition: "all 0.15s ease",
       position: "fixed",
+      paddingBottom: "2.25rem",
+      paddingTop: "0.25rem",
       [theme.breakpoints.down(1276)]: {
         display: "none",
       },
