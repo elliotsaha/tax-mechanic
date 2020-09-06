@@ -19,17 +19,50 @@ const useStyles = makeStyles((theme: any) =>
       fontSize: "4rem",
       marginBottom: "4rem",
       lineHeight: "3rem",
+      [theme.breakpoints.down(1100)]: {
+        marginRight: '1.5rem',
+        marginLeft: '1.5rem',
+      },
+      [theme.breakpoints.down(666)]: {
+        fontSize: '3.25rem',
+        lineHeight: "3.75rem",
+      },
+      [theme.breakpoints.down(545)]: {
+        fontSize: '3rem',
+        lineHeight: "3.5rem",
+      },
+      [theme.breakpoints.down(440)]: {
+        fontSize: '2.5rem',
+        lineHeight: "3rem",
+      },
+      [theme.breakpoints.down(380)]: {
+        fontSize: '2rem',
+        lineHeight: "2.5rem",
+      },
     },
     cardRoot: {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
       textAlign: "center",
+      [theme.breakpoints.down(500)]: {
+        paddingRight: '2rem',
+        paddingLeft: '2rem',
+      },
     },
     cardInner: {
       maxWidth: "25rem",
       marginLeft: "auto",
       marginRight: "auto",
+      [theme.breakpoints.down(1530)]: {
+        maxWidth: "20rem",
+      },
+      [theme.breakpoints.down(1266)]: {
+        maxWidth: "25rem",
+      },
+      [theme.breakpoints.down(1100)]: {
+        maxWidth: "20rem",
+      },
     },
     cardImage: {
       borderRadius: "360rem",
@@ -43,6 +76,13 @@ const useStyles = makeStyles((theme: any) =>
       marginTop: "2.5rem",
       lineHeight: "3rem",
       whiteSpace: "nowrap",
+      display: 'flex',
+      justifyContent: 'center',
+      [theme.breakpoints.down(500)]: {
+        whiteSpace: 'normal',
+        fontSize: '2rem',
+        lineHeight: '2.5rem',
+      },
     },
     cardParagraph: {
       fontSize: "0.95rem",
@@ -63,13 +103,13 @@ const useStyles = makeStyles((theme: any) =>
       },
     },
     buttonContainer: {
-      paddingTop: '3rem',
-      paddingBottom: '3rem',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      marginLeft: 'auto',
-      marginRight: 'auto',
+      paddingTop: "3rem",
+      paddingBottom: "3rem",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      marginLeft: "auto",
+      marginRight: "auto",
     },
   })
 )
@@ -114,6 +154,44 @@ export default function PanelFour() {
     centerPadding: "0px",
     touchMove: false,
     swipe: false,
+    responsive: [
+      {
+        breakpoint: 1266,
+        settings: {
+          dots: false,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: false,
+          autoplay: true,
+          pauseOnHover: false,
+          autoplaySpeed: 1000,
+          centerMode: true,
+          centerPadding: "0px",
+          touchMove: false,
+          swipe: false,
+        },
+      },
+      {
+        breakpoint: 820,
+        settings: {
+          dots: false,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          autoplay: true,
+          pauseOnHover: false,
+          autoplaySpeed: 1000,
+          centerMode: true,
+          centerPadding: "0px",
+          touchMove: false,
+          swipe: false,
+        },
+      },
+    ],
   }
 
   return (
