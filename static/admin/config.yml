@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: Gatsby-+-Typescript-Integration
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'ourTeam'
+    label: 'ourTeam'
+    folder: 'content/ourTeam'
+    create: true
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

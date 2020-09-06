@@ -31,14 +31,14 @@ const useStyles = makeStyles(theme =>
     text: {
       overflow: "hidden",
       letterSpacing: "0.1rem",
-      maxWidth: "40rem",
+      maxWidth: "55rem",
       marginLeft: "0.75rem",
       width: "100%",
       height: "100vh",
       fontFamily: "Gilroy, sans-serif",
       fontWeight: "bolder",
-      fontSize: "5.5rem",
-      lineHeight: "6rem",
+      fontSize: "7.5rem",
+      lineHeight: "8rem",
       color: "white",
       display: "flex",
       flexDirection: "column",
@@ -105,7 +105,7 @@ export default function PanelOne() {
     query {
       image: file(relativePath: { eq: "TopWork.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1300, quality: 100) {
+          fluid(maxWidth: 2000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
