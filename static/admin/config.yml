@@ -16,5 +16,6 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Name', name: 'title', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'file' }
+      - { label: 'Description', name: 'body', widget: 'markdown' }
