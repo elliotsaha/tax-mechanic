@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme: any) =>
     mainTitle: {
       fontWeight: "bolder",
       textAlign: "center",
-      fontSize: "4rem",
+      fontSize: "4.5rem",
       marginBottom: "4rem",
       lineHeight: "3rem",
       [theme.breakpoints.down(1100)]: {
@@ -24,8 +24,8 @@ const useStyles = makeStyles((theme: any) =>
         marginLeft: '1.5rem',
       },
       [theme.breakpoints.down(666)]: {
-        fontSize: '3.25rem',
-        lineHeight: "3.75rem",
+        fontSize: '3.5rem',
+        lineHeight: "4rem",
       },
       [theme.breakpoints.down(545)]: {
         fontSize: '3rem',
