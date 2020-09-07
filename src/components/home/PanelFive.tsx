@@ -278,7 +278,7 @@ export default function PanelSeven() {
   const intersection = useIntersection(sectionRef6, {
     root: null,
     rootMargin: "0px",
-    threshold: 0.3,
+    threshold: 0.2,
   })
 
   useEffect(() => {
@@ -302,7 +302,7 @@ export default function PanelSeven() {
         ease: "power3.out",
       })
     }
-    intersection && intersection.intersectionRatio < 0.3
+    intersection && intersection.intersectionRatio < 0.2
       ? // Not Reached
         fadeOut(".fadeIn6")
       : fadeIn(".fadeIn6")

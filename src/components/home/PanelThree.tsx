@@ -1,6 +1,8 @@
-import React from "react"
+import React, { useRef, useEffect } from "react"
 import { createStyles, makeStyles } from "@material-ui/core/styles"
 import { Link, graphql, useStaticQuery } from "gatsby"
+import { useIntersection } from "react-use"
+import { gsap } from "gsap"
 import Img from "gatsby-image"
 import Card from "./Card"
 const useStyles = makeStyles((theme: any) =>
@@ -106,29 +108,29 @@ const useStyles = makeStyles((theme: any) =>
       justifyContent: "space-around",
       alignItems: "stretch",
       [theme.breakpoints.down(1111)]: {
-        flexDirection: 'column',
+        flexDirection: "column",
         "& > div": {
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          margin: '1rem',
+          marginLeft: "auto",
+          marginRight: "auto",
+          margin: "1rem",
         },
       },
     },
     maxWidthCardContainers: {
-      maxWidth: '100rem',
-      marginLeft: 'auto',
-      marginRight: 'auto',
+      maxWidth: "100rem",
+      marginLeft: "auto",
+      marginRight: "auto",
     },
-    middleCard: {
-    },
+    middleCard: {},
     normalCard: {
-      paddingTop: '3rem',
+      paddingTop: "3rem",
       [theme.breakpoints.down(1111)]: {
         paddingTop: 0,
       },
     },
   })
 )
+
 export default function PanelFour() {
   const data = useStaticQuery(graphql`
     query {
@@ -141,9 +143,46 @@ export default function PanelFour() {
       }
     }
   `)
+
+  // Defining ref for intersection observer
+  const sectionRef3 = useRef(null)
+
+  const intersection = useIntersection(sectionRef3, {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.2,
+  })
+
+  useEffect(() => {
+    // Fade in animation when scroll in
+    const fadeIn = (element: any) => {
+      gsap.to(element, 1, {
+        opacity: 1,
+        y: -0,
+        ease: "power3.out",
+        stagger: {
+          amount: 0,
+        },
+      })
+    }
+
+    // Fade out animation when scroll out
+    const fadeOut = (element: any) => {
+      gsap.to(element, 1, {
+        opacity: 0,
+        y: -20,
+        ease: "power3.out",
+      })
+    }
+    intersection && intersection.intersectionRatio < 0.2
+      ? // Not Reached
+        fadeOut(".fadeIn3")
+      : fadeIn(".fadeIn3")
+  }, [intersection])
+
   const classes = useStyles()
   return (
-    <div className={classes.root}>
+    <div className={classes.root} ref={sectionRef3}>
       <div className={classes.imageContainer}>
         <div className={classes.imageOuter}>
           <Img
@@ -154,41 +193,50 @@ export default function PanelFour() {
           />
         </div>
       </div>
-      <div className={classes.mainTitle}>Our Services</div>
+      <div className="fadeIn3">
+        <div className={classes.mainTitle}>Our Services</div>
+      </div>
+
       <div className={classes.maxWidthCardContainers}>
         <div className={classes.cardContainers}>
-          <div className={classes.normalCard}>
-            <Card
-              image={data.image.childImageSharp.fluid}
-              title={"Consultation"}
-              paragraph={
-                "Let’s talk! We’ll find out important information about your specific tax issues to find the best tax solution for you!"
-              }
-              link={"services"}
-              titleModifier={classes.title}
-            />
+          <div className="fadeIn3">
+            <div className={classes.normalCard}>
+              <Card
+                image={data.image.childImageSharp.fluid}
+                title={"Consultation"}
+                paragraph={
+                  "Let’s talk! We’ll find out important information about your specific tax issues to find the best tax solution for you!"
+                }
+                link={"services"}
+                titleModifier={classes.title}
+              />
+            </div>
           </div>
-          <div className={classes.middleCard}>
-            <Card
-              image={data.image.childImageSharp.fluid}
-              title={"Communication"}
-              paragraph={
-                "The professional tax debt specialists in our network will speak with the CRA on your behalf. They will deal with the CRA collection calls."
-              }
-              link={"services"}
-              titleModifier={classes.title}
-            />
+          <div className="fadeIn3">
+            <div className={classes.middleCard}>
+              <Card
+                image={data.image.childImageSharp.fluid}
+                title={"Communication"}
+                paragraph={
+                  "The professional tax debt specialists in our network will speak with the CRA on your behalf. They will deal with the CRA collection calls."
+                }
+                link={"services"}
+                titleModifier={classes.title}
+              />
+            </div>
           </div>
-          <div className={classes.normalCard}>
-            <Card
-              image={data.image.childImageSharp.fluid}
-              title={"Compensation"}
-              paragraph={
-                "Our experts know the ins and outs of the CRA. Through aggressive negotiations with the CRA, we’ll reach a settlement that’s within your financial means."
-              }
-              link={"services"}
-              titleModifier={classes.title}
-            />
+          <div className="fadeIn3">
+            <div className={classes.normalCard}>
+              <Card
+                image={data.image.childImageSharp.fluid}
+                title={"Compensation"}
+                paragraph={
+                  "Our experts know the ins and outs of the CRA. Through aggressive negotiations with the CRA, we’ll reach a settlement that’s within your financial means."
+                }
+                link={"services"}
+                titleModifier={classes.title}
+              />
+            </div>
           </div>
         </div>
       </div>
