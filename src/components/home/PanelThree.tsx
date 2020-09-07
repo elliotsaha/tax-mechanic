@@ -6,10 +6,10 @@ import Card from "./Card"
 const useStyles = makeStyles((theme: any) =>
   createStyles({
     root: {
-      paddingTop: "3rem",
+      paddingTop: "5rem",
       fontFamily: "Gilroy, sans-serif",
       position: "relative",
-      paddingBottom: "3rem",
+      paddingBottom: "7rem",
     },
     mainTitle: {
       fontWeight: "bolder",
@@ -41,11 +41,11 @@ const useStyles = makeStyles((theme: any) =>
     },
     cardTitle: {},
     cardParagraph: {
-      color: 'white',
+      color: "white",
     },
     cardRoot: {
-      backgroundColor: '#000000',
-      color: 'white',
+      backgroundColor: "#000000",
+      color: "white",
     },
     imageContainer: {
       overflow: "hidden",
@@ -73,7 +73,7 @@ const useStyles = makeStyles((theme: any) =>
     },
 
     title: {
-      marginBottom: '1.5rem',
+      marginBottom: "1.5rem",
       paddingTop: "9rem",
       textTransform: "uppercase",
       textAlign: "center",
@@ -82,7 +82,15 @@ const useStyles = makeStyles((theme: any) =>
       color: "white",
       letterSpacing: "0.15rem",
       fontSize: "2rem",
-      lineHeight: '3rem',
+      lineHeight: "3rem",
+      [theme.breakpoints.down(1260)]: {
+        paddingTop: "7rem",
+        fontSize: "1.7rem",
+      },
+      [theme.breakpoints.down(1111)]: {
+        paddingTop: "7rem",
+        fontSize: "2rem",
+      },
       [theme.breakpoints.down(500)]: {
         paddingTop: "7rem",
         fontSize: "1.7rem",
@@ -91,9 +99,32 @@ const useStyles = makeStyles((theme: any) =>
         paddingTop: "7rem",
         fontSize: "1.4rem",
       },
-      [theme.breakpoints.down(310)]: {
-        paddingTop: "10rem",
-        fontSize: "1.1rem",
+    },
+    cardContainers: {
+      display: "flex",
+      flexDirection: "row",
+      justifyContent: "space-around",
+      alignItems: "stretch",
+      [theme.breakpoints.down(1111)]: {
+        flexDirection: 'column',
+        "& > div": {
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          margin: '1rem',
+        },
+      },
+    },
+    maxWidthCardContainers: {
+      maxWidth: '100rem',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+    },
+    middleCard: {
+    },
+    normalCard: {
+      paddingTop: '3rem',
+      [theme.breakpoints.down(1111)]: {
+        paddingTop: 0,
       },
     },
   })
@@ -124,20 +155,43 @@ export default function PanelFour() {
         </div>
       </div>
       <div className={classes.mainTitle}>Our Services</div>
-
-      <div>
-      <Card
-            image={data.image.childImageSharp.fluid}
-            title={"Consultation"}
-            paragraph={
-              "Let’s talk! We’ll find out important information about your specific tax issues to find the best tax solution for you!"
-            }
-            link={"service"}
-            titleModifier={classes.title}
-          />
+      <div className={classes.maxWidthCardContainers}>
+        <div className={classes.cardContainers}>
+          <div className={classes.normalCard}>
+            <Card
+              image={data.image.childImageSharp.fluid}
+              title={"Consultation"}
+              paragraph={
+                "Let’s talk! We’ll find out important information about your specific tax issues to find the best tax solution for you!"
+              }
+              link={"services"}
+              titleModifier={classes.title}
+            />
+          </div>
+          <div className={classes.middleCard}>
+            <Card
+              image={data.image.childImageSharp.fluid}
+              title={"Communication"}
+              paragraph={
+                "The professional tax debt specialists in our network will speak with the CRA on your behalf. They will deal with the CRA collection calls."
+              }
+              link={"services"}
+              titleModifier={classes.title}
+            />
+          </div>
+          <div className={classes.normalCard}>
+            <Card
+              image={data.image.childImageSharp.fluid}
+              title={"Compensation"}
+              paragraph={
+                "Our experts know the ins and outs of the CRA. Through aggressive negotiations with the CRA, we’ll reach a settlement that’s within your financial means."
+              }
+              link={"services"}
+              titleModifier={classes.title}
+            />
+          </div>
+        </div>
       </div>
-
-
     </div>
   )
 }

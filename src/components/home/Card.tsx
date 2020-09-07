@@ -6,21 +6,41 @@ import ArrowForwardIosRoundedIcon from "@material-ui/icons/ArrowForwardIosRounde
 
 const useStyles = makeStyles(theme =>
   createStyles({
-    root: {
-    },
+    root: {},
     card: {
       position: "relative",
       width: "30rem",
       overflow: "hidden",
+      backgroundColor: "#101111",
+      minHeight: "34rem",
       fontFamily: "Gilroy, sans-serif",
       borderRadius: "1.5rem",
       boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.25)",
       zIndex: 2,
-      [theme.breakpoints.down(500)]: {
-        width: "23rem",
+      [theme.breakpoints.down(1752)]: {
+        width: "25rem",
+        minHeight: "36rem",
       },
-      [theme.breakpoints.down(380)]: {
+      [theme.breakpoints.down(1460)]: {
+        width: "22rem",
+        minHeight: "38rem",
+      },
+      [theme.breakpoints.down(1260)]: {
         width: "19rem",
+        minHeight: "40rem",
+      },
+      [theme.breakpoints.down(1111)]: {
+        width: "30rem",
+        minHeight: '1rem',
+      },
+      [theme.breakpoints.down(606)]: {
+        width: "25rem",
+      },
+      [theme.breakpoints.down(486)]: {
+        width: "22rem",
+      },
+      [theme.breakpoints.down(400)]: {
+        width: "18rem",
       },
       [theme.breakpoints.down(320)]: {
         width: "15rem",
@@ -61,13 +81,15 @@ const useStyles = makeStyles(theme =>
       },
     },
     mainText: {
-      marginTop: '7rem',
+      marginTop: "7rem",
       zIndex: 0,
-      backgroundColor: '#101111',
-      color: 'white',
+      backgroundColor: "#101111",
+      color: "white",
       padding: "1.5rem",
     },
     readMore: {
+      position: "absolute",
+      bottom: "2rem",
       color: "#FEA700",
       fontWeight: 800,
       textTransform: "uppercase",
@@ -76,6 +98,11 @@ const useStyles = makeStyles(theme =>
       alignItems: "center",
       margin: 0,
       paddingTop: "2rem",
+      [theme.breakpoints.down(1111)]: {
+        position: 'relative',
+        paddingTop: "4rem",
+        bottom: 0,
+      },
     },
     icon: {
       verticalAlign: "middle",
@@ -84,11 +111,11 @@ const useStyles = makeStyles(theme =>
       marginLeft: "0.5rem",
     },
     link: {
-      textDecoration: 'none'
+      textDecoration: "none",
     },
     para: {
-      fontSize: '1.25rem',
-      lineHeight: '2rem',
+      fontSize: "1.25rem",
+      lineHeight: "2rem",
     },
   })
 )
@@ -97,7 +124,7 @@ export default function PanelTwo({
   title,
   paragraph,
   link,
-  titleModifier
+  titleModifier,
 }: any) {
   const classes = useStyles()
   return (
@@ -111,6 +138,7 @@ export default function PanelTwo({
           <div className={titleModifier}>{title}</div>
           <div className={classes.mainText}>
             <div className={classes.para}>{paragraph}</div>
+
             <Link to={link} className={classes.link}>
               <div className={classes.readMore}>
                 <span>Learn More</span>
