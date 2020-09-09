@@ -13,41 +13,14 @@ const useStyles = makeStyles((theme: any) =>
       paddingTop: "3rem",
       fontFamily: "Gilroy, sans-serif",
     },
-    mainTitle: {
-      fontWeight: "bolder",
-      textAlign: "center",
-      fontSize: "4.5rem",
-      marginBottom: "4rem",
-      lineHeight: "3rem",
-      [theme.breakpoints.down(1100)]: {
-        marginRight: '1.5rem',
-        marginLeft: '1.5rem',
-      },
-      [theme.breakpoints.down(666)]: {
-        fontSize: '3.5rem',
-        lineHeight: "4rem",
-      },
-      [theme.breakpoints.down(545)]: {
-        fontSize: '3rem',
-        lineHeight: "3.5rem",
-      },
-      [theme.breakpoints.down(440)]: {
-        fontSize: '2.5rem',
-        lineHeight: "3rem",
-      },
-      [theme.breakpoints.down(380)]: {
-        fontSize: '2rem',
-        lineHeight: "2.5rem",
-      },
-    },
     cardRoot: {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
       textAlign: "center",
       [theme.breakpoints.down(500)]: {
-        paddingRight: '2rem',
-        paddingLeft: '2rem',
+        paddingRight: "2rem",
+        paddingLeft: "2rem",
       },
     },
     cardInner: {
@@ -69,6 +42,31 @@ const useStyles = makeStyles((theme: any) =>
       borderStyle: "solid",
       borderWidth: "7px",
       borderColor: "#FEA700",
+    },
+    grid: {
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr",
+      gridTemplateRows: "1fr 1fr",
+    },
+    gridChild: {
+      display: 'flex',
+      flexDirection: 'row',
+
+    },
+    gridImage: {
+      borderRadius: "360rem",
+      borderStyle: "solid",
+      borderWidth: "0.4rem",
+      borderColor: "#FEA700",
+      width: "15rem",
+    },
+    gridTitle: {
+      fontWeight: 'bold',
+      fontSize: '2rem',
+      lineHeight: '2.5rem',
+    },  
+    gridMarkdownBody: {
+      maxWidth: '30rem',
     },
   })
 )
@@ -171,6 +169,24 @@ export default function PanelTwo() {
           )
         })}
       </Slider>
+      <div className={classes.grid}>
+        {data.allMarkdownRemark.edges.map(obj => {
+          return (
+            <div key={obj.node.frontmatter.title} className={classes.gridChild}>
+              <div>
+                <Img
+                  className={classes.gridImage}
+                  fluid={obj.node.frontmatter.image.childImageSharp.fluid}
+                />
+              </div>
+              <div className={classes.gridTextContainer}>
+                <div className={classes.gridTitle}>{obj.node.frontmatter.title}</div>
+                <div className={classes.gridMarkdownBody}>{obj.node.rawMarkdownBody}</div>
+              </div>
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }
