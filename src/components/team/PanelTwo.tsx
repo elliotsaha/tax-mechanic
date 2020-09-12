@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme: any) =>
       overflowX: "hidden",
       background: "black",
       color: "white",
-      paddingTop: "3rem",
+      paddingTop: "1.5rem",
       fontFamily: "Gilroy, sans-serif",
     },
     cardRoot: {
@@ -18,23 +18,24 @@ const useStyles = makeStyles((theme: any) =>
       justifyContent: "center",
       alignItems: "center",
       textAlign: "center",
+      marginBottom: '3rem',
       [theme.breakpoints.down(500)]: {
         paddingRight: "2rem",
         paddingLeft: "2rem",
       },
     },
     cardInner: {
-      maxWidth: "22rem",
+      maxWidth: "18rem",
       marginLeft: "auto",
       marginRight: "auto",
       [theme.breakpoints.down(1530)]: {
-        maxWidth: "20rem",
+        maxWidth: "18rem",
       },
       [theme.breakpoints.down(1266)]: {
-        maxWidth: "25rem",
+        maxWidth: "19rem",
       },
       [theme.breakpoints.down(1100)]: {
-        maxWidth: "20rem",
+        maxWidth: "17rem",
       },
     },
     cardImage: {
@@ -47,11 +48,31 @@ const useStyles = makeStyles((theme: any) =>
       display: "grid",
       gridTemplateColumns: "1fr 1fr",
       gridTemplateRows: "1fr 1fr",
+      
+      maxWidth: "1900px",
+      marginLeft: "auto",
+      marginRight: "auto",
+      [theme.breakpoints.down(1530)]: {
+        gridTemplateColumns: "1fr",
+        gridTemplateRows: "1fr",
+      },
     },
     gridChild: {
-      display: 'flex',
-      flexDirection: 'row',
-
+      display: "flex",
+      marginRight: "1.5rem",
+      marginLeft: "1.5rem",
+      flexDirection: "row",
+      marginBottom: "1.25rem",
+      marginTop: "1.25rem",
+      [theme.breakpoints.down(1530)]: {
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        marginBottom: '2rem',
+      },
+      [theme.breakpoints.down(924)]: {
+        flexDirection: 'column',
+        textAlign: 'center',
+      },
     },
     gridImage: {
       borderRadius: "360rem",
@@ -59,14 +80,40 @@ const useStyles = makeStyles((theme: any) =>
       borderWidth: "0.4rem",
       borderColor: "#FEA700",
       width: "15rem",
+      [theme.breakpoints.down(924)]: {
+        marginBottom: '2rem',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        width: '17rem',
+      },
+      [theme.breakpoints.down(660)]: {
+        width: '15rem',
+      },
     },
     gridTitle: {
-      fontWeight: 'bold',
-      fontSize: '2rem',
-      lineHeight: '2.5rem',
-    },  
+      fontWeight: "bold",
+      fontSize: "2rem",
+      lineHeight: "2.5rem",
+      [theme.breakpoints.down(660)]: {
+        fontSize: '2.3rem',
+        lineHeight: '3rem',
+      },
+    },
     gridMarkdownBody: {
-      maxWidth: '30rem',
+      maxWidth: "30rem",
+      [theme.breakpoints.down(660)]: {
+        fontSize: '0.925rem'
+      },
+    },
+    gridTextContainer: {
+      marginLeft: "2rem",
+      [theme.breakpoints.down(924)]: {
+        margin: 0,
+      },
+      [theme.breakpoints.down(660)]: {
+        marginRight: '1.5rem',
+        marginLeft: '1.5rem',
+      },
     },
   })
 )
@@ -180,8 +227,12 @@ export default function PanelTwo() {
                 />
               </div>
               <div className={classes.gridTextContainer}>
-                <div className={classes.gridTitle}>{obj.node.frontmatter.title}</div>
-                <div className={classes.gridMarkdownBody}>{obj.node.rawMarkdownBody}</div>
+                <div className={classes.gridTitle}>
+                  {obj.node.frontmatter.title}
+                </div>
+                <div className={classes.gridMarkdownBody}>
+                  {obj.node.rawMarkdownBody}
+                </div>
               </div>
             </div>
           )
