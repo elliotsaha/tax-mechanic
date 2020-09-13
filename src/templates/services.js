@@ -1,12 +1,13 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import PanelOne from "./services/PanelOne"
+import PanelTwo from "./services/PanelTwo"
 import Layout from "../components/layout"
 export default function services({data}) {
-  console.log(data)
   return (
     <Layout>
-      <PanelOne />
+      <PanelOne title={data.markdownRemark.frontmatter.title} image={data.markdownRemark.frontmatter.image.childImageSharp.fluid}/>
+      <PanelTwo data={data.markdownRemark} />
     </Layout>
   )
 }
@@ -21,7 +22,7 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 450, quality: 60) {
+            fluid(maxWidth: 2000, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }

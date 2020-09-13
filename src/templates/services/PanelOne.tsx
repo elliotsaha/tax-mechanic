@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme =>
       filter: "brightness(40%)",
     },
     text: {
-        flexDirection: 'column',
+      flexDirection: "column",
       overflow: "hidden",
       textTransform: "uppercase",
       letterSpacing: "1.5rem",
@@ -50,7 +50,8 @@ const useStyles = makeStyles(theme =>
       paddingLeft: "0.5rem",
       [theme.breakpoints.down(950)]: {
         fontSize: "2.5rem",
-        lineHeight: "4rem",
+        lineHeight: "3rem",
+        letterSpacing: "1rem",
       },
       [theme.breakpoints.down(680)]: {
         fontSize: "2rem",
@@ -59,7 +60,7 @@ const useStyles = makeStyles(theme =>
       [theme.breakpoints.down(530)]: {
         fontSize: "2.5rem",
         lineHeight: "3rem",
-        letterSpacing: "0.5rem",
+        letterSpacing: "0.15rem",
         marginLeft: "0.05rem",
       },
     },
@@ -85,7 +86,7 @@ const useStyles = makeStyles(theme =>
     },
   })
 )
-export default function PanelOne() {
+export default function PanelOne({ title, image }: any) {
   const data = useStaticQuery(graphql`
     query {
       image: file(relativePath: { eq: "TopWork.jpg" }) {
@@ -103,7 +104,7 @@ export default function PanelOne() {
       <div className={classes.imageContainer}>
         <div className={classes.imageOuter}>
           <Img
-            fluid={data.image.childImageSharp.fluid}
+            fluid={image}
             className={classes.image}
             loading="eager"
           />
@@ -111,7 +112,7 @@ export default function PanelOne() {
       </div>
       <div>
         <div className={classes.text}>
-          Our Services{" "}
+          {title}{" "}
           <div className={classes.buttonContainer}>
             <Link to="/contact">
               <Button className={classes.button}>
