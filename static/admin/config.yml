@@ -33,3 +33,18 @@ collections:
       - { label: 'Name', name: 'title', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'file' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "/blog/{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Background Image" name: "image", widget: "file"}
+      - { label: "Thumbnail", name: "thumbnail", widget: "file" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }  
+  
