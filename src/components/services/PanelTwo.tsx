@@ -54,6 +54,9 @@ export default function PanelTwo() {
       ) {
         edges {
           node {
+            fields {
+              slug
+            }
             excerpt
             frontmatter {
               title
@@ -71,7 +74,6 @@ export default function PanelTwo() {
       }
     }
   `)
-  console.log(data.allMarkdownRemark.edges)
   return (
     <div className={classes.root}>
       <div className={classes.flexContainer}>
@@ -86,6 +88,7 @@ export default function PanelTwo() {
                   image={node.frontmatter.image.childImageSharp.fluid}
                   title={node.frontmatter.title}
                   paragraph={node.excerpt}
+                  link={node.fields.slug}
                 ></Card>
               </div>
             )
