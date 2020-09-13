@@ -1,7 +1,6 @@
 ---
 title: Tax Representation
 image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-description: We will professionally represent you.
 ---
 # When do you need a tax representative?
 

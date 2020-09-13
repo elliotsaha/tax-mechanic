@@ -1,19 +1,97 @@
-import React from 'react'
+import React from "react"
 import { createStyles, makeStyles } from "@material-ui/core/styles"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
-import Button from "@material-ui/core/Button"
+import Card from "./Card"
 const useStyles = makeStyles((theme: any) =>
   createStyles({
     root: {
-        backgroundColor: 'black',
+      backgroundColor: "black",
+      paddingTop: "3rem",
+      paddingBottom: "3rem",
     },
-  }))
+    grid: {
+      display: "grid",
+      maxWidth: "100rem",
+      marginRight: "auto",
+      marginLeft: "auto",
+      gridTemplateColumns: "1fr 1fr 1fr",
+      gridGap: "2rem",
+      [theme.breakpoints.down(1800)]: {
+        gridTemplateColumns: '1fr 1fr',
+        maxWidth: '60rem',
+      },
+      [theme.breakpoints.down(1260)]: {
+        gridTemplateColumns: '1fr 1fr',
+        maxWidth: '50rem',
+      },
+      [theme.breakpoints.down(1111)]: {
+        gridTemplateColumns: '1fr',
+        maxWidth: '50rem',
+      },
+    },
+    flexContainer: {
+      marginRight: '2rem',
+      marginLeft: '2rem',
+      [theme.breakpoints.down(1111)]: {
+        margin: 0,
+      },
+    },
+    cardContainer: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    },
+  })
+)
 export default function PanelTwo() {
-    const classes = useStyles()
-    return (
-        <div className={classes.root}>
-            
+  const classes = useStyles()
+  const data = useStaticQuery(graphql`
+    query {
+      allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/(content)/(services)/" } }
+        sort: { fields: [frontmatter___title], order: ASC }
+      ) {
+        edges {
+          node {
+            excerpt
+            frontmatter {
+              title
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 450, quality: 60) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
+            html
+          }
+        }
+      }
+    }
+  `)
+  console.log(data.allMarkdownRemark.edges)
+  return (
+    <div className={classes.root}>
+      <div className={classes.flexContainer}>
+        <div className={classes.grid}>
+          {data.allMarkdownRemark.edges.map(({ node }) => {
+            return (
+              <div
+                key={node.frontmatter.title}
+                className={classes.cardContainer}
+              >
+                <Card
+                  image={node.frontmatter.image.childImageSharp.fluid}
+                  title={node.frontmatter.title}
+                  paragraph={node.excerpt}
+                ></Card>
+              </div>
+            )
+          })}
         </div>
-    )
+      </div>
+    </div>
+  )
 }

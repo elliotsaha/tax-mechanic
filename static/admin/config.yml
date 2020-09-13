@@ -32,5 +32,4 @@ collections:
     fields:
       - { label: 'Name', name: 'title', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'file' }
-      - { label: 'Short Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
