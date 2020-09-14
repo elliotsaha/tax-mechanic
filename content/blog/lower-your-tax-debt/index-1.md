@@ -3,7 +3,7 @@ image: aaron-burden-b9drvb7xioi-unsplash-2-.jpg
 thumbnail: aaron-burden-b9drvb7xioi-unsplash-2-.jpg
 title: Lower your Tax Debt
 author: Fraser Simpson
-date: 2017-10-24T02:35:00.000Z
+date: 2018-10-24T02:35:00.000Z
 ---
 The math is simple. The more money you make, the more taxes you pay.\
 \
