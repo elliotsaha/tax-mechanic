@@ -1,34 +1,20 @@
 ---
 image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
 thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-title: Everything you need to know about Canada’s Carbon Tax
+title: The Tax Gap- and how it relates to you
 author: Fraser Simpson
-date: 2019-07-20T02:53:00.000Z
+date: 2019-07-23T02:53:00.000Z
 ---
-With the federal elections quickly approaching, every Canadian politician is making sure to give their two cents on the recently instituted carbon tax. One of 2019’s biggest hot topics is the environment, and in particular, how we are going to preserve it. The Liberal’s plan: the carbon tax.
-What is a carbon tax?
+As a leading tax consultant in Canada, I deal with the tax gap in some way every single day. And if you’re on our website looking for help, it could mean you’re floundering right in that opening. So just what is the tax gap? It’s the difference between the total amount of taxes owed to the government, and the taxes that are actually paid, collected and received.
 
-A carbon tax is a fee imposed on each tonne of emissions from fossil fuels, meant to help lower the amount of greenhouse-gas emissions. Under the federal tax, oil products such as gasoline and diesel, natural gas and coal-fired electricity are affected.
+## What Creates The Tax Gap?
 
-In Canada, the carbon tax was imposed in April 2019. The way it works is the federal government gives each province the freedom to impose a carbon tax or a cap-and-trade system as they see fit as long as it follows the emission-reduction benchmarks. Otherwise, the federal government will impose their own tax- which is the situation right now in Ontario, Manitoba, Saskatchewan, and New Brunswick.
+Many things. Tax evasion and fraud are definitely a part of it – but regular late-paying taxpayers contribute to this gap too. The gap is created by actions both intentional and unintentional. That includes overstating deductions and understating income, but also honest mistakes in filing and payment obligations, or a plain inability to comply due to illness or financial hardship.
 
-The idea behind the carbon tax is it acts as an incentive for consumers to cut back on products and services that rely on greenhouse gasses. To save money, consumers will be encouraged to be more vigilant about their heating expenditure at home, cut down on driving where possible, and avoid other products that are fossil fuel heavy. Analysis from Environment and Climate Change Canada predicts that a carbon tax across Canada will eliminate 50 million–60 million tonnes of greenhouse gas emissions in 2022.
+## Comply, Don’t Lie
 
-The decrease in consumer demand for products in fossil fuel based industries and subsequent shift to sustainable industries will also encourage business owners to explore more sustainable ventures. The government has a similar financial incentive in place for businesses in these industries, where they are taxed on a portion of their emissions, based on how efficient they are relative to industry peers. This protects industrial competitiveness while still providing an incentive for companies to reduce emissions.
+Overall, Canada has quite a high level of compliance, with 93% of individuals filing their taxes as they should. However, many Canadians default. And the CRA – especially if you try to deal with them on your own – can be very stern with those ‘naypayers.’ Sometimes they will even go as far as to make a severe example of someone who hasn’t been forthcoming but is now trying to do the right thing. Between $800 million and $3 billion in tax revenue is lost annually through offshore avoidance schemes. CRA reports from 2014 indicated figures of $4.9 billion in uncollected GST/HST and $8.7 billion in the domestic underground economy. That’s $14.6 billion of lost government revenues, revenue that is used to fund all of our national and provincial programs. It’s no wonder that the Trudeau government is investing serious dough into cracking down on tax delinquents. The government committed almost $1 billion in the 2016 budget for investigation and enforcement into closing the tax gap. Their slogan for the crackdown is “better data, better approaches and better results.” At the Tax Mechanic, we’re seeing the results of the broadened investigations. The number of clients that come to us after being audited and charged by the CRA is growing exponentially. More houses liened, bank accounts frozen, and wages garnished, and it’ll only get worse. The Trudeau government has pledged even more money this year to increase tax compliance, especially investing into the use of artificial intelligence to make the system more effective- and make it harder for delinquent taxpayers to hide.
 
-## How much will it cost and where will the money go?
+## Your Own Personal Tax Gap – And How To Close It
 
-The actual amount of taxes consumers will have to pay depends on the province. In provinces where the federally instituted carbon tax is in place, carbon is priced at $20 a tonne, or 4.4 cents per litre of gasoline, and will rise to $50 in 2020. According to the federal government, the indirect and direct cost of carbon will add up to around $245 in Ontario.
-
-But taxpayers- don’t fear- the money is going straight back into your pocket. The income accrued from the carbon tax will fund other tax rebates and fatter refunds. The same Ontario household that would be taxed $245 would receive $300 under the “climate-action incentive,” for a net benefit of $56.
-The important question: is it effective?
-
-This is the essential question that has been debated all over the news. It has become yet another Conservatives vs Liberals argument; the Liberals in favour of the tax, and the Conservatives vehemently against it.
-
-## So let’s take a look at some of the arguments:
-
-Proponents of the carbon tax look toward previous results with the tax, focusing on BC since British Columbia has effectively had a carbon tax since 2008. It was priced at $10 per ton of carbon dioxide at its institution, and rose to 30 dollars by 2012. The economy did just fine. In fact, the BC provincial economy grew faster than the rest of the country, while its greenhouse gas emissions declined between 5 and 15 percent. It was widely supported among BC residents, not only for its market-friendly solution, but also because the other tax breaks that the carbon tax allowed. Supporters of the tax argue that what happened in BC should be reflected in the rest of the country as the nation-wide carbon tax rolls out.
-
-Critics of the tax, however, cite other sources to argue its ineffectiveness. The main issue at hand is that no matter which way you look at the tax, it means more money out of the hands of Canadians. Economists from the Fraser Institute argue that because of the insensitive demand for energy regardless of price, a carbon tax would do very little to actually deter people from using less energy. They argue that a $975 per tonne tax on carbon dioxide would be necessary to see through a 30 percent reduction in the use of gasoline.
-
-So it’s up to you: what do you think? Either way, we must face the inescapable fact that we must do something to address this environmental crisis. Whether that’s with a carbon tax or something else, is still up for debate.
+So – what’s your tax gap? Now’s the time to get ahead of the issue before the CRA digs their hands into your file. You need a tax expert who will take care of you, and represent you effectively with the CRA. Once you get your tax issues sorted out, returns filed, back taxes paid – and yourself back within the watchful fold of the CRA – you’ll be helping to minimize the tax gap that affects us all. Sometimes I come across what I might call a ‘reverse tax gap.’ That’s clients who haven’t filed for many years, only to find out: “Hey – I actually don’t owe any taxes (because I made so little income). And what’s more, I have lots of money coming back from the government!” This kind of good news might be yours, but you’ll never know until you file. Whatever your situation is, don’t let the situation get out of control. We can help you close that crucial gap – and get you back to a worry-free life.
