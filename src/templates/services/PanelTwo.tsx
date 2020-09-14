@@ -19,6 +19,7 @@ const useStyles = makeStyles(theme =>
       color: "#CEB095",
       marginLeft: '2.5rem',
       marginRight: '2.5rem',
+      fontFamily: "Gilroy, sans-serif",
       "& h1": {
         fontFamily: "Gilroy, sans-serif",
         color: "#90663E",

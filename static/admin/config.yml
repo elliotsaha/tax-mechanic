@@ -6,33 +6,33 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'ourTeam'
-    label: 'ourTeam'
-    folder: 'content/ourTeam'
+  - name: "ourTeam"
+    label: "ourTeam"
+    folder: "content/ourTeam"
     create: true
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/index'
+    media_folder: ""
+    public_folder: ""
+    path: "{{title}}/index"
     editor:
       preview: true
     fields:
-      - { label: 'Name', name: 'title', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'file' }
-      - { label: 'Description', name: 'body', widget: 'markdown' }
-  - name: 'services'
-    label: 'services'
-    folder: 'content/services'
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "file" }
+      - { label: "Description", name: "body", widget: "markdown" }
+  - name: "services"
+    label: "services"
+    folder: "content/services"
     create: true
     slug: "/services/{{slug}}"
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/index'
+    media_folder: ""
+    public_folder: ""
+    path: "{{title}}/index"
     editor:
       preview: true
     fields:
-      - { label: 'Name', name: 'title', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'file' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "file" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "blog"
     label: "Blog"
     folder: "content/blog"
@@ -41,10 +41,9 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: "Background Image" name: "image", widget: "file"}
+      - { label: "Background Image", name: "image", widget: "file" }
       - { label: "Thumbnail", name: "thumbnail", widget: "file" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }  
-  
+      - { label: "Body", name: "body", widget: "markdown" }
