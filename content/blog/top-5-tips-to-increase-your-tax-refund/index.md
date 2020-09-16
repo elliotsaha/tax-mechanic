@@ -1,6 +1,6 @@
 ---
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: edmonton-1-737x415.jpg
+thumbnail: edmonton-1-737x415.jpg
 title: Top 5 Tips to Increase your Tax Refund
 author: Fraser Simpson
 date: 2019-07-19T02:48:00.000Z
