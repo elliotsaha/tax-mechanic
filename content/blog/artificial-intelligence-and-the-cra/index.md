@@ -1,6 +1,6 @@
 ---
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: jc-gellidon-khqmo4t-rs0-unsplash.jpg
+thumbnail: jc-gellidon-khqmo4t-rs0-unsplash.jpg
 title: Artificial Intelligence and the CRA
 author: Fraser Simpson
 date: 2019-01-30T03:45:00.000Z
