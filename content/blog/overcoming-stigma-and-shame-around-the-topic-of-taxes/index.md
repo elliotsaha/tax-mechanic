@@ -1,6 +1,6 @@
 ---
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: edmonton2-1170x0-c-center.jpg
+thumbnail: edmonton2-1170x0-c-center.jpg
 title: Overcoming Stigma and Shame Around the Topic of Taxes
 author: Fraser Simpson
 date: 2019-07-11T02:46:00.000Z
