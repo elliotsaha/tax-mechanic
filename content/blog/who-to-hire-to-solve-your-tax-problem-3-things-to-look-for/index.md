@@ -1,6 +1,6 @@
 ---
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: evie-s-ydn0aaihsmg-unsplash-2-1-.jpg
+thumbnail: evie-s-ydn0aaihsmg-unsplash-2-1-.jpg
 title: Who to hire to solve your tax problem? 3 things to look for
 author: Fraser Simpson
 date: 2019-07-16T02:52:00.000Z
