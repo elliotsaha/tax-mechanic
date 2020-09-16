@@ -1,6 +1,6 @@
 ---
-image: apple-logo-us-2016-april-650-compressed.jpg
-thumbnail: apple-logo-us-2016-april-650-compressed.jpg
+image: aaron-burden-b9drvb7xioi-unsplash.jpg
+thumbnail: aaron-burden-b9drvb7xioi-unsplash.jpg
 title: Underground Economy In A Pandemic
 author: Fraser Simpson
 date: 2020-05-20T03:30:00.000Z
