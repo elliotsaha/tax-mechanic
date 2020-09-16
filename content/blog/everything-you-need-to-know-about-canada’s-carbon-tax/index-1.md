@@ -1,6 +1,6 @@
 ---
-image: apple-logo-us-2016-april-650-compressed.jpg
-thumbnail: apple-logo-us-2016-april-650-compressed.jpg
+image: edmonton-1.jpg
+thumbnail: edmonton-1.jpg
 title: Everything you need to know about Canada’s Carbon Tax
 author: Fraser Simpson
 date: 2019-07-20T03:20:00.000Z
