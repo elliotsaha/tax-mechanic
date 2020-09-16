@@ -1,6 +1,6 @@
 ---
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: yeg-banner.jpg
+thumbnail: yeg-banner.jpg
 title: Inside the CRA – Part One
 author: Fraser Simpson
 date: 2018-07-03T02:26:00.000Z
