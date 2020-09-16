@@ -38,6 +38,9 @@ collections:
     folder: "content/blog"
     create: true
     slug: "/blog/{{slug}}"
+    media_folder: ""
+    public_folder: ""
+    path: "{{title}}/index"
     editor:
       preview: true
     fields:
