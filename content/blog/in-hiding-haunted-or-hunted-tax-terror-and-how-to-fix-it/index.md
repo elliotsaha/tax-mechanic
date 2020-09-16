@@ -1,6 +1,6 @@
 ---
-image: apple-logo-us-2016-april-650-compressed.jpg
-thumbnail: apple-logo-us-2016-april-650-compressed.jpg
+image: aaron-burden-b9drvb7xioi-unsplash-1-.jpg
+thumbnail: aaron-burden-b9drvb7xioi-unsplash-1-.jpg
 title: "In Hiding, Haunted, or Hunted: Tax Terror and how to fix it!"
 author: Fraser Simpson
 date: 2019-08-29T03:22:00.000Z
