@@ -1,0 +1,15 @@
+.MuiPaginationItem-page.Mui-selected {
+    background: rgba(255, 255, 255, 0.15)
+}
+
+.Mui-selected {
+    background: rgba(255, 255, 255, 0.15)
+}
+
+.MuiPaginationItem-page.Mui-selected:hover {
+    background: rgba(255, 255, 255, 0.15)
+}
+
+.Mui-selected:hover {
+    background: rgba(255, 255, 255, 0.15)
+}
