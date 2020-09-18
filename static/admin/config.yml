@@ -61,4 +61,6 @@ collections:
       preview: true
     fields:
       - { label: "Testimonial Provider", name: "provider", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      
