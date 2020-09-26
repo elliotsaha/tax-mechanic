@@ -122,8 +122,8 @@ const useStyles = makeStyles((theme: any) =>
         marginRight: 'auto',
       },
       [theme.breakpoints.down(660)]: {
-        marginRight: '1.5rem',
-        marginLeft: '1.5rem',
+        marginRight: '0rem',
+        marginLeft: '0rem',
       },
     },
   })
