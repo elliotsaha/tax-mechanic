@@ -56,11 +56,10 @@ collections:
     create: true
     media_folder: ""
     public_folder: ""
-    path: "{{title}}/index"
+    path: "{{provider}}/index"
     editor:
       preview: true
     fields:
       - { label: "Testimonial Provider", name: "provider", widget: "string" }
       - { label: "Location", name: "location", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      

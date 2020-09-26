@@ -57,9 +57,15 @@ const useStyles = makeStyles(theme =>
         lineHeight: "3rem",
       },
       [theme.breakpoints.down(530)]: {
-        fontSize: "2.5rem",
+        fontSize: "2.2rem",
         lineHeight: "3rem",
         letterSpacing: "0.5rem",
+        marginLeft: "0.05rem",
+      },
+      [theme.breakpoints.down(360)]: {
+        fontSize: "2rem",
+        lineHeight: "3rem",
+        letterSpacing: "0.2rem",
         marginLeft: "0.05rem",
       },
     },
