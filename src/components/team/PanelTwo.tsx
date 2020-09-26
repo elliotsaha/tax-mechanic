@@ -50,9 +50,12 @@ const useStyles = makeStyles((theme: any) =>
       gridTemplateRows: "1fr 1fr",
       
       maxWidth: "1900px",
+      [theme.breakpoints.down(1530)]: {
+        maxWidth: "70rem",
+      },
       marginLeft: "auto",
       marginRight: "auto",
-      [theme.breakpoints.down(1530)]: {
+      [theme.breakpoints.down(924)]: {
         gridTemplateColumns: "1fr",
         gridTemplateRows: "1fr",
       },
@@ -62,12 +65,12 @@ const useStyles = makeStyles((theme: any) =>
       marginRight: "1.5rem",
       marginLeft: "1.5rem",
       flexDirection: "row",
-      marginBottom: "1.25rem",
-      marginTop: "1.25rem",
+      marginBottom: "1.5rem",
+      marginTop: "1.5rem",
       [theme.breakpoints.down(1530)]: {
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        marginBottom: '2rem',
+        flexDirection: 'column',
+        marginRight: "1.5rem",
+        marginLeft: "2rem",
       },
       [theme.breakpoints.down(924)]: {
         flexDirection: 'column',
@@ -80,6 +83,10 @@ const useStyles = makeStyles((theme: any) =>
       borderWidth: "0.4rem",
       borderColor: "#FEA700",
       width: "15rem",
+      [theme.breakpoints.down(1530)]: {
+        marginBottom: '1.5rem',
+        width: '14.7rem',
+      },
       [theme.breakpoints.down(924)]: {
         marginBottom: '2rem',
         marginLeft: 'auto',
@@ -107,8 +114,12 @@ const useStyles = makeStyles((theme: any) =>
     },
     gridTextContainer: {
       marginLeft: "2rem",
+      [theme.breakpoints.down(1530)]: {
+        marginLeft: '0.5rem'
+      },
       [theme.breakpoints.down(924)]: {
-        margin: 0,
+        marginLeft: 'auto',
+        marginRight: 'auto',
       },
       [theme.breakpoints.down(660)]: {
         marginRight: '1.5rem',
