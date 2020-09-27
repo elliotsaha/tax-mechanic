@@ -1,6 +1,6 @@
 ---
-image: aaron-burden-b9drvb7xioi-unsplash.jpg
-thumbnail: aaron-burden-b9drvb7xioi-unsplash.jpg
+image: adam-hornyak-lpaxzdruyhs-unsplash.jpg
+thumbnail: adam-hornyak-lpaxzdruyhs-unsplash.jpg
 title: Underground Economy In A Pandemic
 author: Fraser Simpson
 date: 2020-05-20T03:30:00.000Z
