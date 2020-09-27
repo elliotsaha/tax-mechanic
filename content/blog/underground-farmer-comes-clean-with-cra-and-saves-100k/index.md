@@ -1,6 +1,6 @@
 ---
-image: aaron-burden-b9drvb7xioi-unsplash-1-.jpg
-thumbnail: aaron-burden-b9drvb7xioi-unsplash-1-.jpg
+image: patrick-tomasso-5ezu5p0vspg-unsplash.jpg
+thumbnail: patrick-tomasso-5ezu5p0vspg-unsplash.jpg
 title: Underground Farmer Comes Clean With CRA And Saves $100K
 author: Fraser Simpson
 date: 2017-04-21T00:39:00.000Z
