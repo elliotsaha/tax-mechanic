@@ -1,6 +1,6 @@
 ---
-image: aaron-burden-b9drvb7xioi-unsplash.jpg
-thumbnail: aaron-burden-b9drvb7xioi-unsplash.jpg
+image: gabriel-beaudry-70rhtd11nnk-unsplash.jpg
+thumbnail: gabriel-beaudry-70rhtd11nnk-unsplash.jpg
 title: Lower your Tax Debt
 author: Fraser Simpson
 date: 2018-10-24T07:37:00.000Z
