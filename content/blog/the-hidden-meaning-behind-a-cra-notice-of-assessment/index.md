@@ -1,6 +1,6 @@
 ---
-image: aaron-burden-b9drvb7xioi-unsplash-2-.jpg
-thumbnail: aaron-burden-b9drvb7xioi-unsplash-2-.jpg
+image: katrin-huth-2itedjxynhk-unsplash.jpg
+thumbnail: katrin-huth-2itedjxynhk-unsplash.jpg
 title: The hidden meaning behind a CRA Notice of Assessment?
 author: Fraser Simpson
 date: 2018-01-16T03:15:00.000Z
