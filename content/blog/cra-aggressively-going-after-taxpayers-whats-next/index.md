@@ -1,6 +1,6 @@
 ---
-image: anders-jilden-cyrmqa7a3wc-unsplash.jpg
-thumbnail: anders-jilden-cyrmqa7a3wc-unsplash.jpg
+image: toa-heftiba-i3iqqoax-p4-unsplash.jpg
+thumbnail: toa-heftiba-i3iqqoax-p4-unsplash.jpg
 title: CRA Aggressively Going After Taxpayers... What's Next?
 author: Fraser Simpson
 date: 2017-07-18T01:55:00.000Z
