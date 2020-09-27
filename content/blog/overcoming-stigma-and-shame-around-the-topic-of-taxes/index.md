@@ -1,6 +1,6 @@
 ---
-image: edmonton2-1170x0-c-center.jpg
-thumbnail: edmonton2-1170x0-c-center.jpg
+image: conor-luddy-5lxcdrkucwo-unsplash.jpg
+thumbnail: conor-luddy-5lxcdrkucwo-unsplash.jpg
 title: Overcoming Stigma and Shame Around the Topic of Taxes
 author: Fraser Simpson
 date: 2019-07-11T02:46:00.000Z
