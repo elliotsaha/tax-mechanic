@@ -1,6 +1,6 @@
 ---
 title: CRA Tax Reduction
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: anders-jilden-cyrmqa7a3wc-unsplash.jpg
 ---
 At the Tax Mechanic, we pride ourselves on being a full-service tax company, offering a wide range of tax related services geared towards both individuals and businesses. From tax resolution, prior year income tax return preparation, and back tax debt relief to ongoing monthly bookkeeping and annual personal and corporate tax return preparation, the Tax Mechanic can help! We help taxpayers across the country with all of their tax needs. We offer free consultations and all of our services come at an affordable fixed cost, so there are no surprises down the road or hidden fees. Our goal is to offer an industry leading quality product at an affordable cost, but more importantly, we will customize tailored products to fit your specific situation and needs.
 
