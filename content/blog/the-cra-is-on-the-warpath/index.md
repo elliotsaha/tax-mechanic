@@ -1,6 +1,6 @@
 ---
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: fred-kloet-_ypndymjlgc-unsplash.jpg
+thumbnail: fred-kloet-_ypndymjlgc-unsplash.jpg
 title: The CRA is on the warpath
 author: Fraser Simpson
 date: 2018-12-30T03:37:00.000Z
