@@ -1,6 +1,6 @@
 ---
-image: max-bender-vmx3vmbecfe-unsplash.jpg
-thumbnail: max-bender-vmx3vmbecfe-unsplash.jpg
+image: george-kedenburg-iii-qjqmjsuc02m-unsplash.jpg
+thumbnail: george-kedenburg-iii-qjqmjsuc02m-unsplash.jpg
 title: The Psychology of Why People don’t File Their Taxes
 author: Fraser Simpson
 date: 2018-08-14T02:25:00.000Z
