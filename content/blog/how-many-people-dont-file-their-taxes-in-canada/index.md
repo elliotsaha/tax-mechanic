@@ -1,6 +1,6 @@
 ---
-image: yeg-banner.jpg
-thumbnail: yeg-banner.jpg
+image: haley-truong-5isya40gj60-unsplash.jpg
+thumbnail: haley-truong-5isya40gj60-unsplash.jpg
 title: Inside the CRA – Part One
 author: Fraser Simpson
 date: 2018-07-03T02:26:00.000Z
