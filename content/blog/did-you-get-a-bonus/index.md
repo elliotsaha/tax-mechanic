@@ -1,6 +1,6 @@
 ---
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: joanna-kosinska-bf2vsubyhcq-unsplash.jpg
+thumbnail: joanna-kosinska-bf2vsubyhcq-unsplash.jpg
 title: Did you get a bonus?
 author: Fraser Simpson
 date: 2018-02-08T03:19:00.000Z
