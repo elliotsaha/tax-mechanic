@@ -1,6 +1,6 @@
 ---
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: nichlas-andersen-zfxrgzhu1ku-unsplash.jpg
+thumbnail: nichlas-andersen-zfxrgzhu1ku-unsplash.jpg
 title: New CRA Rules Regarding The Voluntary Disclosure Program To Start January
   1, 2018
 author: Fraser Simpson
