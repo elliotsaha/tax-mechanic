@@ -1,6 +1,6 @@
 ---
-image: gemma-f-redondo-rw8opvbhb90-unsplash.jpg
-thumbnail: gemma-f-redondo-rw8opvbhb90-unsplash.jpg
+image: c-dustin-91aqt9p4mo8-unsplash.jpg
+thumbnail: c-dustin-91aqt9p4mo8-unsplash.jpg
 title: Is your late tax problem eating you away?
 author: Fraser Simpson
 date: 2019-07-13T02:50:00.000Z
