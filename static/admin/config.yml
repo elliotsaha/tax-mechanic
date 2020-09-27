@@ -7,7 +7,7 @@ public_folder: /img
 
 collections:
   - name: "ourTeam"
-    label: "ourTeam"
+    label: "Our Team"
     folder: "content/ourTeam"
     create: true
     media_folder: ""
@@ -20,7 +20,7 @@ collections:
       - { label: "Image", name: "image", widget: "file" }
       - { label: "Description", name: "body", widget: "markdown" }
   - name: "services"
-    label: "services"
+    label: "Services"
     folder: "content/services"
     create: true
     slug: "/services/{{slug}}"
