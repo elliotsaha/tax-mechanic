@@ -1,6 +1,6 @@
 ---
-image: anders-jilden-cyrmqa7a3wc-unsplash.jpg
-thumbnail: anders-jilden-cyrmqa7a3wc-unsplash.jpg
+image: massimo-garanzelli-2ug-ov2q-lo-unsplash.jpg
+thumbnail: massimo-garanzelli-2ug-ov2q-lo-unsplash.jpg
 title: Tax Changes To Small Business Proposed By Liberals. Is This a Good Thing?
 author: Fraser Simpson
 date: 2017-10-24T02:05:00.000Z
