@@ -1,6 +1,6 @@
 ---
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: sora-sagano-wfsap6cixuw-unsplash.jpg
+thumbnail: sora-sagano-wfsap6cixuw-unsplash.jpg
 title: House Flippers Beware!
 author: Fraser Simpson
 date: 2017-05-05T00:42:00.000Z
