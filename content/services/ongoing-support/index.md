@@ -1,6 +1,6 @@
 ---
 title: Ongoing Support
-image: anders-jilden-cyrmqa7a3wc-unsplash.jpg
+image: israel-sundseth-byu8ituwmfc-unsplash.jpg
 ---
 # When your tax issues are resolved, we can provide you with on-going support.
 
