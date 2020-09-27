@@ -1,6 +1,6 @@
 ---
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: theregularjo-2ylbt81jir0-unsplash.jpg
+thumbnail: theregularjo-2ylbt81jir0-unsplash.jpg
 title: If You Think The CRA Wouldn't Come After You, Think Again.
 author: Fraser Simpson
 date: 2017-05-05T01:47:00.000Z
