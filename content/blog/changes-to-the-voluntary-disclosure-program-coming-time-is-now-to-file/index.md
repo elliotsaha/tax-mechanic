@@ -1,6 +1,6 @@
 ---
-image: aaron-burden-b9drvb7xioi-unsplash-2-.jpg
-thumbnail: aaron-burden-b9drvb7xioi-unsplash-2-.jpg
+image: xps-7zwvnvsaafy-unsplash.jpg
+thumbnail: xps-7zwvnvsaafy-unsplash.jpg
 title: Changes To The Voluntary Disclosure Program Coming. Time Is Now To File
 author: Fraser Simpson
 date: 2017-07-02T01:53:00.000Z
