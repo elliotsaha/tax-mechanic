@@ -1,6 +1,6 @@
 ---
-image: apple-logo-us-2016-april-650-compressed.jpg
-thumbnail: apple-logo-us-2016-april-650-compressed.jpg
+image: windows-w1n58kde8r0-unsplash.jpg
+thumbnail: windows-w1n58kde8r0-unsplash.jpg
 title: A $40,000 Tax Bill Became An $8,000 Benefit!
 author: Fraser Simpson
 date: 2017-06-10T01:50:00.000Z
