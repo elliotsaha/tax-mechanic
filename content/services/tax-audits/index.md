@@ -1,6 +1,6 @@
 ---
 title: Tax Audits
-image: anders-jilden-cyrmqa7a3wc-unsplash.jpg
+image: joshua-rondeau-qt8yjv57oe-unsplash.jpg
 ---
 # How CRA select files for their tax audits?
 
