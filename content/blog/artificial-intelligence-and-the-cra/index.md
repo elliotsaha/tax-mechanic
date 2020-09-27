@@ -1,6 +1,6 @@
 ---
-image: jc-gellidon-khqmo4t-rs0-unsplash.jpg
-thumbnail: jc-gellidon-khqmo4t-rs0-unsplash.jpg
+image: farfar-kejn7h-sgzm-unsplash.jpg
+thumbnail: farfar-kejn7h-sgzm-unsplash.jpg
 title: Artificial Intelligence and the CRA
 author: Fraser Simpson
 date: 2019-01-30T03:45:00.000Z
