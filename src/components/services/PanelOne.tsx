@@ -1,5 +1,5 @@
 import React from "react"
-import { createStyles, makeStyles, Theme } from "@material-ui/core/styles"
+import { createStyles, makeStyles } from "@material-ui/core/styles"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import Button from "@material-ui/core/Button"
 import Img from "gatsby-image"
@@ -88,7 +88,7 @@ const useStyles = makeStyles(theme =>
     },
   })
 )
-export default function PanelOne() {
+export default function PanelOne(): JSX.Element {
   const data = useStaticQuery(graphql`
     query {
       image: file(relativePath: { eq: "ourservices.jpg" }) {

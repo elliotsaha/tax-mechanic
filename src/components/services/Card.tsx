@@ -1,6 +1,6 @@
-import React, { useState } from "react"
-import { createStyles, makeStyles, Theme } from "@material-ui/core/styles"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import React from "react"
+import { createStyles, makeStyles } from "@material-ui/core/styles"
+import { Link } from "gatsby"
 import Img from "gatsby-image"
 import ArrowForwardIosRoundedIcon from "@material-ui/icons/ArrowForwardIosRounded"
 
@@ -120,12 +120,13 @@ const useStyles = makeStyles(theme =>
     },
   })
 )
+
 export default function PanelTwo({
   image,
   title,
   paragraph,
   link,
-}: any) {
+}: any): JSX.Element {
   const classes = useStyles()
   return (
     <div className={classes.root}>

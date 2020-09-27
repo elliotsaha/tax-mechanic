@@ -1,9 +1,8 @@
 import React from "react"
-import { createStyles, makeStyles } from "@material-ui/core/styles"
-import { Link, graphql, useStaticQuery } from "gatsby"
-import Img from "gatsby-image"
+import { createStyles, makeStyles, Theme as AugmentedTheme } from "@material-ui/core/styles"
+import { graphql, useStaticQuery } from "gatsby"
 import Card from "./Card"
-const useStyles = makeStyles((theme: any) =>
+const useStyles = makeStyles((theme: AugmentedTheme) =>
   createStyles({
     root: {
       backgroundColor: "black",
@@ -44,7 +43,7 @@ const useStyles = makeStyles((theme: any) =>
     },
   })
 )
-export default function PanelTwo() {
+export default function PanelTwo(): JSX.Element {
   const classes = useStyles()
   const data = useStaticQuery(graphql`
     query {
