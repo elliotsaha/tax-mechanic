@@ -80,6 +80,7 @@ export default function PanelOne({ title, date, image }: any) {
             fluid={image}
             className={classes.image}
             loading="eager"
+            alt="City"
           />
         </div>
       </div>

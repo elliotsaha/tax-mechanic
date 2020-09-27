@@ -62,7 +62,7 @@ export default function PanelTwo() {
               title
               image {
                 childImageSharp {
-                  fluid(maxWidth: 450, quality: 60) {
+                  fluid(maxWidth: 600, quality: 65) {
                     ...GatsbyImageSharpFluid
                   }
                 }

@@ -73,7 +73,7 @@ const useStyles = makeStyles(theme =>
 export default function PanelOne({ title, downProp }: any) {
   const data = useStaticQuery(graphql`
     query {
-      Image: file(relativePath: { eq: "TopWork.jpg" }) {
+      Image: file(relativePath: { eq: "blog.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 2000, quality: 65) {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -91,6 +91,7 @@ export default function PanelOne({ title, downProp }: any) {
             fluid={data.Image.childImageSharp.fluid}
             className={classes.image}
             loading="eager"
+            alt="Typewriter"
           />
         </div>
       </div>

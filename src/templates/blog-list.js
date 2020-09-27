@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import { createStyles, makeStyles } from "@material-ui/core/styles"
 import Img from "gatsby-image"
 import "./blog.css"
+import SEO from "../components/seo"
 const useStyles = makeStyles(theme =>
   createStyles({
     root: {
@@ -144,6 +145,7 @@ export default function blogList({ data, pageContext }) {
   const classes = useStyles()
   return (
     <Layout>
+      <SEO title="Blog" />
       <div>
         <PanelOneRoot
           title={"Blog"}

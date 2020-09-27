@@ -111,6 +111,9 @@ const useStyles = makeStyles((theme: any) =>
       marginLeft: "auto",
       marginRight: "auto",
     },
+    link: {
+      textDecoration: 'none'
+    },
   })
 )
 
@@ -127,7 +130,7 @@ export default function PanelFour() {
               title
               image {
                 childImageSharp {
-                  fluid(maxWidth: 450, quality: 100) {
+                  fluid(maxWidth: 600, quality: 75) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -206,6 +209,7 @@ export default function PanelFour() {
                   <Img
                     className={classes.cardImage}
                     fluid={obj.node.frontmatter.image.childImageSharp.fluid}
+                    alt="Team Member"
                   />
                 </div>
                 <div className={classes.cardTitle}>
@@ -221,7 +225,7 @@ export default function PanelFour() {
         })}
       </Slider>
       <div className={classes.buttonContainer}>
-        <Link to="/team">
+        <Link to="/team" className={classes.link}>
           <Button className={classes.button}>Read More &rarr;</Button>
         </Link>
       </div>

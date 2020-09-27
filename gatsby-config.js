@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `TaxMechanic`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Tax Mechanic`,
+    description: `Let’s talk! We’ll find out important information about your specific tax issues to find the best tax solution for you!`,
+    author: `@herilsaha`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

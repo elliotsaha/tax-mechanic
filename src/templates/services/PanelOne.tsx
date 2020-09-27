@@ -84,20 +84,12 @@ const useStyles = makeStyles(theme =>
         padding: "0.65rem",
       },
     },
+    link: {
+      textDecoration: 'none'
+    },
   })
 )
 export default function PanelOne({ title, image }: any) {
-  const data = useStaticQuery(graphql`
-    query {
-      image: file(relativePath: { eq: "TopWork.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 2000, quality: 90) {
-            ...GatsbyImageSharpFluid_withWebp_noBase64
-          }
-        }
-      }
-    }
-  `)
   const classes = useStyles()
   return (
     <div className={classes.root}>
@@ -107,6 +99,7 @@ export default function PanelOne({ title, image }: any) {
             fluid={image}
             className={classes.image}
             loading="eager"
+            alt="Services"
           />
         </div>
       </div>
@@ -114,7 +107,7 @@ export default function PanelOne({ title, image }: any) {
         <div className={classes.text}>
           {title}{" "}
           <div className={classes.buttonContainer}>
-            <Link to="/contact">
+            <Link to="/contact" className={classes.link}>
               <Button className={classes.button}>
                 Book a Free Consultation &rarr;
               </Button>

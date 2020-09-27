@@ -192,9 +192,9 @@ const useStyles = makeStyles((theme: Theme) =>
 export default function PanelSeven() {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "TopWork.jpg" }) {
+      image: file(relativePath: { eq: "contact.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 2000, quality: 100) {
+          fluid(maxWidth: 1500, quality: 65) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -316,7 +316,7 @@ export default function PanelSeven() {
             fluid={data.image.childImageSharp.fluid}
             className={classes.image}
             loading="eager"
-            alt="Landing Page"
+            alt="Contact"
           />
         </div>
       </div>

@@ -12,8 +12,8 @@ const useStyles = makeStyles(theme =>
     },
     inner: {
       [theme.breakpoints.down(980)]: {
-        marginRight: '1rem',
-        marginLeft: '1rem',
+        marginRight: "1rem",
+        marginLeft: "1rem",
       },
     },
     nav: {
@@ -28,51 +28,51 @@ const useStyles = makeStyles(theme =>
         fontFamily: "Gilroy, sans-serif",
         color: "#90663E",
         [theme.breakpoints.down(400)]: {
-            fontSize: '2.1rem',
+          fontSize: "2.1rem",
         },
       },
       "& h2": {
         fontFamily: "Gilroy, sans-serif",
         color: "#90663E",
         [theme.breakpoints.down(400)]: {
-            fontSize: '1.9rem',
+          fontSize: "1.9rem",
         },
       },
       "& h3": {
         fontFamily: "Gilroy, sans-serif",
         color: "#90663E",
         [theme.breakpoints.down(400)]: {
-            fontSize: '1.7rem',
+          fontSize: "1.7rem",
         },
       },
       "& h4": {
         fontFamily: "Gilroy, sans-serif",
         color: "#90663E",
         [theme.breakpoints.down(400)]: {
-            fontSize: '1.5rem',
+          fontSize: "1.5rem",
         },
       },
       "& h5": {
         fontFamily: "Gilroy, sans-serif",
         color: "#90663E",
         [theme.breakpoints.down(400)]: {
-            fontSize: '1.4rem',
+          fontSize: "1.4rem",
         },
       },
       "& p": {
         fontFamily: "Gilroy, sans-serif",
-        fontSize: '1.25rem',
-        lineHeight: '1.75rem',
+        fontSize: "1.25rem",
+        lineHeight: "1.75rem",
         [theme.breakpoints.down(400)]: {
-            fontSize: '1.1rem',
-            lineHeight: '1.6rem',
+          fontSize: "1.1rem",
+          lineHeight: "1.6rem",
         },
         "& strong": {
-            lineHeight: '2rem',
+          lineHeight: "2rem",
         },
       },
       [theme.breakpoints.down(980)]: {
-        fontSize: '1rem',
+        fontSize: "1rem",
       },
     },
     listContainer: {
@@ -93,16 +93,16 @@ const useStyles = makeStyles(theme =>
       boxShadow: 0,
     },
     hr: {
-      marginBottom: '1rem',
+      marginBottom: "1rem",
     },
     grid: {
-      display: 'grid',
-      maxWidth: '52.5rem',
-      marginLeft: 'auto',
-      marginRight: 'auto',
-      gridGap: '2rem',
-      paddingTop: '3rem',
-    }
+      display: "grid",
+      maxWidth: "52.5rem",
+      marginLeft: "auto",
+      marginRight: "auto",
+      gridGap: "2rem",
+      paddingTop: "3rem",
+    },
   })
 )
 
@@ -112,8 +112,13 @@ export default function blogPost({ data, pageContext, location }) {
   const { previous, next } = pageContext
   return (
     <Layout>
+      <SEO title={data.markdownRemark.frontmatter.title} />
       <div>
-        <PanelOne title={data.markdownRemark.frontmatter.title} date={data.markdownRemark.frontmatter.date} image={data.markdownRemark.frontmatter.image.childImageSharp.fluid}/>
+        <PanelOne
+          title={data.markdownRemark.frontmatter.title}
+          date={data.markdownRemark.frontmatter.date}
+          image={data.markdownRemark.frontmatter.image.childImageSharp.fluid}
+        />
       </div>
       <div className={classes.root}>
         <div className={classes.inner}>

@@ -131,7 +131,7 @@ export default function PanelTwo({
     <div className={classes.root}>
       <div className={classes.card}>
         <div className={classes.imageContainer}>
-          <Img fluid={image} className={classes.image} />
+          <Img fluid={image} className={classes.image} alt="City"/>
         </div>
 
         <div className={classes.text}>

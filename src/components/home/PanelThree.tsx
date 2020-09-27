@@ -128,15 +128,39 @@ const useStyles = makeStyles((theme: any) =>
         paddingTop: 0,
       },
     },
+    link: {
+      textDecoration: 'none'
+    },
   })
 )
 
 export default function PanelFour() {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "TopWork.jpg" }) {
+      image: file(relativePath: { eq: "servicesBackground.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 2000, quality: 100) {
+          fluid(maxWidth: 1500, quality: 65) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      service1: file(relativePath: { eq: "services1.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 900, quality: 65) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      service2: file(relativePath: { eq: "services2.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 900, quality: 65) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      service3: file(relativePath: { eq: "services3.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 900, quality: 65) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
@@ -189,7 +213,7 @@ export default function PanelFour() {
             fluid={data.image.childImageSharp.fluid}
             className={classes.image}
             loading="eager"
-            alt="Landing Page"
+            alt="Laptop on Table"
           />
         </div>
       </div>
@@ -202,7 +226,7 @@ export default function PanelFour() {
           <div className="fadeIn3">
             <div className={classes.normalCard}>
               <Card
-                image={data.image.childImageSharp.fluid}
+                image={data.service1.childImageSharp.fluid}
                 title={"Consultation"}
                 paragraph={
                   "Let’s talk! We’ll find out important information about your specific tax issues to find the best tax solution for you!"
@@ -215,7 +239,7 @@ export default function PanelFour() {
           <div className="fadeIn3">
             <div className={classes.middleCard}>
               <Card
-                image={data.image.childImageSharp.fluid}
+                image={data.service2.childImageSharp.fluid}
                 title={"Communication"}
                 paragraph={
                   "The professional tax debt specialists in our network will speak with the CRA on your behalf. They will deal with the CRA collection calls."
@@ -228,7 +252,7 @@ export default function PanelFour() {
           <div className="fadeIn3">
             <div className={classes.normalCard}>
               <Card
-                image={data.image.childImageSharp.fluid}
+                image={data.service3.childImageSharp.fluid}
                 title={"Compensation"}
                 paragraph={
                   "Our experts know the ins and outs of the CRA. Through aggressive negotiations with the CRA, we’ll reach a settlement that’s within your financial means."

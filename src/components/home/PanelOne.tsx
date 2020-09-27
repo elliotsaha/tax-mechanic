@@ -98,14 +98,17 @@ const useStyles = makeStyles(theme =>
         justifyContent: "center",
       },
     },
+    link: {
+      textDecoration: 'none'
+    },
   })
 )
 export default function PanelOne() {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "TopWork.jpg" }) {
+      image: file(relativePath: { eq: "landingpage.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 2000, quality: 100) {
+          fluid(maxWidth: 2000, quality: 65) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
@@ -129,7 +132,7 @@ export default function PanelOne() {
         <div className={classes.text}>
           We Fix Your Tax Problems.
           <div className={classes.buttonContainer}>
-            <Link to="/contact">
+            <Link to="/contact" className={classes.link}>
               <Button className={classes.button}>
                 Book a Free Consultation &rarr;
               </Button>

@@ -89,14 +89,17 @@ const useStyles = makeStyles(theme =>
         padding: "0.65rem",
       },
     },
+    link: {
+      textDecoration: 'none'
+    },
   })
 )
 export default function PanelOne() {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "TopWork.jpg" }) {
+      image: file(relativePath: { eq: "testimonials.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 2000, quality: 90) {
+          fluid(maxWidth: 2000, quality: 65) {
             ...GatsbyImageSharpFluid_withWebp_noBase64
           }
         }
@@ -112,6 +115,7 @@ export default function PanelOne() {
             fluid={data.image.childImageSharp.fluid}
             className={classes.image}
             loading="eager"
+            alt="City"
           />
         </div>
       </div>
@@ -119,7 +123,7 @@ export default function PanelOne() {
         <div className={classes.text}>
           Testimonials{" "}
           <div className={classes.buttonContainer}>
-            <Link to="/contact">
+            <Link to="/contact" className={classes.link}>
               <Button className={classes.button}>
                 Book a Free Consultation &rarr;
               </Button>

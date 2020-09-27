@@ -99,6 +99,9 @@ const useStyles = makeStyles((theme: any) =>
         fontSize: '0.9rem',
       },
     },
+    link: {
+      textDecoration: 'none'
+    },
   })
 )
 export default function PanelTwo() {
@@ -118,7 +121,7 @@ export default function PanelTwo() {
       <hr className={classes.hr} />
 
       <div className={classes.name}>Brad J, Ontario</div>
-      <Link to="/testimonials">
+      <Link to="/testimonials" className={classes.link}>
         <Button className={classes.button}>
           Read More Testimonials &rarr;
         </Button>

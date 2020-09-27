@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Error from "@material-ui/icons/Error"
 import Img from "gatsby-image"
 import { Link, graphql, useStaticQuery } from "gatsby"
-
+import SEO from "../components/seo"
 const useStyles = makeStyles(theme =>
   createStyles({
 
@@ -154,7 +154,7 @@ const useStyles = makeStyles(theme =>
       zIndex: 3,
       color: "white",
       background:
-        "linear-gradient(90deg, rgba(255, 155, 33, 1) 0%, rgba(232,118,19,1) 100%)",
+        "#90663E",
       textTransform: "none",
       fontFamily: "Gilroy, sans-serif",
       fontWeight: 500,
@@ -162,7 +162,7 @@ const useStyles = makeStyles(theme =>
       transition: "all 0.4s ease",
       "&:hover": {
         background:
-          "linear-gradient(90deg, rgba(255, 155, 33, 1) 0%, rgba(232,118,19,1) 100%)",
+          "#90663E",
         opacity: "85%",
       },
     },
@@ -239,9 +239,9 @@ export default function PanelFour() {
   }
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "TopWork.jpg" }) {
+      image: file(relativePath: { eq: "contact.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 2000, quality: 90) {
+          fluid(maxWidth: 2000, quality: 65) {
             ...GatsbyImageSharpFluid_withWebp_noBase64
           }
         }
@@ -250,12 +250,14 @@ export default function PanelFour() {
   `)
   return (
     <Layout>
+      <SEO title="Contact Us" />
       <div className={classes.root}>
         <div className={classes.imageOuter}>
           <Img
             fluid={data.image.childImageSharp.fluid}
             className={classes.image}
             loading="eager"
+            alt="Contact"
           />
         </div>
         <div className={classes.text}>
