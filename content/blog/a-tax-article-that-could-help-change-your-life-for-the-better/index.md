@@ -1,6 +1,6 @@
 ---
-image: aaron-burden-b9drvb7xioi-unsplash-2-.jpg
-thumbnail: aaron-burden-b9drvb7xioi-unsplash-2-.jpg
+image: guillaume-flandre-n-zpfeiwjjs-unsplash.jpg
+thumbnail: guillaume-flandre-n-zpfeiwjjs-unsplash.jpg
 title: A tax article that could help change your life for the better
 author: Fraser Simpson
 date: 2018-07-31T02:31:00.000Z
