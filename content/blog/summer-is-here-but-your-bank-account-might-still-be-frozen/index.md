@@ -1,6 +1,6 @@
 ---
-image: andreas-ronningen-8rmp683vw-o-unsplash.jpg
-thumbnail: andreas-ronningen-8rmp683vw-o-unsplash.jpg
+image: ishan-seefromthesky-6u-ssfbv-gm-unsplash.jpg
+thumbnail: ishan-seefromthesky-6u-ssfbv-gm-unsplash.jpg
 title: Summer Is Here! But Your Bank Account Might Still Be Frozen
 author: Fraser Simpson
 date: 2018-05-29T02:23:00.000Z
