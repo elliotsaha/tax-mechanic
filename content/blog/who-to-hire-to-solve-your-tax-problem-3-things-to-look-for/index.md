@@ -1,6 +1,6 @@
 ---
-image: evie-s-ydn0aaihsmg-unsplash-2-1-.jpg
-thumbnail: evie-s-ydn0aaihsmg-unsplash-2-1-.jpg
+image: casey-horner-uyc-sdevkv8-unsplash.jpg
+thumbnail: casey-horner-uyc-sdevkv8-unsplash.jpg
 title: Who to hire to solve your tax problem? 3 things to look for
 author: Fraser Simpson
 date: 2019-07-16T02:52:00.000Z
