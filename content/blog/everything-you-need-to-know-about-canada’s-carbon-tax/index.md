@@ -1,6 +1,6 @@
 ---
-image: anders-jilden-cyrmqa7a3wc-unsplash.jpg
-thumbnail: anders-jilden-cyrmqa7a3wc-unsplash.jpg
+image: bence-kiss-dobronyi-se_hr8tgit0-unsplash.jpg
+thumbnail: bence-kiss-dobronyi-se_hr8tgit0-unsplash.jpg
 title: Everything you need to know about Canada’s Carbon Tax
 author: Fraser Simpson
 date: 2019-07-20T07:32:00.000Z
