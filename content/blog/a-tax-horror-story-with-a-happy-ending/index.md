@@ -1,6 +1,6 @@
 ---
-image: anders-jilden-cyrmqa7a3wc-unsplash.jpg
-thumbnail: anders-jilden-cyrmqa7a3wc-unsplash.jpg
+image: nick-morrison-fhnnjk1yj7y-unsplash.jpg
+thumbnail: nick-morrison-fhnnjk1yj7y-unsplash.jpg
 title: A Tax Horror Story With A Happy Ending.
 author: Fraser Simpson
 date: 2017-09-10T02:00:00.000Z
