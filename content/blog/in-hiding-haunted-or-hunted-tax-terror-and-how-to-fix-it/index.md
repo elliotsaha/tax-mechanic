@@ -1,6 +1,6 @@
 ---
-image: aaron-burden-b9drvb7xioi-unsplash-1-.jpg
-thumbnail: aaron-burden-b9drvb7xioi-unsplash-1-.jpg
+image: andrej-lisakov-3a4xzuopcja-unsplash.jpg
+thumbnail: andrej-lisakov-3a4xzuopcja-unsplash.jpg
 title: "In Hiding, Haunted, or Hunted: Tax Terror and how to fix it!"
 author: Fraser Simpson
 date: 2019-08-29T03:22:00.000Z
