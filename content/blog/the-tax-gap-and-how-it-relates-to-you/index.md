@@ -1,6 +1,6 @@
 ---
-image: edmonton2-1170x0-c-center.jpg
-thumbnail: edmonton2-1170x0-c-center.jpg
+image: austin-scherbarth-qsrftyh-ib0-unsplash.jpg
+thumbnail: austin-scherbarth-qsrftyh-ib0-unsplash.jpg
 title: The Tax Gap- and how it relates to you
 author: Fraser Simpson
 date: 2019-07-23T07:33:00.000Z
