@@ -1,4 +1,4 @@
-<h1>Tax Mechanic</h1>
+<h1 align="center">Tax Mechanic</h1>
 <h3>Main Technologies Used</h2>
 <ul>
   <li>GatsbyJS</li>
