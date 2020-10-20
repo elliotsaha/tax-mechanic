@@ -91,9 +91,9 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-	icon: `src/images/TaxMechanicFavicon.png`
-      ,
+	      icon: `src/images/TaxMechanicFavicon.png`,
     },
+  },
     {
       resolve: "gatsby-plugin-eslint",
       options: {
